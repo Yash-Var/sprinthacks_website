@@ -6,7 +6,8 @@ const App = () => {
   return (
     <div className='bg-newcolor'>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
+      
       </div>
   )
 }
