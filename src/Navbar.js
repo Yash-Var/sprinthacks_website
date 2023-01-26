@@ -7,7 +7,7 @@ import path from "./images/path388.png";
 const Navbar = () => {
   return (
     <div className="bg-newcolor p-10 ">
-      <nav className="flex justify-between">
+      <nav className="flex justify-around">
         <div>
           <div className="flex">
             <img src={vector} alt="vector" />
@@ -26,9 +26,6 @@ const Navbar = () => {
             <li className="hover:text-blue-300 hover:underline">Faqs</li>
             <li className="hover:text-blue-300 hover:underline">Sponsors</li>
             <li className="hover:text-blue-300 hover:underline">Contact us</li>
-            <div className="">
-              <img src={path} alt="" srcset="" className="-pt-4" />
-            </div>
           </ul>
         </div>
       </nav>
