@@ -1,10 +1,12 @@
 import './App.css';
+import './Navbar'
+import Navbar from './Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>yash varshney</h1>
-    </div>
+    <>
+    <Navbar />
+    </>
   );
 }
 
