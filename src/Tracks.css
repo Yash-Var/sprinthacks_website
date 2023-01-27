@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 /* 
 .main{
     text-align: center;
@@ -64,7 +63,7 @@ li{
 
 
 
->>>>>>> d7ad597d6f9c03596bd2f3ea544d93aedfcf7444
+
 .tracks {
     @apply mx-4 mb-4 mt-6 p-10 text-left text-white;
     width: 28vw;
@@ -101,10 +100,4 @@ li{
     @apply m-2;
     height: 40px;
     margin: 0 5px 5px 5px;
-<<<<<<< HEAD
   }
-=======
-  }
-
- 
->>>>>>> d7ad597d6f9c03596bd2f3ea544d93aedfcf7444
