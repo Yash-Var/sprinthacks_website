@@ -4,6 +4,7 @@ import './Hero'
 import Hero from './Hero'
 import About from './About'
 import Home from './Home'
+import Tracks from './Tracks'
 import Contact from './Contact'
 import Sponsors from './Sponsors'
 
@@ -11,10 +12,13 @@ const App = () => {
   return (
     <div className='bg-newcolor'>
     
-<Home />
+     <Home />
 
 
      <About />
+
+     
+     <Tracks/>
    
      <Sponsors />
      <Contact />
