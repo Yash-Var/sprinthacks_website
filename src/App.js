@@ -8,7 +8,8 @@ const App = () => {
   return (
     <div className='bg-newcolor'>
     
-     <Home />
+     {/* <Home /> */}
+     <About />
       </div>
   )
 }
