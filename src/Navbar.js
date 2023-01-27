@@ -8,10 +8,10 @@ import path from "./images/path388.png";
 const Navbar = () => {
   return (
     <div>
-      <div className="bg-newcolor py-10 px-48">
-        <nav className="flex justify-between">
+      <div className="bg-newcolor py-10">
+        <nav className="flex justify-around ">
           <div>
-            <div className="flex">
+            <div className="flex ">
               <img src={vector} alt="vector" />
               <div className="pt-2 px-2">
                 <img src={vector1} alt="vector1" className="h-6" />
@@ -19,8 +19,8 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-end">
-            <ul className="flex  text-white uppercase space-x-6 font-semibold text-2xl pt-2 pr-4 navbar">
+          <div className="flex">
+            <ul className="flex  text-white uppercase space-x-6 font-semibold text-2xl pt-2 navbar">
               <li className="hover:text-blue-300 hover:underline">Home</li>
               <li className="hover:text-blue-300 hover:underline">About</li>
               <li className="hover:text-blue-300 hover:underline">Prizes</li>
