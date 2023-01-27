@@ -1,13 +1,19 @@
-import './App.css';
-import './Navbar'
-import Navbar from './Navbar';
 
-function App() {
+import React from 'react'
+import Navbar from './Navbar'
+import './Hero'
+import Hero from './Hero'
+import About from './About'
+const App = () => {
   return (
-    <>
-    <Navbar />
-    </>
-  );
+    <div className='bg-newcolor'>
+    
+      <Navbar />
+      {/* <Hero /> */}
+      {/* <About /> */}
+      </div>
+  )
+
 }
 
-export default App;
+export default App

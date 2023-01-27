@@ -1,22 +1,42 @@
-import React from 'react'
-import logo from '../src/Vector.png'
+
+import React from "react";
+import vector from "./images/Vector.png";
+import vector1 from "./images/Vector(1).png";
+import vector2 from "./images/Vector(2).png";
+import path from "./images/path388.png";
+// import "fontsource-staatliches";
 const Navbar = () => {
   return (
-    <div className='flex bg-newcolor  mr-14 navbar content-evenly'>
-        <div className='ml-4'>
-        <img src={logo}></img>
+    <div>
+      <div className="bg-newcolor py-10 px-48">
+        <nav className="flex justify-between">
+          <div>
+            <div className="flex">
+              <img src={vector} alt="vector" />
+              <div className="pt-2 px-2">
+                <img src={vector1} alt="vector1" className="h-6" />
+                <img src={vector2} alt="vector2" className="" />
+              </div>
+            </div>
+          </div>
+          <div className="flex items-end">
+            <ul className="flex  text-white uppercase space-x-6 font-semibold text-2xl pt-2 pr-4 navbar">
+              <li className="hover:text-blue-300 hover:underline">Home</li>
+              <li className="hover:text-blue-300 hover:underline">About</li>
+              <li className="hover:text-blue-300 hover:underline">Prizes</li>
+              <li className="hover:text-blue-300 hover:underline">Tracks</li>
+              <li className="hover:text-blue-300 hover:underline">Faqs</li>
+              <li className="hover:text-blue-300 hover:underline">Sponsors</li>
+              <li className="hover:text-blue-300 hover:underline">
+                Contact us
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div className='flex mr-25 text-white justify-end space-x-4 h-14  text-2xl items-end'>
-        <a>HOME</a>
-        <a>ABOUT</a>
-        <a>PRIZES</a>
-        <a>TRACKS</a>
-        <a>FAQs</a>
-        <a>SPONSORS</a>
-        <a>CONTACT US</a>
-        </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
+
