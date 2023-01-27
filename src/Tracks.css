@@ -1,0 +1,37 @@
+.tracks {
+    @apply mx-4 mb-4 mt-6 p-10 text-left text-white;
+    width: 28vw;
+    background-color: #756dc9;
+    border-radius: 10px;
+  }
+  
+
+  .heading-top {
+    @apply font-normal;
+    font-size: 70px;
+    font-family: "Spicy Rice", cursive;
+    line-height: 96.52px;
+  }
+  
+  .list li:before {
+    content: "• ";
+  }
+  
+
+   .list li {
+    @apply font-medium text-2xl ;
+    font-family: "Space Grotesk", sans-serif;
+    
+  }
+
+  .heading-btm {
+    @apply font-normal text-4xl;
+    font-family: "Staatliches", cursive;
+    line-height: 50px;
+  }
+
+  .header-logo{
+    @apply m-2;
+    height: 40px;
+    margin: 0 5px 5px 5px;
+  }
