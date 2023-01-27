@@ -94,7 +94,7 @@ li{
     line-height: 50px;
   }
 
-  .logo{
+  .header-logo{
     @apply m-2;
     height: 40px;
     margin: 0 5px 5px 5px;

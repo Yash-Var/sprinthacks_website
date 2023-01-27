@@ -10,7 +10,7 @@ function Tracks() {
       <div className=" tracks lg:w-1/3 pr-4 pl-4  p-4 text-white text-left  mx-4 mb-4 mt-6 p-4 ">
 
       <div className="tracks-header inline-flex justify-center mb-2">
-      <img src="https://i.ibb.co/D1BpVRV/polygon.png" alt="polygon" border="0" className='logo'/>
+      <img src="https://i.ibb.co/D1BpVRV/polygon.png" alt="polygon" border="0" className='header-logo'/>
           <h3  className='heading heading-btm text-center font-normal text-4xl'>POLYGON TRACK PRIZE</h3>
       </div>
         
@@ -24,7 +24,7 @@ function Tracks() {
 
       <div className="tracks lg:w-1/3 pr-4 pl-4  p-4 text-white text-left mx-4 mb-4 mt-6 p-4">
       <div className="tracks-header inline-flex justify-center mb-2">
-      <img src="https://i.ibb.co/FYJBp4b/filcoin.png" alt="filcoin" border="0" className='logo'/>
+      <img src="https://i.ibb.co/FYJBp4b/filcoin.png" alt="filcoin" border="0" className='header-logo'/>
           <h3 className='heading heading-btm text-center font-normal text-4xl'>FILECOIN TRACK PRIZE</h3>
       </div>
        
@@ -37,7 +37,7 @@ function Tracks() {
 
       <div className="tracks lg:w-1/3 pr-4 pl-4  p-4 text-white text-left mx-4 mb-4 mt-6 p-4">
       <div className="tracks-header inline-flex justify-center mb-2">
-      <img src="https://i.ibb.co/2qsqkZk/solana.png" alt="solana" border="0" className='logo'/>
+      <img src="https://i.ibb.co/2qsqkZk/solana.png" alt="solana" border="0" className='header-logo'/>
           <h3 className='heading heading-btm text-center font-normal text-4xl'>SOLANA TRACK PRIZE</h3>
       </div>
         
@@ -50,7 +50,7 @@ function Tracks() {
 
       <div className=" tracks lg:w-1/3 pr-4 pl-4  p-4 text-white text-left mx-4 mb-4 mt-6 p-4">
       <div className="tracks-header inline-flex justify-center mb-2">
-     <img src="https://i.ibb.co/Y22htt1/replit.png" alt="replit" border="0" className='logo'/>
+     <img src="https://i.ibb.co/Y22htt1/replit.png" alt="replit" border="0" className='header-logo'/>
           <h3 className='heading heading-btm text-center font-normal text-4xl'>REPLIT TRACK PRIZE</h3>
       </div>
     
