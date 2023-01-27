@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+ 
 
 .navbar{
   font-family: 'Staatliches', cursive;
@@ -30,4 +30,8 @@ code {
 
 .abouttext{
   font-family:'Space Grotesk', sans-serif;
+}
+
+.list li:before {
+  content: "• ";
 }
