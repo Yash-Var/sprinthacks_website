@@ -13,11 +13,12 @@ const App = () => {
     <div className='bg-newcolor'>
     
      <Home />
-     <Tracks/>
-<Home />
 
 
      <About />
+
+     
+     <Tracks/>
    
      <Sponsors />
      <Contact />
