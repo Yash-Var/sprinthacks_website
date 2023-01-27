@@ -14,7 +14,7 @@ function Tracks() {
           <h3  className='heading heading-btm text-center font-normal text-4xl'>POLYGON TRACK PRIZE</h3>
       </div>
         
-        <ul>
+        <ul className='list'>
             <li font-medium text-2xl>₹10,000 for the best hack built on Ethereum</li>
             <li font-medium text-2xl>₹15,000 for the best hack built on Ethereum + Polygon</li>
             <li font-medium text-2xl>Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</li>
@@ -28,7 +28,7 @@ function Tracks() {
           <h3 className='heading heading-btm text-center font-normal text-4xl'>FILECOIN TRACK PRIZE</h3>
       </div>
        
-        <ul >
+        <ul className='list'>
             <li font-medium text-2xl  >₹20000 for best use of IPFS and/or Filecoin</li>
             <li font-medium text-2xl>Microgrants up to 5000 USD, open grants up to 50,000 USD</li>
             <li font-medium text-2xl>Know more about the bounty on this <a href='https://filecoin.io/' className="underline text-blue-600 hover:text-blue-800 ">click link!</a> </li>
@@ -41,7 +41,7 @@ function Tracks() {
           <h3 className='heading heading-btm text-center font-normal text-4xl'>SOLANA TRACK PRIZE</h3>
       </div>
         
-        <ul>
+        <ul className='list'>
             <li font-medium text-2xl>Upto $USDC 850 up for grabs, for the best hack built on top of Solana Blockchain at Devfolio-powered community Hackathons.</li>
             <li font-medium text-2xl>young gun - $USDC 100 for the best project beginners just starting out on Solana</li>
             <li font-medium text-2xl>rising teknoking - $USDC 250 for the best project that goes into depth, demonstrating higher-order code. <a href='https://solana.com/' className="underline text-blue-600 hover:text-blue-800 ">Know More...</a> </li>
@@ -54,7 +54,7 @@ function Tracks() {
           <h3 className='heading heading-btm text-center font-normal text-4xl'>REPLIT TRACK PRIZE</h3>
       </div>
     
-        <ul>
+        <ul className='list'>
             <li font-medium text-2xl>$50 to winning project of the hackathon (must be deployed on Replit)</li>
             <li font-medium text-2xl>Replit schwags to 5 eligible submissions deployed on Replit.</li>
             <li font-medium text-2xl>Eligibility for internship / full time role interviews at Replit Know more about the bounty on this <a href='https://replit.com/' className="underline text-blue-600 hover:text-blue-800 ">click link!</a> </li>

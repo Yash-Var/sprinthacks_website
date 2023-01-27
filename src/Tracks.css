@@ -77,12 +77,12 @@ li{
     line-height: 96.52px;
   }
   
-  ul li:before {
+  .list li:before {
     content: "• ";
   }
   
 
-  li {
+   .list li {
     @apply font-medium text-2xl ;
     font-family: "Space Grotesk", sans-serif;
     
