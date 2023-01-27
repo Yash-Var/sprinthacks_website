@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .navbar{
   font-family: 'Staatliches', cursive;
 }
 .main{
   font-family: 'Spicy Rice', cursive;
+
 }
 body {
   margin: 0;
@@ -20,4 +22,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.abouttext{
+  font-family:'Space Grotesk', sans-serif;
 }
