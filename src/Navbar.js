@@ -1,4 +1,3 @@
-
 import React from "react";
 import vector from "./images/Vector.png";
 import vector1 from "./images/Vector(1).png";
@@ -39,4 +38,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
