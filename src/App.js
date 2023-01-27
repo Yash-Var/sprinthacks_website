@@ -10,12 +10,13 @@ const App = () => {
   return (
     <div className='bg-newcolor'>
     
+<Home />
 
 
      <About />
+     <Contact />
 
-     <Home />
-    <Contact />
+   
  
 
       </div>
