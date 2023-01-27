@@ -9,10 +9,9 @@ import Contact from './Contact'
 const App = () => {
   return (
     <div className='bg-newcolor'>
-    
-     <Home />
-    <Contact />
-    {/* <Track /> */}
+    <Home />
+     <About />
+     <Contact />
       </div>
   )
 }

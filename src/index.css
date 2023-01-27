@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .navbar{
   font-family: 'Staatliches', cursive;
 }
 .main{
   font-family: 'Spicy Rice', cursive;
+
 }
 body {
   margin: 0;
