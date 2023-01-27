@@ -1,3 +1,70 @@
+<<<<<<< HEAD
+=======
+/* 
+.main{
+    text-align: center;
+    width:100vw;
+    color: #fff;
+   
+}
+
+.tracks{
+    width: 28vw;
+    background-color: #756dc9;
+    border-radius: 10px;
+    padding: 15px;
+    color: #fff;
+    margin: 25px 15px 15px 15px;
+    text-align: left;
+    height:60vh;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+}
+.heading-top{
+    font-size: 70px;
+    font-family: 'Spicy Rice', cursive;
+    font-weight:400;
+    line-height: 96.52px;
+}
+
+li{
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.heading-btm{
+    font-family: 'Staatliches', cursive;
+    font-weight:400;
+    font-size: 40px;
+}
+
+.tracks-header{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.logo{
+    margin: 5px ;
+    
+
+
+
+
+} */
+
+
+
+
+
+>>>>>>> d7ad597d6f9c03596bd2f3ea544d93aedfcf7444
 .tracks {
     @apply mx-4 mb-4 mt-6 p-10 text-left text-white;
     width: 28vw;
@@ -34,4 +101,10 @@
     @apply m-2;
     height: 40px;
     margin: 0 5px 5px 5px;
+<<<<<<< HEAD
   }
+=======
+  }
+
+ 
+>>>>>>> d7ad597d6f9c03596bd2f3ea544d93aedfcf7444

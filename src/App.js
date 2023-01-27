@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
-import About from './About'
-import Home from './Home'
+import About from "./About";
+import Prize from "./Prize";
+import Home from "./Home";
+
 
 import Contact from './Contact'
 import Sponsors from './Sponsors'
@@ -15,10 +17,19 @@ const App = () => {
 <About />
 <Tracks />
 <Sponsors />
+      <Prize />
 <Contact />
 
-      </div>
-  )
-}
 
-export default App
+    
+
+
+   
+    
+      <Contact />
+    </div>
+  );
+};
+
+
+export default App;
