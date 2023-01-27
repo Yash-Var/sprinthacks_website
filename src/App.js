@@ -3,11 +3,10 @@ import React from "react";
 import About from "./About";
 import Prize from "./Prize";
 import Home from "./Home";
-
-
 import Contact from './Contact'
 import Sponsors from './Sponsors'
 import Tracks from './Tracks'
+
 import './Tracks.css'
 const App = () => {
   return (
@@ -15,6 +14,8 @@ const App = () => {
     
      <Home />
 <About />
+<Prize/>
+<Tracks/>
 <Tracks />
 <Sponsors />
       <Prize />

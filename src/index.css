@@ -31,3 +31,7 @@ code {
 .abouttext{
   font-family:'Space Grotesk', sans-serif;
 }
+
+.list li:before {
+  content: "• ";
+}
