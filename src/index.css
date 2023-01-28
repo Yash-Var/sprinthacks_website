@@ -7,6 +7,9 @@
   font-family: 'Staatliches', cursive;
   
 }
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
 .main{
   font-family: 'Spicy Rice', cursive;
 }

@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
         <div>
           <img src={path26} className="pl-[650px]" />
-          <div className="text-right pt-52 pl-72 space-y-4">
+          <div className="text-right pt-52 pl-56 space-y-4">
             <h1 className="main text-white text-7xl  whitespace-nowrap">
               SprintHacks 2023
             </h1>

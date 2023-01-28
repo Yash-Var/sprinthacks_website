@@ -5,6 +5,7 @@ import Home from "./Home";
 import Contact from './Contact'
 import Sponsors from './Sponsors'
 import Tracks from './Tracks'
+import Faq from "./Faq";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
 <About />
 <Prize/>
 <Tracks />
+<Faq />
 <Sponsors />
 <Contact />
     </div>
