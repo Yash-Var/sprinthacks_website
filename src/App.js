@@ -6,14 +6,15 @@ import Contact from './Contact'
 import Sponsors from './Sponsors'
 import Tracks from './Tracks'
 import Faq from "./Faq";
+import Themes from "./Themes";
 
 
 const App = () => {
   return (
     <div className='bg-newcolor'>
-    
      <Home />
 <About />
+    <Themes />
 <Prize/>
 <Tracks />
 <Faq />
