@@ -10,7 +10,11 @@ module.exports = {
         },
     },
   },
+<<<<<<< HEAD
   plugins: [
     require('tw-elements/dist/plugin')
   ],
+=======
+  plugins: [require('tw-elements/dist/plugin')],
+>>>>>>> befe606df550f743671a25291412cfa57fc07232
 }
