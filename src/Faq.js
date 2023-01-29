@@ -17,12 +17,12 @@ const Faq = () => {
     setOpen(index)
   }
   return (
-    <div className='p-8'>
+    <div className='overflow-hidden top_faq '>
       <div className='flex justify-center '>
-      <h1 className='text-white main text-7xl p-10  '>FAQ's</h1>
+      <h1 className='text-white main text-7xl p-10 '>FAQ's</h1>
       </div>
-      <div className='flex'>
-      <div className='justify-right text-white flex-col w-[800px]'>
+      <div className='flex '>
+      <div className=' text-white flex-col w-[800px] faq  '>
 {data.map((data,index)=>{
   return <Accordian
   key={index}
@@ -34,7 +34,7 @@ const Faq = () => {
 })}
 
 </div>
-<div className='pl-72'>
+<div className='pl-72 image_faq'>
   <img src={faq} />
 </div>
 </div>

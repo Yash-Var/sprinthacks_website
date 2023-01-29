@@ -40,3 +40,146 @@ code {
 }
 
 
+@media only screen and (max-width: 1000px) {
+  .faq {
+    /* margin-left: auto; */
+    width: 650px;
+  }
+  .image_faq{
+    visibility: hidden;
+  }
+  .faq_question
+  {
+    width: 650px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .faq {
+    /* margin-left: auto; */
+    width: 500px;
+  }
+  .faq_q{
+    /* margin-left: 0px; */
+  }
+  .image_faq{
+    visibility: hidden;
+  }
+  .faq_question
+  {
+    /* margin-left: 0px; */
+    width: 450px;
+  }
+  
+}
+@media only screen and (max-width: 600px) {
+  .faq {
+    /* margin-left: auto; */
+    width: 400px;
+    
+    margin-left: 0;
+  }
+  .faq_q{
+  }
+  .image_faq{
+    visibility: hidden;
+  }
+  .faq_question
+  {
+    width: 300px;
+    font-size: large;
+  }
+  .faq_title{
+  
+    font-size: large;
+    font-weight: 1000;
+  }
+  .top_faq{
+    padding: 0px;
+    margin-left: 50px;
+    
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .faq {
+    /* margin-left: auto; */
+    width: 400px;
+  }
+  .image_faq{
+    visibility: hidden;
+  }
+  .faq_question
+  {
+    width: 300px;
+  }
+  .top_faq{
+    padding: 0px;
+    
+  }
+}
+@media only screen and (max-width: 530px) {
+  .faq {
+    /* margin-left: auto; */
+    width: 400px;
+    margin-left: 0px;
+  }
+  .faq_q{
+    margin-left: 0px;
+  }
+  .image_faq{
+    visibility: hidden;
+  }
+  .faq_question
+  {
+    margin-left: 0px;
+    width: 300px;
+  }
+  .top_faq{
+    padding: 0px;
+    
+  }
+  .faq_line{
+    margin-left: 0px;
+  }
+  
+}
+@media only screen and (max-width: 455px) {
+  .faq {
+    /* margin-left: auto; */
+    width: 400px;
+  }
+  .image_faq{
+    visibility: hidden;
+  }
+  .faq_question
+  {
+    width: 250px;
+  }
+  .top_faq{
+    padding: 0px;
+    
+  }
+}
+@media only screen and (max-width: 1500px) {
+  .faq {
+    margin-left: 10px;
+    width: 1400px;
+  }
+  .image_faq{
+    /* visibility: hidden; */
+    padding-left: 50px;
+  }
+  .faq_line{
+    width: 1400px;
+  }
+  
+}
+@media only screen and (max-width: 1250px) {
+  
+  .image_faq{
+    visibility: hidden;
+   
+  }
+  
+  
+}
