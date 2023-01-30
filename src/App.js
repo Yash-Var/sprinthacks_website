@@ -16,14 +16,14 @@ import Themes from './Themes'
 const App = () => {
   return (
     <div className='bg-newcolor'>
-  {/* <Home /> */}
+  <Home />
   <About />
   <Themes />
-  {/* <Prize/> */}
-  {/* <Tracks />
+  <Prize/>
+  <Tracks />
   <Faq />
   <Sponsors />
-  <Contact /> */}
+  <Contact />
     </div>
   );
 };

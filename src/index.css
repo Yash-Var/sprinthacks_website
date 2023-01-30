@@ -52,6 +52,17 @@ code {
   {
     width: 650px;
   }
+  .content_about{
+    margin-right: 44px;
+  }
+  .image_about_2{
+    height: 800px;
+  }
+  .content_about{
+    font-size: larger;
+    width: 500px;
+    text-align: center;
+  }
 }
 @media only screen and (max-width: 750px) {
   .faq {
@@ -69,6 +80,7 @@ code {
     /* margin-left: 0px; */
     width: 450px;
   }
+  
   
 }
 @media only screen and (max-width: 600px) {
@@ -159,6 +171,8 @@ code {
     padding: 0px;
     
   }
+
+
 }
 @media only screen and (max-width: 1500px) {
   .faq {
@@ -182,4 +196,74 @@ code {
   }
   
   
+}
+@media only screen and (max-width: 1480px) {
+  
+  .image_about{
+   left:200px;
+   
+  }
+  
+  
+}
+@media only screen and (max-width: 1300px) {
+  
+  .image_about{
+   left:150px;
+   
+  }
+}
+@media only screen and (max-width: 1200px) {
+  
+  .image_about{
+   left:0px;
+   
+  }
+  .image_about_2{
+    visibility: hidden;
+  }
+  .content_about{
+    margin-right: 44px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  
+.main_about{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.image_about{
+  left:100px;
+}
+}
+@media only screen and (max-width: 550px) {
+  
+.image_about{
+width: 400px;
+
+}
+.content_about{
+  width: 400px;
+}
+}
+@media only screen and (max-width: 460px) {
+  
+.image_about{
+width: 300px;
+left: 50px;
+}
+.content_about{
+  width: 300px;
+}
+}
+@media only screen and (max-width: 350px) {
+  
+.image_about{
+width: 250px;
+left: 50px;
+}
+.content_about{
+  width: 250px;
+}
 }
