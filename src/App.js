@@ -17,13 +17,13 @@ const App = () => {
   return (
     <div className='bg-newcolor'>
   {/* <Home />
-  <About />
+  <About /> */}
   <Themes />
-  <Prize/>
-  <Tracks /> */}
+  {/* <Prize/> */}
+  {/* <Tracks />
   <Faq />
-  {/* <Sponsors /> */}
-  <Contact />
+  <Sponsors />
+  <Contact /> */}
     </div>
   );
 };

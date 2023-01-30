@@ -5,7 +5,9 @@ import Cards2 from './Cards2';
 import Cards3 from './Cards3';
 import Cards5 from './Cards5';
 import Cards4 from './Cards4';
+import C from './Cards.json';
 function Themes() {
+  let i=0;
   return (
     <div>
       <div className='flex justify-center'>
@@ -46,14 +48,15 @@ function Themes() {
       aria-label="Slide 5"
     ></button>
   </div>
+  
   <div class="carousel-inner relative w-full overflow-hidden">
     <div class="carousel-item active relative float-left w-full">
    
 
-      <Cards />
+      <Cards  image={C[i].image} heading={C[i].heading} text={C[i++].text}  />
     </div>
     <div class="carousel-item relative float-left w-full">
-      <Cards2 />
+      <Cards image={C[i].image} heading={C[i].heading} text={C[i++].text}/>
       
     </div>
     <div class="carousel-item relative float-left w-full">
@@ -64,10 +67,7 @@ function Themes() {
      <Cards4 />
      
     </div>
-    <div class="carousel-item relative float-left w-full">
-     <Cards5 />
-     
-    </div>
+    
   </div>
   <button
     class="carousel-control-prev absolute top-0 bottom-0 flex items-center justify-center p-0 text-center border-0 hover:outline-none hover:no-underline focus:outline-none focus:no-underline left-0"
