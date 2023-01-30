@@ -267,3 +267,13 @@ left: 50px;
   width: 250px;
 }
 }
+
+@media only screen and (max-width: 1150px) {
+  
+.prize{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+}
+
+}

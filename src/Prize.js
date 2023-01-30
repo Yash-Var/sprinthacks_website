@@ -2,14 +2,14 @@ import React from "react";
 
 function Prize() {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div>
         <h1 className="main text-center text-7xl text-white uppercase p-8">
           PRIZES
         </h1>
       </div>
 
-      <div className="row flex justify-center m-2 mb-16">
+      <div className="row flex justify-center m-2 mb-16 prize">
         <div className="prize2 text-white uppercase abouttext text-center">
           <img
             border="0"
@@ -27,7 +27,7 @@ function Prize() {
             border="0"
             className="m-8"
           />
-          <h1 className="navbar text-6xl"> WINNER</h1>
+          <h1 className="navbar text-6xl tracking-widest winner"> WINNER</h1>
           <h1 className="navbar text-5xl mt-4">₹30,000</h1>
         </div>
         <div className="prize3 text-white uppercase abouttext text-center ">

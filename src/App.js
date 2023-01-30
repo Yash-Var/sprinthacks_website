@@ -16,9 +16,9 @@ import Themes from './Themes'
 const App = () => {
   return (
     <div className='bg-newcolor'>
-  <Home />
+  {/* <Home /> */}
   <About />
-  <Themes />
+  {/* <Themes /> */}
   <Prize/>
   <Tracks />
   <Faq />
