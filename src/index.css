@@ -312,7 +312,9 @@ visibility: hidden;
 @media only screen and (max-width: 1250px) {
   
  
-  
+  .image_hero{
+    visibility: hidden;
+  }
   
 }
 @media only screen and (max-width: 1480px) {
