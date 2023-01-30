@@ -46,9 +46,9 @@
 
 
 .slide-content {
-    text-align: center;
+    text-align: left;
 
-    /* margin-top: 10%; */
+    margin-left: 10%;
 }
 
 .slide-p1 {
