@@ -39,8 +39,30 @@ code {
   content: "• ";
 }
 
+@media only screen and (max-width: 1050px) {
+  .logo_dsc{
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .navbar_text{
+    font-size: large;
+  }
+}
+@media only screen and (max-width: 766px) {
+ .logo_dsc{
+
+  width: 300px !important;
+ }
+}
+@media only screen and (max-width: 830px) {
+  .logo_dsc{
+    width: 200px;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
+  
   .listtt{
     visibility: hidden;
   }
@@ -526,5 +548,5 @@ align-items: center;
 .meet{
   background-color: aliceblue;
   padding: 1rem;
-  
+
 }
