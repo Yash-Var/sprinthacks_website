@@ -18,6 +18,9 @@ const App = () => {
   return (
     <div className='bg-newcolor'>
   <Home />
+
+  <About />
+
   {/* <Hero /> */}
   {/* <About />
   <Themes />
