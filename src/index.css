@@ -37,6 +37,13 @@ code {
 }
 
 @media only screen and (max-width: 1000px) {
+  .listtt{
+    visibility: hidden;
+  }
+  .menu{
+    visibility: visible;
+    padding-left: 80px;
+  }
   .faq {
     /* margin-left: auto; */
     width: 650px;
@@ -321,10 +328,12 @@ code {
     max-width: 146%;
     /* width: 400px;   */
   }
+
 }
 @media only screen and (max-width: 1174px) {
   .hero {
     padding-top: 84px;
+
     width: 626px;
     margin-left: 30px;
     text-align: center;
@@ -346,6 +355,7 @@ code {
     text-align: center;
     margin-left: 100px;
   }
+
 }
 @media only screen and (max-width: 1200px) {
   .image_about {
@@ -360,8 +370,30 @@ code {
   .hero {
     width: 10px;
   }
+  .image_navbar
+  {
+    width: 300px;
+  }
+  .navbar_ul{
+    font-size: large;
+    margin-right: 0px;
+  }
+  /* .menu{
+    visibility: visible;
+     padding-left: 323px;;
+   position: fixed;
+  } */
+  /* .listtt{
+    visibility: hidden;
+  } */
+}
+@media only screen and (max-width: 1150px) {
+  .navbar_ul{
+margin-right: 200px;
+  }
 }
 @media only screen and (max-width: 900px) {
+
   .main_about {
     display: flex;
     flex-direction: column;
@@ -370,6 +402,7 @@ code {
   .image_about {
     left: 100px;
   }
+
 }
 @media only screen and (max-width: 550px) {
   .image_about {
@@ -423,14 +456,4 @@ code {
     /* visibility: hidden; */
     padding-top: 50px;
   }
-}
-
-
-@media only screen and (max-width: 400px) {
-  .ab{
-    /* margin-left: 0;
-    margin-right: 50px;
-    font-size:60px ; */
-  }  
-
 }
