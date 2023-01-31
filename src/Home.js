@@ -9,8 +9,10 @@ const Home = () => {
         <Navbar />
         <Hero />
     </div>
-    <div className=''>
-{/* <img src={group} alt="logo" className=' image_hero'/> */}
+
+    <div className='fixed right-0'>
+<img src={group} alt="logo" className=' image_hero'/>
+
     </div>
     </div>
   )

@@ -52,14 +52,14 @@ const Navbar = () => {
             <a href="www.google.com ">Contact Us</a>
           </li>
         </ul>
-        <div onClick={handleNav} className="block md:hidden">
+        <div onClick={handleNav} className="block md:hidden z-20">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
         <div
           className={
             nav
-              ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-[#000300] ease-in-out duration-500 "
-              : "fixed left-[-100%]"
+              ? "fixed right-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-newcolor ease-in-out duration-500 z-0 "
+              : "fixed right-[-100%]"
           }
         >
           <center>

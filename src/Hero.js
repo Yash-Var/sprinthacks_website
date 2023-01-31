@@ -18,8 +18,8 @@ const Hero = () => {
         </div>
         <div>
           <img src={path26} className="pl-[650px] star_right" />
-          <div className="text-right pt-52 hero pl-0 space-y-4">
-            <h1 className="main text-white text-7xl hero_text whitespace-nowrap">
+          <div className="flex-col text-right pt-52 hero pl-0 space-y-4">
+            <h1 className="main text-white text-7xl hero_text whitespace-nowrap ab">
               SprintHacks 2023
             </h1>
             <h1 className="navbar text-white hero_text_2 text-6xl">
