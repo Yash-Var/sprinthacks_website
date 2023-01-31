@@ -10,7 +10,7 @@ const Home = () => {
         <Hero />
     </div>
     <div className=''>
-<img src={group} alt="logo" className=' image_hero'/>
+{/* <img src={group} alt="logo" className=' image_hero'/> */}
     </div>
     </div>
   )
