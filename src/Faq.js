@@ -1,7 +1,7 @@
 import Reacts from 'react'
 import data from './Data.json'
 import Accordian from './Accordian'
-import faq from './images/Saly-6.png'
+import faq from './images/FAQ.png'
 import { useState } from 'react'
 
 

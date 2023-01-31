@@ -1,10 +1,9 @@
+
 import React from "react";
-import Navbar from "./Navbar";
 import Contact from "./Contact";
 import Sponsors from "./Sponsors";
 import Faq from "./Faq";
 import Tracks from "./Tracks";
-
 import About from "./About";
 import Home from "./Home";
 import Prize from "./Prize";
@@ -12,11 +11,12 @@ import Themes from "./Themes";
 import Hero from "./Hero";
 const App = () => {
   return (
+  <div>
     <div className="bg-newcolor overflow-hidden">
       {/* <Navbar2 /> */}
       {/* <Navbar /> */}
       <Home />
-      {/* <Hero /> */}
+      <Hero />
       <About />
       <Themes />
       <Prize />
@@ -41,8 +41,9 @@ const App = () => {
         <i class="fa-solid fa-arrow-pointer text-2xl pt-4 pl-1"></i>
       </div>
       <Contact />
-    </div>
+
+      </div>
+      </div>
   );
 };
-
 export default App;

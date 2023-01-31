@@ -98,17 +98,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 // import "swiper/css/pagination";
 import "./App.css";
-// import { Pagination } from "swiper";
-import saket from "./images/saket.jpeg";
-// import ashwin from "./images/ashwin.jpeg";
-// import aryan from "./images/aryan.jpeg";
-// import avneesh from "./images/avneesh.jpeg";
-// import khushi from "./images/khushi.jpeg";
-// import sambhrant from "./images/sambhrant.jpeg";
-// import ayush from "./images/ayush.jpeg";
+
 import SwiperCore, { Autoplay } from 'swiper';
-// import Archit from "./images/Archit.jpeg";
-// import Tushar from "./images/Tushar.jpeg";
+
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import React from "react";
@@ -159,7 +151,7 @@ export default function Themes() {
         modules={[Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide> <div className="swip-slide">
+        <SwiperSlide > <div className="swip-slide">
           <div className="slide-img">
             <img src={Fintech} alt="Fintech" />
           </div>

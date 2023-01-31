@@ -1,7 +1,7 @@
 import React from 'react'
 import Hero from './Hero'
 import Navbar from './Navbar'
-import group from "./images/Group4.png";
+import group from "./images/Race-track.png";
 const Home = () => {
   return (
     <div className='flex  overflow-hidden'>

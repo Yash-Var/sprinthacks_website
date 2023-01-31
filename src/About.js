@@ -1,6 +1,6 @@
 import React from 'react'
-import ellipse from './images/Group 6.png'
-import person from './images/Frame.png'
+import ellipse from './images/Ellipse.png'
+import person from './images/Henry.png'
 
 const About = () => {
   return (
