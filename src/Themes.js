@@ -96,7 +96,7 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// import "swiper/css/pagination";
+
 import "./App.css";
 
 import SwiperCore, { Autoplay } from 'swiper';
@@ -111,7 +111,7 @@ import WEB from "./images/slideImage/bitcoin.png";
 import OPEN from "./images/slideImage/s.png";
 
 SwiperCore.use([Autoplay]);
-// test 
+
 
 
 
@@ -137,7 +137,7 @@ export default function Themes() {
         <h1 className="text-white text-7xl main ">Themes</h1>
       </div>
       <Swiper
-        // navigation={true}
+
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
@@ -145,9 +145,7 @@ export default function Themes() {
           disableOnInteraction: false
         }
         }
-        // pagination={{
-        //     clickable: true,
-        // }}
+       
         modules={[Navigation]}
         className="mySwiper"
       >

@@ -10,7 +10,6 @@ const Navbar = () => {
     setSize(window.innerWidth);
   };
   useEffect(() => {
-    // console.log('useEffect');
     window.addEventListener("resize", checkSize);
     return () => {
       console.log("cleanup");

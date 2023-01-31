@@ -31,14 +31,12 @@ const Navbar = () => {
               <li className="hover:text-blue-300 hover:underline">
                 Contact us
               </li>
-            
             </ul>
             <div onClick={handleNav} className="block md:hidden">
               {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
           </div>
         </nav>
-        
       </div>
     </div>
   );

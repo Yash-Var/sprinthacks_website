@@ -25,7 +25,6 @@ const Hero = () => {
               <div className="flex space-x-4">
                 <div>
                   <img src={vector3} />
-                  
                 </div>
                 <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
                   Apply with Devfolio
