@@ -1,205 +1,193 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
 
-.navbar{
-  font-family: 'Staatliches', cursive;
-  
+.navbar {
+  font-family: "Staatliches", cursive;
 }
 .ReactCollapse--collapse {
   transition: height 500ms;
 }
-.main{
-  font-family: 'Spicy Rice', cursive;
+.main {
+  font-family: "Spicy Rice", cursive;
 }
-.Sponsors
-{
-  font-family: 'Roboto', sans-serif;
+.Sponsors {
+  font-family: "Roboto", sans-serif;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-.abouttext{
-  font-family:'Space Grotesk', sans-serif;
+.abouttext {
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .list li:before {
   content: "• ";
 }
 
-
 @media only screen and (max-width: 1000px) {
   .faq {
     /* margin-left: auto; */
     width: 650px;
   }
-  .hero_main{
+  .hero_main {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  .hero{
+  .hero {
     padding: 0;
     margin: 0;
   }
-  .hero_main{
+  .hero_main {
     width: 800px;
     padding-left: 100px;
   }
-  .hero_text{
+  .hero_text {
     font-size: 500px;
-    
+
     /* background-color: antiquewhite; */
     text-align: right;
-    padding-right:200px ;
+    padding-right: 200px;
   }
-  .hero_text_2{
+  .hero_text_2 {
     font-size: 500px;
-    
+
     /* background-color: antiquewhite; */
     text-align: right;
-    padding-right:200px ;
+    padding-right: 200px;
   }
-  .image_faq{
+  .image_faq {
     visibility: hidden;
   }
-  .faq_question
-  {
+  .faq_question {
     width: 650px;
   }
-  .content_about{
+  .content_about {
     margin-right: 44px;
   }
-  .image_about_2{
+  .image_about_2 {
     height: 800px;
   }
-  .content_about{
+  .content_about {
     font-size: larger;
     width: 500px;
     text-align: center;
   }
 }
 @media only screen and (max-width: 850px) {
-  
-  
-  .hero{
+  .hero {
     padding: 0;
     margin: 0;
   }
-  .hero_main{
+  .hero_main {
     width: 700px;
     padding-left: 100px;
   }
-  .hero_text{
+  .hero_text {
     font-size: 500px;
-    
+
     /* background-color: antiquewhite; */
     text-align: right;
-    padding-right:300px ;
+    padding-right: 300px;
   }
-  .hero_text_2{
+  .hero_text_2 {
     font-size: 500px;
-    
+
     /* background-color: antiquewhite; */
     text-align: right;
-    padding-right:300px ;
+    padding-right: 300px;
   }
-  .dev{
-  margin-right: 300px;
+  .dev {
+    margin-right: 300px;
   }
-  .image_hero{
-visibility: hidden;
+  .image_hero {
+    visibility: hidden;
   }
-  
 }
 @media only screen and (max-width: 750px) {
   .faq {
     /* margin-left: auto; */
     width: 500px;
   }
-  .faq_q{
+  .faq_q {
     /* margin-left: 0px; */
   }
-  .image_faq{
+  .image_faq {
     visibility: hidden;
   }
-  .faq_question
-  {
+  .faq_question {
     /* margin-left: 0px; */
     width: 450px;
   }
-  
-  .hero_main{
-    width:600px;
+
+  .hero_main {
+    width: 600px;
   }
 }
 @media only screen and (max-width: 600px) {
   .faq {
     /* margin-left: auto; */
     width: 400px;
-    
+
     margin-left: 0;
   }
-  .faq_q{
+  .faq_q {
   }
-  .image_faq{
+  .image_faq {
     visibility: hidden;
   }
-  .faq_question
-  {
+  .faq_question {
     width: 300px;
     font-size: large;
   }
-  .faq_title{
-  
+  .faq_title {
     font-size: large;
     font-weight: 1000;
   }
-  .top_faq{
+  .top_faq {
     padding: 0px;
     margin-left: 50px;
-    
   }
-  .hero{
+  .hero {
     padding: 0;
     margin: 0;
   }
-  .hero_main{
+  .hero_main {
     width: 500px;
     padding-left: 100px;
   }
-  .hero_text{
+  .hero_text {
     font-size: 500px;
-    
+
     /* background-color: antiquewhite; */
     text-align: right;
-    padding-right:500px ;
+    padding-right: 500px;
     white-space: normal;
   }
-  .hero_text_2{
+  .hero_text_2 {
     font-size: 500px;
-    
+
     /* background-color: antiquewhite; */
     text-align: right;
-    padding-right:400px ;
+    padding-right: 400px;
   }
-  .dev{
-  margin-right: 400px;
+  .dev {
+    margin-right: 400px;
   }
-  .image_hero{
-visibility: hidden;
+  .image_hero {
+    visibility: hidden;
   }
 }
 
@@ -208,16 +196,14 @@ visibility: hidden;
     /* margin-left: auto; */
     width: 400px;
   }
-  .image_faq{
+  .image_faq {
     visibility: hidden;
   }
-  .faq_question
-  {
+  .faq_question {
     width: 300px;
   }
-  .top_faq{
+  .top_faq {
     padding: 0px;
-    
   }
 }
 @media only screen and (max-width: 530px) {
@@ -226,73 +212,73 @@ visibility: hidden;
     width: 400px;
     margin-left: 0px;
   }
-  .faq_q{
+  .faq_q {
     margin-left: 0px;
   }
-  .image_faq{
+  .image_faq {
     visibility: hidden;
   }
-  .faq_question
-  {
+  .faq_question {
     margin-left: 0px;
     width: 300px;
   }
-  .top_faq{
+  .top_faq {
     padding: 0px;
-    
   }
-  .faq_line{
+  .faq_line {
     margin-left: 0px;
   }
-  
 }
 @media only screen and (max-width: 455px) {
   .faq {
     /* margin-left: auto; */
     width: 400px;
   }
-  .image_faq{
+  .image_faq {
     visibility: hidden;
   }
-  .faq_question
-  {
+  .faq_question {
     width: 250px;
   }
-  .top_faq{
+  .top_faq {
     padding: 0px;
-    
   }
 
-  .hero{
+  .hero {
     padding: 0;
-    margin: 0;
+    margin-right: 0;
+
+    margin-left: 20px;
+    text-align: center;
   }
-  .hero_main{
+  .hero_main {
     width: 400px;
-   padding-bottom: 0px;
+    padding-bottom: 0px;
     /* position: fixed; */
   }
-  .hero_text{
+  .hero_text {
     font-size: small;
-    
+    text-align: center;
+    margin-right: 25px;
+
     /* background-color: antiquewhite; */
     text-align: center;
-   /* margin-right: 50000px; */
-   margin-right: 7000px;
+    /* margin-right: 50000px; */
+    margin-right: 7000px;
     white-space: normal;
   }
-  .hero_text_2{
+  .hero_text_2 {
     font-size: small;
     padding-left: 0px;
-    
+
     text-align: left;
-    padding-right:500px ;
+    padding-right: 500px;
   }
-  .dev{
-  margin-right: 4000px;
+  .dev {
+    /* margin-right: 4000px; */
   }
-  .image_hero{
-visibility: hidden;
+  .image_hero {
+    visibility: hidden;
   }
 }
 @media only screen and (max-width: 1500px) {
@@ -300,162 +286,151 @@ visibility: hidden;
     margin-left: 10px;
     width: 1400px;
   }
-  .image_faq{
+  .image_faq {
     /* visibility: hidden; */
     padding-left: 50px;
   }
-  .faq_line{
+  .faq_line {
     width: 1400px;
   }
-  
 }
 @media only screen and (max-width: 1250px) {
-  
- 
-  .image_hero{
+  .image_hero {
     visibility: hidden;
   }
-  
 }
 @media only screen and (max-width: 1480px) {
-  
-  .image_about{
-   left:200px;
-   
+  .image_about {
+    left: 200px;
   }
-  .hero_text{
+  .hero_text {
     font-size: 60px;
   }
-  .hero_text_2{
+  .hero_text_2 {
     font-size: 50px;
   }
-  
-  
 }
 @media only screen and (max-width: 1300px) {
-  
-  .image_about{
-   left:150px;
-   
+  .image_about {
+    left: 150px;
   }
 }
 @media only screen and (max-width: 1250px) {
-  
-  .main{
+  .main {
     padding-top: 20px;
     max-width: 146%;
-/* width: 400px;   */
-}
+    /* width: 400px;   */
+  }
 }
 @media only screen and (max-width: 1174px) {
-  
-  .hero{
+  .hero {
     padding-top: 84px;
-   width: 626px;
-/* width: 400px;   */
-}
-.hero_text{
-  font-size: 40px;
-  padding-left: 0px;
-}
-.hero_text_2{
-  font-size: 40px;
-  padding-left: 0px;
-}
-.hero_text_3{
-  font-size: 15px;
-  padding-left: 0px;
-}
-.hero{
-text-align: center;
-margin-left: 100px;
-}
+    width: 626px;
+    margin-left: 30px;
+    text-align: center;
+    /* width: 400px;   */
+  }
+  .hero_text {
+    font-size: 40px;
+    padding-left: 0px;
+  }
+  .hero_text_2 {
+    font-size: 40px;
+    padding-left: 0px;
+  }
+  .hero_text_3 {
+    font-size: 15px;
+    padding-left: 0px;
+  }
+  .hero {
+    text-align: center;
+    margin-left: 100px;
+  }
 }
 @media only screen and (max-width: 1200px) {
-  
-  .image_about{
-   left:0px;
-   
+  .image_about {
+    left: 0px;
   }
-  .image_about_2{
+  .image_about_2 {
     visibility: hidden;
   }
-  .content_about{
+  .content_about {
     margin-right: 44px;
   }
-  .hero{
+  .hero {
     width: 10px;
   }
 }
 @media only screen and (max-width: 900px) {
-  
-.main_about{
-  display: flex;
-flex-direction: column;
-justify-content: center;
-}
-.image_about{
-  left:100px;
-}
+  .main_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .image_about {
+    left: 100px;
+  }
 }
 @media only screen and (max-width: 550px) {
-  
-.image_about{
-width: 400px;
-
-}
-.content_about{
-  width: 400px;
-}
+  .image_about {
+    width: 400px;
+  }
+  .content_about {
+    width: 400px;
+  }
 }
 @media only screen and (max-width: 460px) {
-  
-.image_about{
-width: 300px;
-left: 50px;
-}
-.content_about{
-  width: 300px;
-}
+  .image_about {
+    width: 300px;
+    left: 50px;
+  }
+  .content_about {
+    width: 300px;
+  }
 }
 @media only screen and (max-width: 350px) {
-  
-.image_about{
-width: 250px;
-left: 50px;
-}
-.content_about{
-  width: 250px;
-}
+  .image_about {
+    width: 250px;
+    left: 50px;
+  }
+  .content_about {
+    width: 250px;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
-  
-.prize{
-  display: flex;
-  flex-direction: column;
-align-items: center;
-}
-
+  .prize {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 @media only screen and (max-width: 1688px) {
-  
-.hero{
-  padding-left: 0px;
-  width: 620px;
-}
-.star_right{
-  padding-left: 400px;
-}
+  .hero {
+    padding-left: 0px;
+    width: 620px;
+  }
+  .star_right {
+    padding-left: 400px;
+  }
 }
 @media only screen and (max-width: 1370px) {
-  
-.hero{
-  padding-left: 0px;
- padding-top: 84px;
+  .hero {
+    padding-left: 0px;
+    padding-top: 84px;
+  }
+  .star_right_2 {
+    /* visibility: hidden; */
+    padding-top: 50px;
+  }
 }
-.star_right_2{
-  /* visibility: hidden; */
-  padding-top: 50px;
-}
+
+
+@media only screen and (max-width: 400px) {
+  .ab{
+    /* margin-left: 0;
+    margin-right: 50px;
+    font-size:60px ; */
+  }  
+
 }
