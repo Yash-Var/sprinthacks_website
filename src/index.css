@@ -378,14 +378,7 @@ code {
     font-size: large;
     margin-right: 0px;
   }
-  /* .menu{
-    visibility: visible;
-     padding-left: 323px;;
-   position: fixed;
-  } */
-  /* .listtt{
-    visibility: hidden;
-  } */
+
 }
 @media only screen and (max-width: 1150px) {
   .navbar_ul{
@@ -453,7 +446,6 @@ margin-right: 200px;
     padding-top: 84px;
   }
   .star_right_2 {
-    /* visibility: hidden; */
     padding-top: 50px;
   }
 }

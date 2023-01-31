@@ -96,19 +96,11 @@
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-// import "swiper/css/pagination";
+
 import "./App.css";
-// import { Pagination } from "swiper";
-import saket from "./images/saket.jpeg";
-// import ashwin from "./images/ashwin.jpeg";
-// import aryan from "./images/aryan.jpeg";
-// import avneesh from "./images/avneesh.jpeg";
-// import khushi from "./images/khushi.jpeg";
-// import sambhrant from "./images/sambhrant.jpeg";
-// import ayush from "./images/ayush.jpeg";
+
 import SwiperCore, { Autoplay } from 'swiper';
-// import Archit from "./images/Archit.jpeg";
-// import Tushar from "./images/Tushar.jpeg";
+
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import React from "react";
@@ -119,7 +111,7 @@ import WEB from "./images/slideImage/bitcoin.png";
 import OPEN from "./images/slideImage/s.png";
 
 SwiperCore.use([Autoplay]);
-// test 
+
 
 
 
@@ -145,7 +137,7 @@ export default function Themes() {
         <h1 className="text-white text-7xl main ">Themes</h1>
       </div>
       <Swiper
-        // navigation={true}
+
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
@@ -153,20 +145,17 @@ export default function Themes() {
           disableOnInteraction: false
         }
         }
-        // pagination={{
-        //     clickable: true,
-        // }}
+       
         modules={[Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide> <div className="swip-slide">
+        <SwiperSlide > <div className="swip-slide">
           <div className="slide-img">
             <img src={Fintech} alt="Fintech" />
           </div>
           <div className="slide-content">
-            <div className="text-white main text-6xl semibold ">Fitech</div>
-            <div className="abouttext text-white text-2xl semibold pt-8 ">From mobile payments to internet banking, an increased number of consumers are adopting fintech solutions today. Create a hack to
-              simplify this field. </div>
+            <div className="text-white main text-6xl semibold ">Fintech</div>
+            <div className="abouttext text-white text-2xl semibold pt-8 ">The Fintech theme at this hackathon offers participants the opportunity to tackle real-world financial challenges. Participants will have the opportunity to develop and showcase their innovative solutions that improve financial services, streamline transactions, and enhance financial literacy. </div>
           </div>
         </div></SwiperSlide>
         <SwiperSlide> <div className="swip-slide">
@@ -177,7 +166,7 @@ export default function Themes() {
           <div className="slide-content">
             <div className="text-white main text-6xl semibold ">Edtech</div>
 
-            <div className="abouttext text-white text-2xl semibold pt-8 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
+            <div className="abouttext text-white text-2xl semibold pt-8 ">The EdTech theme of this hackathon is focused on leveraging technology to improve the education system and enhance the learning experience for students. Participants will have the opportunity to build and showcase innovative solutions that address challenges such as accessibility, engagement, and personalization in education.</div>
           </div>
         </div></SwiperSlide>
         <SwiperSlide> <div className="swip-slide">
@@ -187,7 +176,7 @@ export default function Themes() {
           <div className="slide-content">
             <div className="text-white main text-6xl semibold ">Healthcare</div>
 
-            <div className="abouttext text-white text-2xl semibold pt-8 ">The increase in patients has led to the decrease in the relative number of doctors per patient which results in a vicous cycle where ignored or delayed diagnostics of an ailment makes the patient more dependent on doctor's check-up. Some also cannot afford to visit a doctor.</div>
+            <div className="abouttext text-white text-2xl semibold pt-8 ">The Healthcare theme of this hackathon provides a platform for individuals to develop innovative solutions that tackle challenges in the healthcare industry. Participants will have the opportunity to use technology to improve patient outcomes, streamline medical processes, and enhance overall healthcare delivery.</div>
           </div>
         </div></SwiperSlide>
         <SwiperSlide> <div className="swip-slide">
@@ -197,7 +186,7 @@ export default function Themes() {
           <div className="slide-content">
             <div className="text-white main text-6xl semibold ">WEB 3.0</div>
 
-            <div className="abouttext text-white text-2xl semibold pt-8 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
+            <div className="abouttext text-white text-2xl semibold pt-8 ">The Web3 theme of this hackathon is dedicated to exploring the potential of decentralized technology and its impact on the future of the internet. Participants will have the opportunity to build and showcase their solutions that harness the power of decentralized systems to improve privacy, security, and ownership of data.</div>
           </div>
         </div></SwiperSlide>
         <SwiperSlide> <div className="swip-slide">
@@ -207,7 +196,7 @@ export default function Themes() {
           <div className="slide-content">
             <div className="text-white main text-6xl semibold ">Open Innovation</div>
 
-            <div className="abouttext text-white text-2xl semibold pt-8 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias aut, repellat ipsum facere voluptate dicta obcaecati deserunt nobis suscipit eaque</div>
+            <div className="abouttext text-white text-2xl semibold pt-8 ">The Open Innovation theme of this hackathon invites participants to explore new ways of problem-solving and collaboration. This theme encourages individuals to work together, share ideas, and bring innovative solutions to life. Participants will have the opportunity to develop their solutions with the support of a diverse community, utilizing a range of technologies and approaches.</div>
           </div>
         </div></SwiperSlide>
       </Swiper>

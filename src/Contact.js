@@ -1,5 +1,4 @@
 import React from "react";
-import frame from "./images/Frame 9.png";
 import instagram from "./images/instagram.png";
 import linkedin from "./images/linkedin.png";
 import twitter from "./images/twitter.png";
