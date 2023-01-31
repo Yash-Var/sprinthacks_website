@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="bg-fotter ">
       <div className="flex justify-center p-10 space-x-4">
-        <h1 className="text-white main text-3xl">Contact us at:</h1>
+        <h1 className="text-white main text-3xl">Contact us :</h1>
         <a href="https://www.instagram.com/dsckiet/">
           <img src={instagram} />
         </a>
@@ -21,11 +21,6 @@ const Contact = () => {
         </a>
         <a href="mailto:dsckiet@gmail.com">
           <img src={mail} />
-        </a>
-      </div>
-      <div className="flex justify-center">
-        <a href="https://dsckiet.com/team">
-          <p className="text-2xl text-blue-900 main "> Meet Our Team </p>
         </a>
       </div>
     </div>

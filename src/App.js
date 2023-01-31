@@ -23,6 +23,13 @@ const App = () => {
       <Tracks />
       <Faq />
       <Sponsors />
+      <div className="meet flex justify-center">
+        <a href="https://dsckiet.com/team">
+          {" "}
+          <h1 className="text-blue-800 main text-2xl">Meet our team</h1>
+        </a>
+        <i class="fa-solid fa-arrow-pointer text-2xl pt-4 pl-1"></i>
+      </div>
       <Contact />
     </div>
   );
