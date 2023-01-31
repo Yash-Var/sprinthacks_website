@@ -45,6 +45,33 @@ code {
     /* margin-left: auto; */
     width: 650px;
   }
+  .hero_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero{
+    padding: 0;
+    margin: 0;
+  }
+  .hero_main{
+    width: 800px;
+    padding-left: 100px;
+  }
+  .hero_text{
+    font-size: 500px;
+    
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right:200px ;
+  }
+  .hero_text_2{
+    font-size: 500px;
+    
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right:200px ;
+  }
   .image_faq{
     visibility: hidden;
   }
@@ -64,6 +91,39 @@ code {
     text-align: center;
   }
 }
+@media only screen and (max-width: 850px) {
+  
+  
+  .hero{
+    padding: 0;
+    margin: 0;
+  }
+  .hero_main{
+    width: 700px;
+    padding-left: 100px;
+  }
+  .hero_text{
+    font-size: 500px;
+    
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right:300px ;
+  }
+  .hero_text_2{
+    font-size: 500px;
+    
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right:300px ;
+  }
+  .dev{
+  margin-right: 300px;
+  }
+  .image_hero{
+visibility: hidden;
+  }
+  
+}
 @media only screen and (max-width: 750px) {
   .faq {
     /* margin-left: auto; */
@@ -81,7 +141,9 @@ code {
     width: 450px;
   }
   
-  
+  .hero_main{
+    width:600px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .faq {
@@ -109,6 +171,35 @@ code {
     padding: 0px;
     margin-left: 50px;
     
+  }
+  .hero{
+    padding: 0;
+    margin: 0;
+  }
+  .hero_main{
+    width: 500px;
+    padding-left: 100px;
+  }
+  .hero_text{
+    font-size: 500px;
+    
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right:500px ;
+    white-space: normal;
+  }
+  .hero_text_2{
+    font-size: 500px;
+    
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right:400px ;
+  }
+  .dev{
+  margin-right: 400px;
+  }
+  .image_hero{
+visibility: hidden;
   }
 }
 
@@ -172,7 +263,37 @@ code {
     
   }
 
-
+  .hero{
+    padding: 0;
+    margin: 0;
+  }
+  .hero_main{
+    width: 400px;
+   padding-bottom: 0px;
+    /* position: fixed; */
+  }
+  .hero_text{
+    font-size: small;
+    
+    /* background-color: antiquewhite; */
+    text-align: center;
+   /* margin-right: 50000px; */
+   margin-right: 7000px;
+    white-space: normal;
+  }
+  .hero_text_2{
+    font-size: small;
+    padding-left: 0px;
+    
+    text-align: left;
+    padding-right:500px ;
+  }
+  .dev{
+  margin-right: 4000px;
+  }
+  .image_hero{
+visibility: hidden;
+  }
 }
 @media only screen and (max-width: 1500px) {
   .faq {
@@ -190,11 +311,10 @@ code {
 }
 @media only screen and (max-width: 1250px) {
   
-  .image_faq{
+ 
+  .image_hero{
     visibility: hidden;
-   
   }
-  
   
 }
 @media only screen and (max-width: 1480px) {
@@ -202,6 +322,12 @@ code {
   .image_about{
    left:200px;
    
+  }
+  .hero_text{
+    font-size: 60px;
+  }
+  .hero_text_2{
+    font-size: 50px;
   }
   
   
@@ -212,6 +338,38 @@ code {
    left:150px;
    
   }
+}
+@media only screen and (max-width: 1250px) {
+  
+  .main{
+    padding-top: 20px;
+    max-width: 146%;
+/* width: 400px;   */
+}
+}
+@media only screen and (max-width: 1174px) {
+  
+  .hero{
+    padding-top: 84px;
+   width: 626px;
+/* width: 400px;   */
+}
+.hero_text{
+  font-size: 40px;
+  padding-left: 0px;
+}
+.hero_text_2{
+  font-size: 40px;
+  padding-left: 0px;
+}
+.hero_text_3{
+  font-size: 15px;
+  padding-left: 0px;
+}
+.hero{
+text-align: center;
+margin-left: 100px;
+}
 }
 @media only screen and (max-width: 1200px) {
   
@@ -224,6 +382,9 @@ code {
   }
   .content_about{
     margin-right: 44px;
+  }
+  .hero{
+    width: 10px;
   }
 }
 @media only screen and (max-width: 900px) {
@@ -276,4 +437,25 @@ left: 50px;
 align-items: center;
 }
 
+}
+@media only screen and (max-width: 1688px) {
+  
+.hero{
+  padding-left: 0px;
+  width: 620px;
+}
+.star_right{
+  padding-left: 400px;
+}
+}
+@media only screen and (max-width: 1370px) {
+  
+.hero{
+  padding-left: 0px;
+ padding-top: 84px;
+}
+.star_right_2{
+  /* visibility: hidden; */
+  padding-top: 50px;
+}
 }

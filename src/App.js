@@ -13,17 +13,22 @@ import About from './About'
 import Home from './Home'
 import Prize from './Prize'
 import Themes from './Themes'
+import Hero from './Hero'
 const App = () => {
   return (
     <div className='bg-newcolor'>
   <Home />
+
   <About />
+
+  {/* <Hero /> */}
+  {/* <About />
   <Themes />
   <Prize/>
   <Tracks />
   <Faq />
   <Sponsors />
-  <Contact />
+  <Contact /> */}
     </div>
   );
 };

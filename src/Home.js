@@ -4,13 +4,13 @@ import Navbar from './Navbar'
 import group from "./images/Group4.png";
 const Home = () => {
   return (
-    <div className='flex'>
-    <div>
+    <div className='flex  overflow-hidden'>
+    <div className=''>
         <Navbar />
         <Hero />
     </div>
     <div className=''>
-<img src={group} alt="logo" className='fixed'/>
+<img src={group} alt="logo" className=' image_hero'/>
     </div>
     </div>
   )
