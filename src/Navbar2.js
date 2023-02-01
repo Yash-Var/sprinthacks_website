@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { RiOpenSourceFill } from "react-icons/ri";
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import Dsc_logo from "./images/DSC_logo_name.png";
 import Vector from "./images/Vector.png";
+// import { Link } from "react-router-dom";
 const Navbar = () => {
   const [size, setSize] = useState(window.innerWidth);
 
@@ -11,7 +12,6 @@ const Navbar = () => {
     setSize(window.innerWidth);
   };
   useEffect(() => {
-    // console.log('useEffect');
     window.addEventListener("resize", checkSize);
     return () => {
       console.log("cleanup");
@@ -30,26 +30,76 @@ const Navbar = () => {
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-3 text-white">
         <img src={Dsc_logo} alt="logo " className="logo_dsc" />
         <ul className="hidden md:flex ul_navbar">
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="">Home</a>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link to="" spy={true} smooth={true} offset={-100} duration={800}>
+              Home
+            </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="www.google.com">About</a>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="About"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              About
+            </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="www.google.com">Prizes</a>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="prizes"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              Prizes
+            </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="fosscu-blog.vercel.app">Tracks</a>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="tracks"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              Tracks
+            </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="www.google.com">Faqs</a>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="faqs"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              Faqs
+            </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="www.google.com">Sponsors</a>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="sponsor"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              Sponsors
+            </Link>
           </li>
-          <li className="p-4 text-2xl whitespace-nowrap  navbar hover:text-blue-300 hover:underline navbar_text">
-            <a href="www.google.com ">Contact Us</a>
+          <li className="p-4 text-2xl whitespace-nowrap  navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              Contact Us
+            </Link>
           </li>
         </ul>
         <div onClick={handleNav} className="block md:hidden z-20 menu_top">
@@ -58,38 +108,99 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "fixed right-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-newcolor ease-in-out duration-500 z-0 "
-              : "fixed right-[-100%]"
+              ? "fixed right-0 top-0 w-[60%] h-full border-r border-r-grey-900 bg-newcolor ease-in-out duration-500 z-0 nav_nav"
+              : "fixed right-[-100%] nav_nav"
           }
         >
           <img src={Vector} alt="vector" className="pt-4 ml-10" />
 
           <ul className="uppercase p-4">
-            <li className="p-4 border-b border-gray-600">
-              <a href="www.google.com">Home</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to=""
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                Home
+              </Link>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="www.google.com">About</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="About"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                About
+              </Link>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="www.google.com">Prizes</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="prizes"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                Prizes
+              </Link>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="https://github.com/FOSS-Community">Tracks</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="tracks"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+              >
+                Tracks
+              </Link>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="www.google.com">Faqs</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="faqs"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                Faqs
+              </Link>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="www.google.com">Sponsors</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="sponsor"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                Sponsors
+              </Link>
             </li>
-            <li className="p-4 border-b border-gray-600">
-              <a href="www.google.com">Contact Us</a>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
       </div>
-      <Outlet />
     </>
   );
 };

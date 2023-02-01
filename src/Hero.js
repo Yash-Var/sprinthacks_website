@@ -1,11 +1,8 @@
 import React from "react";
-import Main from "./images/MainImage(1).png";
-import shape from "./images/Shape.png";
-import path268 from "./images/path268.png";
-import path26 from "./images/path268(2).png";
-import vector3 from "./images/Vector(3).png";
-import vector4 from "./images/Vector(4).png";
-import group from "./images/Group5.png";
+import path268 from "./images/Small_star.png";
+import path26 from "./images/Big_star.png";
+import vector3 from "./images/DEVFOLIO.png";
+import group from "./images/Sallyyy.png";
 const Hero = () => {
   return (
     <div className="">
@@ -13,7 +10,6 @@ const Hero = () => {
         <div className="">
           <img src={path268} className="pl-64 pt-8 " />
           <img src={group} className="main" />
-          {/* <img src={shape} alt="" srcset="" className="z-0" /> */}
           <img src={path268} className="pl-4 w-12  pt-8" />
         </div>
         <div>
@@ -29,7 +25,6 @@ const Hero = () => {
               <div className="flex space-x-4">
                 <div>
                   <img src={vector3} />
-                  {/* <img src={vector4} /> */}
                 </div>
                 <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
                   Apply with Devfolio

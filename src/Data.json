@@ -1,38 +1,38 @@
 [
     {
-        "title":"What is a Hackathon ?",
-        "desc":"Hacking is a creative way to solve a problem, and hackathons are innovation marathons where students from around the world who have an interest in technology come together to learn, build & share their creations over the course of a weekend in a relaxed and welcoming atmosphere. You don’t have to be a programmer and you certainly don’t have to be majoring in Computer Science. You can turn your ideas into reality at SheBuilds, and we'll provide you with everything you need! A software tools lab, mentorship, fun activities, workshops, friends, and so much more."
+        "title":"What is a SprintHacks",
+        "desc":"SprintHacks is an 18-hour hackathon organized by the Developer Student Circuit with endless creativity. The focus is on innovation and creativity as participants work together to develop unique solutions using the latest technology. With opportunities for networking and exciting prizes, this hackathon challenges participants to push their limits and create the next innovative product."
     },
     
     {
         "title":"How many people per team? ",
-        "desc":"Teams can range anywhere from 1-4 people. If you do not have a team before the event, worry not - you can find one on our handy Discord server."
+        "desc":"Teams can range anywhere from 2-3 people. If you do not have a team before the event, worry not - you can find one on our handy Discord server."
     },
     
     {
-        "title":"How do I register for the hackathon? ",
-        "desc":"Just some enthusiasm andan open mind are enough. We don't charge any money!!"
+        "title":"What does it cost? ",
+        "desc":"SprintHacks is free for all hackers! We provide our hackers with workshops, tools, swag, and prizes without any cost through our generous sponsors."
     },
     
     {
-        "title":"How do I register for the hackathon? ",
-        "desc":"Just some enthusiasm andan open mind are enough. We don't charge any money!!"
+        "title":"What's the mode of Hackathon?",
+        "desc":"The SprintHacks is in Offline Mode. On the basis of idea submission of teams, few teams will be selected for offline (rest online) and they will receive mail separately."
     },
     
     {
-        "title":"How do I register for the hackathon? ",
-        "desc":"Just some enthusiasm andan open mind are enough. We don't charge any money!!"
+        "title":"What should I bring?",
+        "desc":"your college issued photo ID"
     },
     {
-        "title":"How do I register for the hackathon? ",
-        "desc":"Just some enthusiasm andan open mind are enough. We don't charge any money!!"
+        "title":"Will there be food?",
+        "desc":"Yes, food and beverages will be provided throughout the event."
     },
     {
-        "title":"How do I register for the hackathon? ",
-        "desc":"Just some enthusiasm andan open mind are enough. We don't charge any money!!"
+        "title":"Who will be judging? ",
+        "desc":"The judge panel composition will be announced closer to the date of the SprintHacks"
     },
     {
-        "title":"How do I register for the hackathon? ",
-        "desc":"Just some enthusiasm andan open mind are enough. We don't charge any money!!"
+        "title":"Why would someone participate in a hackathon?",
+        "desc":"People participate in hackathons for lots of reason: the challenge, the creative outlet, the community collaboration, the networking, the swag…"
     }
 ]

@@ -63,6 +63,17 @@ code {
   .race{
     width: 0px !important;
   }
+  .image_about{
+    position: relative;
+    right: 100px;
+    z-index: 0;
+    align-items: center;
+   
+  }
+  .nav_nav{
+    z-index: 19;
+  }
+
  
   
 }
@@ -433,14 +444,7 @@ margin-right: 200px;
     font-size: large;
     margin-right: 0px;
   }
-  /* .menu{
-    visibility: visible;
-     padding-left: 323px;;
-   position: fixed;
-  } */
-  /* .listtt{
-    visibility: hidden;
-  } */
+
 }
 @media only screen and (max-width: 1150px) {
   .navbar_ul{
@@ -455,7 +459,7 @@ margin-right: 200px;
     justify-content: center;
   }
   .image_about {
-    left: 100px;
+      left: -186px;
   }
 
 }
@@ -508,7 +512,6 @@ margin-right: 200px;
     padding-top: 84px;
   }
   .star_right_2 {
-    /* visibility: hidden; */
     padding-top: 50px;
   }
 }
@@ -543,7 +546,7 @@ margin-right: 200px;
   transition-delay: 0.2s;
 }
 .meet{
-  background-color: aliceblue;
+  
   padding: 1rem;
   
 }
