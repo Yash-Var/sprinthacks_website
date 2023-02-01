@@ -29,7 +29,7 @@ const Navbar = () => {
     <>
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-3 text-white">
         <img src={Dsc_logo} alt="logo " className="logo_dsc" />
-        <ul className="hidden md:flex">
+        <ul className="hidden md:flex ul_navbar">
           <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text">
             <a href="">Home</a>
           </li>
@@ -52,7 +52,7 @@ const Navbar = () => {
             <a href="www.google.com ">Contact Us</a>
           </li>
         </ul>
-        <div onClick={handleNav} className="block md:hidden z-20">
+        <div onClick={handleNav} className="block md:hidden z-20 menu_top">
           {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
         <div
@@ -62,9 +62,8 @@ const Navbar = () => {
               : "fixed right-[-100%]"
           }
         >
-          <center>
-            <img src={Vector} alt="vector" className="pt-4" />
-          </center>
+          <img src={Vector} alt="vector" className="pt-4 ml-10" />
+
           <ul className="uppercase p-4">
             <li className="p-4 border-b border-gray-600">
               <a href="www.google.com">Home</a>

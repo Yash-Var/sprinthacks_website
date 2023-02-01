@@ -1,8 +1,9 @@
 /* Testimonial Section css start */
 .test-head {
     text-align: center;
-    padding: 4% 2% 10% 2%;
-    margin: 5%;
+    padding: -4% 2% 10% 2%;
+    margin: 0%;
+    /* margin-bottom: 0; */
 }
 
 .swiper {

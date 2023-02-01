@@ -36,6 +36,44 @@ code {
   content: "• ";
 }
 
+@media only screen and (max-width: 1050px) {
+  .logo_dsc{
+    width: 250px !important;
+  }
+  .navbar_text{
+    font-size: large;
+  }
+  .ul_navbar{
+    padding-right: 150px;
+  }
+}
+@media only screen and (max-width: 814px) {
+  .logo_dsc{
+    width: 200px !important;
+  }
+  .navbar_text{
+    font-size: small;
+  }
+  
+}
+@media only screen and (max-width: 766px) {
+  .logo_dsc{
+    width: 300px !important;
+  }
+  .race{
+    width: 0px !important;
+  }
+ 
+  
+}
+@media only screen and (max-width: 850px) {
+  .logo_dsc{
+    width: 200px;
+  }
+  .navbar_text{
+    font-size: large;
+  }
+}
 
 @media only screen and (max-width: 1000px) {
   
@@ -198,6 +236,9 @@ code {
   .image_hero {
     visibility: hidden;
   }
+  .logo_dsc{
+    width: 300px;
+  }
 }
 
 @media only screen and (max-width: 530px) {
@@ -308,9 +349,21 @@ code {
     visibility: hidden;
   }
 }
+@media only screen and (max-width: 1200px) {
+ .navbar_text{
+  font-size: large !important;
+ }
+ .logo_dsc{
+  width: 350px;
+ }
+ .ul_navbar{
+margin-right: 200px;
+ }
+}
+
 @media only screen and (max-width: 1480px) {
   .image_about {
-    left: 200px;
+    left: 200px ;
   }
   .hero_text {
     font-size: 60px;
@@ -493,4 +546,10 @@ margin-right: 200px;
   background-color: aliceblue;
   padding: 1rem;
   
+}
+
+@media only screen and (max-width: 1370px) {
+  .image_hero{
+    visibility: hidden;
+  }
 }
