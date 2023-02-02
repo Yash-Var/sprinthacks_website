@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/todoapp/static/css/main.ea0394ae.css",
+    "main.js": "/todoapp/static/js/main.788e384c.js",
+    "static/media/Sallyyy.png": "/todoapp/static/media/Sallyyy.533da296498f86654cd8.png",
+    "static/media/Henry.png": "/todoapp/static/media/Henry.8532a9365bf9cc448f37.png",
+    "static/media/FAQ.png": "/todoapp/static/media/FAQ.0c8684fca7dbab228ac9.png",
+    "static/media/crrr.png": "/todoapp/static/media/crrr.3cc842a760546a106b54.png",
+    "static/media/bank.png": "/todoapp/static/media/bank.3921234c558b5ffc5c5f.png",
+    "static/media/e-books.png": "/todoapp/static/media/e-books.7355c11fb808880066a0.png",
+    "static/media/bitcoin.png": "/todoapp/static/media/bitcoin.8ea7aa452edc70dc79d1.png",
+    "static/media/s.png": "/todoapp/static/media/s.4d6824e539355d9af3c9.png",
+    "static/media/DSC_logo_name.png": "/todoapp/static/media/DSC_logo_name.d377af4228b910f25f5e.png",
+    "static/media/Ellipse.png": "/todoapp/static/media/Ellipse.af777b94ed8c78aba35c.png",
+    "index.html": "/todoapp/index.html",
+    "main.ea0394ae.css.map": "/todoapp/static/css/main.ea0394ae.css.map",
+    "main.788e384c.js.map": "/todoapp/static/js/main.788e384c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea0394ae.css",
+    "static/js/main.788e384c.js"
+  ]
+}
