@@ -2,7 +2,7 @@
   "name": "sprinthacks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yash-var.github.io/SprintHacks-Website/", 
+  "homepage": "https://yash-var.github.io/todoapp/", 
   "dependencies": {
     "@fontsource/staatliches": "^4.5.9",
     "@testing-library/jest-dom": "^5.16.5",
