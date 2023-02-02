@@ -260,7 +260,7 @@ code {
     margin-right: 400px;
   }
   .image_hero {
-    visibility: hidden;
+    display: none;
   }
   .logo_dsc{
     width: 300px;
