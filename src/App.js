@@ -28,7 +28,7 @@ const App = () => {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              className="w-[80vw] h-[30vw] p-7 "
+              className="w-[80vw] h-[30vw] p-7 map "
             ></iframe>
           </center>
         </div>

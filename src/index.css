@@ -378,6 +378,9 @@ code {
   .image_hero {
     visibility: hidden;
   }
+  .contact-icon{
+ padding-top:  1.2rem;;
+  }
 }
 @media only screen and (max-width: 1200px) {
  .navbar_text{
@@ -501,6 +504,13 @@ margin-right: 200px;
     width: 400px;
   }
   .content_about {
+    width: 400px;
+  }
+  .map{
+    height: 56vw !important;
+    width: 97vw !important;
+  }
+  .faq_line{
     width: 400px;
   }
 }
@@ -639,6 +649,18 @@ width: 300px;
  .dev{
   margin-right: 269px;
  }
+ .map{
+  height: 60vh !important;
+  width: 102vw !important;
+ }
+ .contact-icon{
+  padding-top: 2rem;
+  font-size: large;
+ }
+ .text_contact{
+  font-size: x-large;
+  white-space: nowrap;
+ }
 }
 @media only screen and (max-width: 464px) {
 
@@ -695,6 +717,9 @@ margin-right: 86px;
 .menu_top{
   margin-right: 0px;
 }
+.cont{
+  margin-left: 2rem;
+}
 }
 @media only screen and (max-width: 400px) {
 .menu_top{
@@ -707,6 +732,20 @@ margin-right: 86px;
 @media only screen and (max-width: 360px) {
 .menu_top{
   margin-right: 35px;
+}
+
+}
+@media only screen and (max-width: 888px) {
+.map{
+  height: 35vw;
+  width: 87vw;
+}
+
+}
+@media only screen and (max-width: 700px) {
+.map{
+  height: 47vw;
+ 
 }
 
 }
