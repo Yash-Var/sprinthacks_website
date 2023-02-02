@@ -9,7 +9,9 @@ const Home = () => {
   return (
     <div className="flex  overflow-hidden">
       <div className="">
-        <Navbar />
+        <div className="">
+          <Navbar />
+        </div>
         <Hero />
       </div>
 

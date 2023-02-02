@@ -10,7 +10,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <div className="bg-newcolor py-10">
+      <div className="bg-newcolor py-10 ">
         <nav className="flex justify-around ">
           <div>
             <div className="flex image_navbar ">

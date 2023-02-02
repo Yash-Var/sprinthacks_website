@@ -610,3 +610,105 @@ width: 300px;
     visibility: hidden;
   }
 }
+@media only screen and (max-width: 600px) {
+ .hero{
+  margin-left: 31px;
+ }
+ .hero_text{
+  padding-right: 304px;
+ }
+ .hero_text_2{
+  padding-right: 301px;
+ }
+ .dev{
+  margin-right: 241px;
+ }
+}
+@media only screen and (max-width: 454px) {
+ .main{
+  max-width: 230%;
+  padding-top: 37px;
+ }
+ .hero_text{
+  white-space: nowrap;
+  font-size: 38px;
+ }
+ .hero{
+  margin-left: -16px;
+ }
+ .dev{
+  margin-right: 269px;
+ }
+}
+@media only screen and (max-width: 464px) {
+
+ .hero{
+  margin-left: -6px;
+ }
+ .dev{
+  margin-right: 269px;
+ }
+}
+@media only screen and (max-width: 414px) {
+.main{
+  margin-left: -47px;
+}
+.hero_text_2{
+  font-size: 34px;
+}
+ .hero{
+  margin-left: -6px;
+ }
+ .dev{
+  margin-right: 356px;
+ }
+}
+@media only screen and (max-width: 365px) {
+.main{
+ 
+  max-width: 212%;
+padding-top: 37px;
+margin-right: 86px;
+}
+.hero_text_3{
+  white-space: nowrap;
+}
+.hero_text_2{
+  font-size: 34px;
+}
+ .hero{
+  margin-left: -6px;
+ }
+ .hero_text{
+  ont-size: 37px;
+ }
+ .dev{
+  margin-right: 356px;
+ }
+}
+@media only screen and (max-width: 500px) {
+.menu_top{
+  margin-right: 50px;
+}
+}
+@media only screen and (max-width: 454px) {
+.menu_top{
+  margin-right: 0px;
+}
+}
+@media only screen and (max-width: 400px) {
+.menu_top{
+  margin-right: 25px;
+}
+.logo_dsc{
+  width: 250px !important;
+}
+}
+@media only screen and (max-width: 360px) {
+.menu_top{
+  margin-right: 35px;
+}
+
+}
+
+
