@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea0394ae.css",
-    "main.js": "/static/js/main.e90a74f6.js",
-    "static/media/Sallyyy.png": "/static/media/Sallyyy.533da296498f86654cd8.png",
-    "static/media/Henry.png": "/static/media/Henry.8532a9365bf9cc448f37.png",
-    "static/media/FAQ.png": "/static/media/FAQ.0c8684fca7dbab228ac9.png",
-    "static/media/crrr.png": "/static/media/crrr.3cc842a760546a106b54.png",
-    "static/media/bank.png": "/static/media/bank.3921234c558b5ffc5c5f.png",
-    "static/media/e-books.png": "/static/media/e-books.7355c11fb808880066a0.png",
-    "static/media/bitcoin.png": "/static/media/bitcoin.8ea7aa452edc70dc79d1.png",
-    "static/media/s.png": "/static/media/s.4d6824e539355d9af3c9.png",
-    "static/media/DSC_logo_name.png": "/static/media/DSC_logo_name.d377af4228b910f25f5e.png",
-    "static/media/Ellipse.png": "/static/media/Ellipse.af777b94ed8c78aba35c.png",
-    "index.html": "/index.html",
-    "main.ea0394ae.css.map": "/static/css/main.ea0394ae.css.map",
-    "main.e90a74f6.js.map": "/static/js/main.e90a74f6.js.map"
+    "main.css": "/SprintHacks-Website/static/css/main.ea0394ae.css",
+    "main.js": "/SprintHacks-Website/static/js/main.8e6af42d.js",
+    "static/media/Sallyyy.png": "/SprintHacks-Website/static/media/Sallyyy.533da296498f86654cd8.png",
+    "static/media/Henry.png": "/SprintHacks-Website/static/media/Henry.8532a9365bf9cc448f37.png",
+    "static/media/FAQ.png": "/SprintHacks-Website/static/media/FAQ.0c8684fca7dbab228ac9.png",
+    "static/media/crrr.png": "/SprintHacks-Website/static/media/crrr.3cc842a760546a106b54.png",
+    "static/media/bank.png": "/SprintHacks-Website/static/media/bank.3921234c558b5ffc5c5f.png",
+    "static/media/e-books.png": "/SprintHacks-Website/static/media/e-books.7355c11fb808880066a0.png",
+    "static/media/bitcoin.png": "/SprintHacks-Website/static/media/bitcoin.8ea7aa452edc70dc79d1.png",
+    "static/media/s.png": "/SprintHacks-Website/static/media/s.4d6824e539355d9af3c9.png",
+    "static/media/DSC_logo_name.png": "/SprintHacks-Website/static/media/DSC_logo_name.d377af4228b910f25f5e.png",
+    "static/media/Ellipse.png": "/SprintHacks-Website/static/media/Ellipse.af777b94ed8c78aba35c.png",
+    "index.html": "/SprintHacks-Website/index.html",
+    "main.ea0394ae.css.map": "/SprintHacks-Website/static/css/main.ea0394ae.css.map",
+    "main.8e6af42d.js.map": "/SprintHacks-Website/static/js/main.8e6af42d.js.map"
   },
   "entrypoints": [
     "static/css/main.ea0394ae.css",
-    "static/js/main.e90a74f6.js"
+    "static/js/main.8e6af42d.js"
   ]
 }
