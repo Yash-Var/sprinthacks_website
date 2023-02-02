@@ -21,11 +21,12 @@ const About = () => {
           </div>
         </div>
         <div className="abouttext font-semibold text-white w-[600px] text-4xl mr-48 content-center content_about">
-          SprintHacks is a 18 hour offline hackathon organized by Developers
-          Student Circuit with endless creativity. Students are challenged to
-          further what they know by creating projects following their passions.
-          Spending time on projects outside the classroom is the best way to not
-          only learn what you love, but also find new interests.
+          SprintHacks is an 18-hour hackathon organized by the Developer Student
+          Circuit with endless creativity. The focus is on innovation and
+          creativity as participants work together to develop unique solutions
+          using the latest technology. With opportunities for networking and
+          exciting prizes, this hackathon challenges participants to push their
+          limits and create the next innovative product.
         </div>
       </div>
     </div>
