@@ -42,7 +42,7 @@ export default function Themes() {
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
-          delay: 2000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         modules={[Navigation]}
