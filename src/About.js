@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="overflow-hidden" id="About">
       <div>
-        <h1 className="main text-center text-7xl text-white uppercase p-8">
+        <h1 className="main text-center text-7xl text-white uppercase p-8 main_heading">
           About us
         </h1>
       </div>

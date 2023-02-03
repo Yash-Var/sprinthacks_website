@@ -1,7 +1,6 @@
-/* Testimonial Section css start */
 .test-head {
   text-align: center;
-  padding: 4% 2% 10% 2%;
+  padding: -4% 2% 10% 2%;
   margin: 5%;
 }
 
@@ -42,6 +41,7 @@
   /* background-color: #f9f9ff; */
   width: 100%;
   margin: 15%;
+  /* box-shadow: 40px 20px 20px 10px grey; */
 }
 
 
@@ -49,7 +49,7 @@
   text-align: left;
 
   margin-left: 20px;
-  margin-top: 20px;
+  /* margin-top: auto; */
 }
 
 .slide-p1 {
@@ -67,18 +67,34 @@
 }
 
 .slide-img {
-  width: 100vw;
-  height: 60vh;
-  /* margin-right: 1.5% */
+  width: 120vw;
+  height: 300px;
+  /* margin-top: 1%;   */
 }
 
 /* .home-text{
   margin: 0;
 } */
 
+@media only screen and (max-width: 1940px) {
+  .slide-img {
+      width:100vw;
+      height: 35rem;
+      margin-top: auto;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .slide-img {
+      width: 100vw;
+      height: 22rem;
+      margin-top: auto;
+  }
+}
+
 @media only screen and (max-width: 1120px) {
   .slide-img {
-      width: 300vw;
+      width: 200vw;
       height: 60vh;
       margin-top: auto;
   }
@@ -90,7 +106,8 @@
       height: 60vh;
       margin-top: 15%;
   }
-  .slide-content{
+
+  .slide-content {
       margin-top: 0%;
   }
 }
@@ -105,8 +122,15 @@
   }
 
   .slide-img {
-      width: 80vw;
-      height: 40vh;
+      width: 100%;
+      height: 60vh;
       /* height: 30vh; */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .slide-img {
+      width: 80vw;
+      height: 60vh;
   }
 }

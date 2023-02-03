@@ -38,7 +38,7 @@ const App = () => {
               Meet our team
             </h1>
           </a>
-          <i class="fa-solid fa-arrow-pointer text-2xl text-white pt-4 pl-1"></i>
+          <i class="fa-solid fa-arrow-pointer text-2xl text-white pt-4 pl-1 icon"></i>
         </div>
         <Contact />
       </div>

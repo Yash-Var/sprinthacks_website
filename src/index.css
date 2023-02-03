@@ -381,6 +381,10 @@ code {
   .contact-icon{
  padding-top:  1.2rem;;
   }
+  .icon{
+
+    padding-top: 2.5rem;
+  }
 }
 @media only screen and (max-width: 1200px) {
  .navbar_text{
@@ -528,6 +532,21 @@ width: 300px;
   .image_about_2{
     /* display: none; */
     
+  }
+  .content_about{
+    font-size: large;
+    /* padding: 2rem; */
+    padding-left: 3rem;
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  .main_heading{
+    font-size: 4rem;
+  }
+  .sp_text{
+    font-size: 3rem;
+line-height: 1;
+margin-top: -1rem;
   }
 }
 @media only screen and (max-width: 466px) {
@@ -749,5 +768,58 @@ margin-right: 86px;
 }
 
 }
+@media only screen and (max-width: 450px) {
+.contact-icon{
+  padding-top: 2.5rem;
+}
 
+}
+@media only screen and (max-width: 370px) {
+.text_contact{
+  font-size: 1rem;
+}
+.main_heading{
+  font-size: 3rem;
+padding-left: 8rem;
+white-space: nowrap;
+}
+.content_about{
+  font-size: 0.7rem;
+ 
+}
+.contact-icon{
+  padding-left: 0px;
+  height: 4rem;
+  width: 5rem;
+  
+}
 
+}
+@media only screen and (max-width: 365px) {
+.content_about{
+  font-size: 5rem;
+}
+
+}
+@media only screen and (max-width: 406px) {
+.track{
+  /* margin-left: 0px; */
+  font-size: 2rem;
+margin-left: 93px;
+}
+.track-card{
+  padding-left: 5rem;
+}
+
+}
+@media only screen and (max-width: 454px) {
+.track{
+  /* margin-left: 0px; */
+  font-size: 2rem;
+margin-left: 93px;
+}
+.icon{
+  margin-top: 1rem;
+}
+
+}
