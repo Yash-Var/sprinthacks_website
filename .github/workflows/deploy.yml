@@ -21,7 +21,7 @@ jobs:
       - name: Generate build
         run: npm run build
   deploy:
-      needs : build
+#       needs : build
       runs-on: ubuntu-latest
       steps:
       - name: Deploy to Netlify
