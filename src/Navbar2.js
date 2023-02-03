@@ -112,7 +112,7 @@ const Navbar = () => {
               : "fixed right-[-100%] nav_nav"
           }
         >
-          <img src={Vector} alt="vector" className="pt-4 ml-10" />
+          <img src={Vector} alt="vector" className="pt-4 ml-10 invisible" />
 
           <ul className="uppercase p-4">
             <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
