@@ -85,6 +85,21 @@ code {
     font-size: large;
   }
 }
+@media only screen and (max-width: 1700px) {
+  .faq{
+    width: 650px;
+  }
+  
+}
+@media only screen and (max-width: 1550px) {
+  .faq{
+    width: 600px;
+  }
+  .image_faq{
+    width: 1000px;
+  }
+  
+}
 
 @media only screen and (max-width: 1000px) {
   
@@ -245,7 +260,7 @@ code {
     margin-right: 400px;
   }
   .image_hero {
-    visibility: hidden;
+    display: none;
   }
   .logo_dsc{
     width: 300px;
@@ -345,19 +360,30 @@ code {
 @media only screen and (max-width: 1500px) {
   .faq {
     margin-left: 10px;
-    width: 1400px;
+    width: 550px;
   }
   .image_faq {
     /* visibility: hidden; */
-    padding-left: 50px;
+    /* padding-left: 50px; */
   }
-  .faq_line {
-    width: 1400px;
+  .faq_question{
+    width:400px
   }
+  .image_faq{
+    padding-left: 11rem;
+  }
+ 
 }
 @media only screen and (max-width: 1250px) {
   .image_hero {
     visibility: hidden;
+  }
+  .contact-icon{
+ padding-top:  1.2rem;;
+  }
+  .icon{
+
+    padding-top: 2.5rem;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -372,7 +398,7 @@ margin-right: 200px;
  }
 }
 
-@media only screen and (max-width: 1480px) {
+@media only screen and (max-width: 1484px) {
   .image_about {
     left: 200px ;
   }
@@ -382,7 +408,19 @@ margin-right: 200px;
   .hero_text_2 {
     font-size: 50px;
   }
+  .abouttext{
+    font-size: 1.40rem;
+  }
 }
+@media only screen and (max-width: 1464px) {
+  .image_about {
+    left: 200px ;
+  }
+  .abouttext{
+    font-size: 1.40rem;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .image_about {
     left: 150px;
@@ -459,7 +497,9 @@ margin-right: 200px;
     justify-content: center;
   }
   .image_about {
-      left: -186px;
+    position: relative;
+    left: -250px;
+      /* left: -186px; */
   }
 
 }
@@ -470,20 +510,63 @@ margin-right: 200px;
   .content_about {
     width: 400px;
   }
-}
-@media only screen and (max-width: 460px) {
-  .image_about {
-    width: 300px;
-    left: 50px;
+  .map{
+    height: 56vw !important;
+    width: 97vw !important;
   }
-  .content_about {
-    width: 300px;
+  .faq_line{
+    width: 400px;
   }
 }
+@media only screen and (max-width: 466px) {
+  .faq{
+width: 300px !important;
+  }
+  .faq_question{
+width: 300px;
+  }
+  .image_about{
+    width: 50vw;
+    /* left: -300px; */
+  }
+  .image_about_2{
+    /* display: none; */
+    
+  }
+  .content_about{
+    font-size: large;
+    /* padding: 2rem; */
+    padding-left: 3rem;
+    text-align: justify;
+  text-justify: inter-word;
+  }
+  .main_heading{
+    font-size: 4rem;
+  }
+  .sp_text{
+    font-size: 3rem;
+line-height: 1;
+margin-top: -1rem;
+  }
+}
+@media only screen and (max-width: 466px) {
+  .faq{
+width: 300px !important;
+  }
+  .faq_question{
+width: 300px;
+  }
+  .image_about{
+    width: 300px;
+    left: -264px;
+  }
+  
+}
+
 @media only screen and (max-width: 350px) {
   .image_about {
     width: 250px;
-    left: 50px;
+    left: -264px;
   }
   .content_about {
     width: 250px;
@@ -555,4 +638,188 @@ margin-right: 200px;
   .image_hero{
     visibility: hidden;
   }
+}
+@media only screen and (max-width: 600px) {
+ .hero{
+  margin-left: 31px;
+ }
+ .hero_text{
+  padding-right: 304px;
+ }
+ .hero_text_2{
+  padding-right: 301px;
+ }
+ .dev{
+  margin-right: 241px;
+ }
+}
+@media only screen and (max-width: 454px) {
+ .main{
+  max-width: 230%;
+  padding-top: 37px;
+ }
+ .hero_text{
+  white-space: nowrap;
+  font-size: 38px;
+ }
+ .hero{
+  margin-left: -16px;
+ }
+ .dev{
+  margin-right: 269px;
+ }
+ .map{
+  height: 60vh !important;
+  width: 102vw !important;
+ }
+ .contact-icon{
+  padding-top: 2rem;
+  font-size: large;
+ }
+ .text_contact{
+  font-size: x-large;
+  white-space: nowrap;
+ }
+}
+@media only screen and (max-width: 464px) {
+
+ .hero{
+  margin-left: -6px;
+ }
+ .dev{
+  margin-right: 269px;
+ }
+}
+@media only screen and (max-width: 414px) {
+.main{
+  margin-left: -47px;
+}
+.hero_text_2{
+  font-size: 34px;
+}
+ .hero{
+  margin-left: -6px;
+ }
+ .dev{
+  margin-right: 356px;
+ }
+}
+@media only screen and (max-width: 365px) {
+.main{
+ 
+  max-width: 212%;
+padding-top: 37px;
+margin-right: 86px;
+}
+.hero_text_3{
+  white-space: nowrap;
+}
+.hero_text_2{
+  font-size: 34px;
+}
+ .hero{
+  margin-left: -6px;
+ }
+ .hero_text{
+  ont-size: 37px;
+ }
+ .dev{
+  margin-right: 356px;
+ }
+}
+@media only screen and (max-width: 500px) {
+.menu_top{
+  margin-right: 50px;
+}
+}
+@media only screen and (max-width: 454px) {
+.menu_top{
+  margin-right: 0px;
+}
+.cont{
+  margin-left: 2rem;
+}
+}
+@media only screen and (max-width: 400px) {
+.menu_top{
+  margin-right: 25px;
+}
+.logo_dsc{
+  width: 250px !important;
+}
+}
+@media only screen and (max-width: 360px) {
+.menu_top{
+  margin-right: 35px;
+}
+
+}
+@media only screen and (max-width: 888px) {
+.map{
+  height: 35vw;
+  width: 87vw;
+}
+
+}
+@media only screen and (max-width: 700px) {
+.map{
+  height: 47vw;
+ 
+}
+
+}
+@media only screen and (max-width: 450px) {
+.contact-icon{
+  padding-top: 2.5rem;
+}
+
+}
+@media only screen and (max-width: 370px) {
+.text_contact{
+  font-size: 1rem;
+}
+.main_heading{
+  font-size: 3rem;
+padding-left: 8rem;
+white-space: nowrap;
+}
+.content_about{
+  font-size: 0.7rem;
+ 
+}
+.contact-icon{
+  padding-left: 0px;
+  height: 4rem;
+  width: 5rem;
+  
+}
+
+}
+@media only screen and (max-width: 365px) {
+.content_about{
+  font-size: 5rem;
+}
+
+}
+@media only screen and (max-width: 406px) {
+.track{
+  /* margin-left: 0px; */
+  font-size: 2rem;
+margin-left: 93px;
+}
+.track-card{
+  padding-left: 5rem;
+}
+
+}
+@media only screen and (max-width: 454px) {
+.track{
+  /* margin-left: 0px; */
+  font-size: 2rem;
+margin-left: 93px;
+}
+.icon{
+  margin-top: 1rem;
+}
+
 }

@@ -17,31 +17,32 @@ import OPEN from "./images/slideImage/s.png";
 SwiperCore.use([Autoplay]);
 
 export default function Themes() {
-  const [windowSize, setWindowSize] = React.useState(getWindowSize());
-  React.useEffect(() => {
-    function handleWindowResize() {
-      setWindowSize(getWindowSize());
-    }
-    window.addEventListener("resize", handleWindowResize);
+  // const [windowSize, setWindowSize] = React.useState(getWindowSize());
+  // React.useEffect(() => {
+  //   function handleWindowResize() {
+  //     setWindowSize(getWindowSize());
+  //   }
+  //   window.addEventListener("resize", handleWindowResize);
 
-    return () => {
-      window.removeEventListener("resize", handleWindowResize);
-    };
-  }, []);
-  function getWindowSize() {
-    const { innerWidth, innerHeight } = window;
-    return { innerWidth, innerHeight };
-  }
+  //   return () => {
+  //     window.removeEventListener("resize", handleWindowResize);
+  //   };
+  // }, []);
+  // function getWindowSize() {
+  //   const { innerWidth, innerHeight } = window;
+  //   return { innerWidth, innerHeight };
+  // }
   return (
     <section className="test-head">
       <div className="test-head-1">
         <h1 className="text-white text-7xl main ">Themes</h1>
       </div>
+
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
         autoplay={{
-          delay: 1000,
+          delay: 2000,
           disableOnInteraction: false,
         }}
         modules={[Navigation]}

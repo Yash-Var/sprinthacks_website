@@ -28,7 +28,7 @@ const App = () => {
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
-              className="w-[80vw] h-[30vw] p-7 "
+              className="w-[80vw] h-[30vw] p-7 map "
             ></iframe>
           </center>
         </div>
@@ -38,7 +38,7 @@ const App = () => {
               Meet our team
             </h1>
           </a>
-          <i class="fa-solid fa-arrow-pointer text-2xl text-white pt-4 pl-1"></i>
+          <i class="fa-solid fa-arrow-pointer text-2xl text-white pt-4 pl-1 icon"></i>
         </div>
         <Contact />
       </div>

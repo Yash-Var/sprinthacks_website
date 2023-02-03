@@ -10,18 +10,22 @@ import filecoin from "./images/filecoin.png";
 const Sponsors = () => {
   return (
     <div className="bg-newcolor" id="sponsor">
-      <div className="flex justify-center pt-16 pb-10">
-        <h1 className="text-white text-7xl main"> SPONSORS</h1>
+      <div className="flex justify-center pt-16 pb-10  max-[415px]:pb-5 max-[415px]:ml-5">
+        <h1 className="text-white text-7xl main max-[500px]:text-6xl max-[415px]:text-5xl">
+          SPONSORS
+        </h1>
       </div>
-      <div className="flex pt-16 pb-10 justify-around">
+      <div className="flex pt-16 pb-10 justify-around max-[415px]:pb-5 max-[415px]:pt-5">
         <img
           src={Line}
-          className="h-2 mt-7 mx-10 overflow-hidden max-md:mx-3"
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
         />
-        <h1 className="text-white text-6xl main">GOLD</h1>
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl  ">
+          GOLD
+        </h1>
         <img
           src={Line}
-          className="h-2 mt-7 mx-10 overflow-hidden max-md:mx-3"
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
         />
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10 ">
@@ -52,15 +56,17 @@ const Sponsors = () => {
           </div>
         </button>
       </div>
-      <div className="flex pt-10 pb-10 justify-evenly">
+      <div className="flex pt-10 pb-10 justify-evenly max-[415px]:pt-2">
         <img
           src={Line}
-          className="h-2 mt-7 mx-10 overflow-hidden max-md:mx-3"
+          className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
         />
-        <h1 className="text-white text-6xl main">SILVER</h1>
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl">
+          SILVER
+        </h1>
         <img
           src={Line}
-          className="h-2 mt-7 mx-10 overflow-hidden max-md:mx-3"
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
         />
       </div>
       <div className="flex  flex-wrap justify-center pt-10 pb-10 ">
@@ -89,7 +95,7 @@ const Sponsors = () => {
 
         <button
           type="button"
-          className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5"
+          className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-1"
         >
           <div className="flex space-x-2">
             <div>
@@ -102,17 +108,17 @@ const Sponsors = () => {
         </button>
       </div>
 
-      <div className="flex pt-10 pb-20 justify-evenly">
+      {/* <div className="flex pt-10 pb-20 max-[500px]:pb-10 max-[500px]:pt-5 justify-evenly">
         <img
           src={Line}
-          className="h-2 mt-7 mx-10 overflow-hidden max-md:mx-3"
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9"
         />
-        <h1 className="text-white text-6xl main">BRONZE</h1>
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl">BRONZE</h1>
         <img
           src={Line}
-          className="h-2 mt-7 mx-10 overflow-hidden max-md:mx-3"
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

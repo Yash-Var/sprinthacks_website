@@ -19,7 +19,7 @@ const Hero = () => {
               SprintHacks 2023
             </h1>
             <h1 className="navbar text-white hero_text_2 text-6xl">
-              9TH FEB - 10TH FEB'23
+              Revealing Soon....
             </h1>
             <button className="bg-white rounded dev px-4 py-4">
               <div className="flex space-x-4">

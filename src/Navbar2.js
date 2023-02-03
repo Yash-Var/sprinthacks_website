@@ -27,7 +27,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-3 text-white">
+      <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-3 text-white ">
         <img src={Dsc_logo} alt="logo " className="logo_dsc" />
         <ul className="hidden md:flex ul_navbar">
           <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
