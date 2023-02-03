@@ -4,7 +4,7 @@ function Prize() {
   return (
     <div className="overflow-hidden" id="prizes">
       <div>
-        <h1 className="main text-center text-7xl text-white uppercase p-8 prizes_">
+        <h1 className="main text-center text-7xl text-white uppercase p-8">
           PRIZES
         </h1>
       </div>
