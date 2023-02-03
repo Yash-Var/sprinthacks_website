@@ -5,6 +5,9 @@
 .navbar {
   font-family: "Staatliches", cursive;
 }
+.track_content{
+  white-space: nowrap;
+}
 .ReactCollapse--collapse {
   transition: height 500ms;
 }
@@ -34,25 +37,6 @@ code {
 
 .list li:before {
   content: "• ";
-}
-.hero_{
-  margin-top: 2rem;
-}
-.hero_text_{
-  font-size: 4rem;
-}
-.hero_main_{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@media only screen and (max-width: 1250px) {
-   .hero_main_{
-    flex-direction: column;
-   }
-   .hero_{
-    margin: auto;
-   }
 }
 @media only screen and (max-width: 1050px) {
   .logo_dsc{
@@ -137,23 +121,21 @@ code {
     flex-direction: column;
     justify-content: center;
   }
-  .border{
-    border: 2px solid white;
-  }
   .hero {
-  
-
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .hero_main {
     width: 800px;
     padding-left: 100px;
   }
+  .hero_text {
+    font-size: 500px;
 
+    /* background-color: antiquewhite; */
+    text-align: right;
+    padding-right: 200px;
+  }
   .hero_text_2 {
     font-size: 500px;
 
@@ -851,3 +833,26 @@ margin-left: 93px;
 }
 
 }
+@media only screen and (max-width: 366px) {
+.cont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 0;
+}
+.iconss{
+  justify-content: space-around;
+  margin-left: 0;
+}
+.icon{
+  visibility: none !important;
+}
+.meet_team{
+  margin-right: -2px;
+}
+.prizes_{
+  margin-left: 39px;
+  font-size: 4rem;
+}
+}
+

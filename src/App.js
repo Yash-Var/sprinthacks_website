@@ -34,11 +34,11 @@ const App = () => {
         </div>
         <div className="meet flex justify-center bg-newcolor">
           <a href="https://dsckiet.com/team">
-            <h1 className="text-white hover:underline hover:text-blue-500 main text-2xl">
+            <h1 className="text-white hover:underline meet_team hover:text-blue-500 main text-2xl">
               Meet our team
             </h1>
           </a>
-          <i class="fa-solid fa-arrow-pointer text-2xl text-white pt-4 pl-1 icon"></i>
+          {/* <i class="fa-solid fa-arrow-pointer text-2xl text-white pt-4 pl-1 icon"></i> */}
         </div>
         <Contact />
       </div>

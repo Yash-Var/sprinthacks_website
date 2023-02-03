@@ -11,7 +11,7 @@ const Sponsors = () => {
   return (
     <div className="bg-newcolor" id="sponsor">
       <div className="flex justify-center pt-16 pb-10  max-[415px]:pb-5 max-[415px]:ml-5">
-        <h1 className="text-white text-7xl main max-[500px]:text-6xl max-[415px]:text-5xl">
+        <h1 className="text-white text-7xl main max-[500px]:text-6xl max-[415px]:text-5xl prizes_">
           SPONSORS
         </h1>
       </div>
@@ -20,7 +20,7 @@ const Sponsors = () => {
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
         />
-        <h1 className="text-white text-6xl main max-[500px]:text-5xl  ">
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_  ">
           GOLD
         </h1>
         <img
@@ -61,7 +61,7 @@ const Sponsors = () => {
           src={Line}
           className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
         />
-        <h1 className="text-white text-6xl main max-[500px]:text-5xl">
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_">
           SILVER
         </h1>
         <img

@@ -5,7 +5,7 @@ function Tracks() {
     <div id="tracks">
       <div className="mx-auto sm:px-4 my-3 main text-center text-white w-screen">
         <div>
-          <h1 className="main text-center text-7xl text-white uppercase p-8 track">
+          <h1 className="main text-center text-7xl text-white track_content uppercase p-8 track">
             TRACK PRIZES
           </h1>
         </div>
