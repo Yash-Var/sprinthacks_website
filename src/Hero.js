@@ -24,7 +24,7 @@ const Hero = () => {
             <button className="bg-white rounded dev px-4 py-4">
               <div className="flex space-x-4">
                 <div>
-                  <img src={vector3} />
+                  <img src={vector3} className="dev_logo" />
                 </div>
                 <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
                   Apply with Devfolio

@@ -854,5 +854,28 @@ margin-left: 93px;
   margin-left: 39px;
   font-size: 4rem;
 }
+.faq_line{
+  width: 200px;
+}
+.faq{
+  width: 250px !important;
+}
+.faq_question{
+  width: 200px;
+}
+.image_about{
+  left: -20rem;
+}
+
+}
+@media only screen and (max-width: 360px) {
+  .dev{
+    margin-right: 32rem;
+  padding-right: -55rem;
+  width: 14rem;
+  }
+.dev_logo{
+  visibility: hidden !important;
+}
 }
 
