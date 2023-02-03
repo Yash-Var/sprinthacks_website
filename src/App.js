@@ -33,7 +33,7 @@ const App = () => {
           </center>
         </div>
         <div className="meet flex justify-center bg-newcolor">
-          <a href="https://dsckiet.com/team">
+          <a href="https://dsckiet.com/team" target="_blank">
             <h1 className="text-white hover:underline meet_team hover:text-blue-500 main text-2xl">
               Meet our team
             </h1>
