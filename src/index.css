@@ -35,7 +35,25 @@ code {
 .list li:before {
   content: "• ";
 }
-
+.hero_{
+  margin-top: 2rem;
+}
+.hero_text_{
+  font-size: 4rem;
+}
+.hero_main_{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media only screen and (max-width: 1250px) {
+   .hero_main_{
+    flex-direction: column;
+   }
+   .hero_{
+    margin: auto;
+   }
+}
 @media only screen and (max-width: 1050px) {
   .logo_dsc{
     width: 250px !important;
@@ -119,21 +137,23 @@ code {
     flex-direction: column;
     justify-content: center;
   }
+  .border{
+    border: 2px solid white;
+  }
   .hero {
+  
+
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .hero_main {
     width: 800px;
     padding-left: 100px;
   }
-  .hero_text {
-    font-size: 500px;
 
-    /* background-color: antiquewhite; */
-    text-align: right;
-    padding-right: 200px;
-  }
   .hero_text_2 {
     font-size: 500px;
 
@@ -721,11 +741,18 @@ margin-right: 86px;
   margin-left: -6px;
  }
  .hero_text{
-  ont-size: 37px;
+  font-size: 37px;
  }
  .dev{
   margin-right: 356px;
  }
+ .content_about {
+  font-size: 1rem !important;
+ 
+  text-align: none !important;
+  text-justify: none !important;
+
+}
 }
 @media only screen and (max-width: 500px) {
 .menu_top{
@@ -746,6 +773,9 @@ margin-right: 86px;
 }
 .logo_dsc{
   width: 250px !important;
+}
+.prize1{
+  margin: 2rem !important;
 }
 }
 @media only screen and (max-width: 360px) {
@@ -776,7 +806,7 @@ margin-right: 86px;
 }
 @media only screen and (max-width: 370px) {
 .text_contact{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .main_heading{
   font-size: 3rem;
@@ -788,10 +818,8 @@ white-space: nowrap;
  
 }
 .contact-icon{
-  padding-left: 0px;
-  height: 4rem;
-  width: 5rem;
-  
+  height: 4.2rem;
+  width: 7
 }
 
 }

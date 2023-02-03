@@ -6,27 +6,25 @@ import group from "./images/Sallyyy.png";
 const Hero = () => {
   return (
     <div className="">
-      <div className="px-40 py-5 flex hero_main">
-        <div className="">
+      <div className="px-40 py-5 hero_main_">
+        <div>
           <img src={path268} className="pl-64 pt-8 " />
           <img src={group} className="main" />
           <img src={path268} className="pl-4 w-12  pt-8" />
         </div>
         <div>
           <img src={path26} className="pl-[650px] star_right" />
-          <div className="flex-col text-right pt-52 hero pl-0 space-y-4">
-            <h1 className="main text-white text-7xl hero_text whitespace-nowrap ab">
-              SprintHacks 2023
-            </h1>
-            <h1 className="navbar text-white hero_text_2 text-6xl">
+          <div className="flex-col text-right mt-4 hero_ pl-0 space-y-4">
+            <div className="main text-white hero_text_">SprintHacks 2023</div>
+            <h1 className="navbar text-white hero_text_2_ text-6xl">
               Revealing Soon....
             </h1>
-            <button className="bg-white rounded dev px-4 py-4">
+            <button className="devfolio_button bg-white rounded px-4 py-4">
               <div className="flex space-x-4">
                 <div>
                   <img src={vector3} />
                 </div>
-                <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
+                <h1 className="text-xl hero_text_3_ font-mono pt-1 text-gray-800 ">
                   Apply with Devfolio
                 </h1>
               </div>
