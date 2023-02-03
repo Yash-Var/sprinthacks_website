@@ -16,7 +16,7 @@ const Accordian = ({ open, toggle, title, desc }) => {
         </div>
       </h1>
       <Collapse isOpened={open}>
-        <div className="bg-newcolor text-2xl ml-14 w-[750px] faq_question ">
+        <div className="bg-newcolor text-2xl ml-14 w-[500px] faq_question ">
           {desc}
         </div>
       </Collapse>
