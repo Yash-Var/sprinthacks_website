@@ -1,14 +1,14 @@
 import React from "react";
-import Contact from "./Contact";
-import Sponsors from "./Sponsors";
-import Faq from "./Faq";
-import Tracks from "./Tracks";
-import About from "./About";
-import Home from "./Home";
-import Prize from "./Prize";
-import Themes from "./Themes";
-import Hero from "./Hero";
-import Navbar from "./Navbar2";
+import Contact from "./component/Contact";
+import Sponsors from "./component/Sponsors";
+import Faq from "./component/Faq";
+import Tracks from "./component/Tracks";
+import About from "./component/About";
+import Home from "./component/Home";
+import Prize from "./component/Prize";
+import Themes from "./component/Themes";
+import Hero from "./component/Hero";
+import Navbar from "./component/Navbar2";
 const App = () => {
   return (
     <div>

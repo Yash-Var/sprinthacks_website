@@ -3,7 +3,7 @@ import Hero from "./Hero";
 
 import Navbar from "./Navbar2";
 
-import group from "./images/Race-track.png";
+import group from "../assests/images/Race-track.png";
 
 const Home = () => {
   return (

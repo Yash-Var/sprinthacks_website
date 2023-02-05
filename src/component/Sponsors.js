@@ -1,11 +1,11 @@
 import React from "react";
-import Line from "./images/Line 1.png";
-import Devfolio from "./images/Devfolio.png";
-import Polygon from "./images/polygon.png";
-import Solana from "./images/Solana1.png";
-import Replit1 from "./images/replit1.png";
-import Replit2 from "./images/replit2.png";
-import filecoin from "./images/filecoin.png";
+import Line from "../assests/images/Line 1.png";
+import Devfolio from "../assests/images/Devfolio.png";
+import Polygon from "../assests/images/polygon.png";
+import Solana from "../assests/images/Solana1.png";
+import Replit1 from "../assests/images/replit1.png";
+import Replit2 from "../assests/images/replit2.png";
+import filecoin from "../assests/images/filecoin.png";
 
 const Sponsors = () => {
   return (

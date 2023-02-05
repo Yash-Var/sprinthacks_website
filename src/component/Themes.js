@@ -1,18 +1,18 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import "./App.css";
+import "../css/theme.css";
 
 import SwiperCore, { Autoplay } from "swiper";
 
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import React from "react";
-import Fintech from "./images/slideImage/bank.png";
-import Healthcare from "./images/slideImage/crrr.png";
-import Edtech from "./images/slideImage/e-books.png";
-import WEB from "./images/slideImage/bitcoin.png";
-import OPEN from "./images/slideImage/s.png";
+import Fintech from "../assests/images/slideImage/bank.png";
+import Healthcare from "../assests/images/slideImage/crrr.png";
+import Edtech from "../assests/images/slideImage/e-books.png";
+import WEB from "../assests/images/slideImage/bitcoin.png";
+import OPEN from "../assests/images/slideImage/s.png";
 
 SwiperCore.use([Autoplay]);
 

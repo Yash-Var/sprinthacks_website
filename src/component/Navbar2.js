@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { RiOpenSourceFill } from "react-icons/ri";
 import { Link } from "react-scroll";
-import Dsc_logo from "./images/DSC_logo_name.png";
-import Vector from "./images/Vector.png";
+import Dsc_logo from "../assests/images/DSC_logo_name.png";
+import Vector from "../assests/images/Vector.png";
 // import { Link } from "react-router-dom";
 const Navbar = () => {
   const [size, setSize] = useState(window.innerWidth);

@@ -1,7 +1,7 @@
 import Reacts from "react";
-import data from "./Data.json";
+import data from "../assests/data/Data.json";
 import Accordian from "./Accordian";
-import faq from "./images/FAQ.png";
+import faq from "../assests/images/FAQ.png";
 import { useState } from "react";
 
 const Faq = () => {

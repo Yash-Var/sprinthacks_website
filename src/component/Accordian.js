@@ -2,7 +2,7 @@ import React from "react";
 import { Collapse } from "react-collapse";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
-import line from "./images/Line 1.png";
+import line from "../assests/images/Line 1.png";
 const Accordian = ({ open, toggle, title, desc }) => {
   return (
     <div className="flex-col space-y-4">
