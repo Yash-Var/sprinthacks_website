@@ -34,7 +34,7 @@ export default function Themes() {
   // }
   const theme = {
     Healthcare: {
-      img: Healthcare,
+      img: OPEN,
       content:
         "The Healthcare theme of this hackathon provides a platform for individuals to develop innovative solutions that tackle challenges in the healthcare industry. Participants will have the opportunity to use technology to improve patient outcomes, streamline medical processes, and enhance overall healthcare delivery.",
     },
@@ -54,7 +54,7 @@ export default function Themes() {
         "The Web3 theme of this hackathon is dedicated to exploring the potential of decentralized technology and its impact on the future of the internet. Participants will have the opportunity to build and showcase their solutions that harness the power of decentralized systems to improve privacy, security, and ownership of data.",
     },
     OpenInnovation: {
-      img: OPEN,
+      img: Healthcare,
       content:
         "The Open Innovation theme of this hackathon invites participants to explore new ways of problem-solving and collaboration. This theme encourages individuals to work together, share ideas, and bring innovative solutions to life. Participants will have the opportunity to develop their solutions with the support of a diverse community, utilizing a range of technologies and approaches.",
     },
