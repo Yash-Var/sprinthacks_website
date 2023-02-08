@@ -68,7 +68,7 @@ const Navbar = () => {
               Tracks
             </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+          {/* <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link
               to="faqs"
               spy={true}
@@ -78,8 +78,8 @@ const Navbar = () => {
             >
               Faqs
             </Link>
-          </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+          </li> */}
+          {/* <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link
               to="sponsor"
               spy={true}
@@ -89,7 +89,7 @@ const Navbar = () => {
             >
               Sponsors
             </Link>
-          </li>
+          </li> */}
           <li className="p-4 text-2xl whitespace-nowrap  navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link
               to="contact"
@@ -162,7 +162,7 @@ const Navbar = () => {
                 Tracks
               </Link>
             </li>
-            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+            {/* <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
               <Link
                 to="faqs"
                 spy={true}
@@ -173,8 +173,8 @@ const Navbar = () => {
               >
                 Faqs
               </Link>
-            </li>
-            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+            </li> */}
+            {/* <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
               <Link
                 to="sponsor"
                 spy={true}
@@ -185,7 +185,7 @@ const Navbar = () => {
               >
                 Sponsors
               </Link>
-            </li>
+            </li> */}
             <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
               <Link
                 to="contact"
