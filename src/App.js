@@ -14,7 +14,6 @@ const App = () => {
     <div>
       <div className="bg-newcolor overflow-hidden">
         <Home />
-
         <About />
         <Themes />
         <Prize />
