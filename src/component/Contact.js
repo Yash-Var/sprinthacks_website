@@ -1,8 +1,8 @@
 import React from "react";
-import instagram from "./images/instagram.png";
-import linkedin from "./images/linkedin.png";
-import twitter from "./images/twitter.png";
-import mail from "./images/mail.png";
+import instagram from "../assests/images/instagram.png";
+import linkedin from "../assests/images/linkedin.png";
+import twitter from "../assests/images/twitter.png";
+import mail from "../assests/images/mail.png";
 
 const Contact = () => {
   return (

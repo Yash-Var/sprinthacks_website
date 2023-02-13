@@ -1,18 +1,18 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import "./App.css";
+import "../css/theme.css";
 
 import SwiperCore, { Autoplay } from "swiper";
 
 import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import React from "react";
-import Fintech from "./images/slideImage/bank.png";
-import Healthcare from "./images/slideImage/crrr.png";
-import Edtech from "./images/slideImage/e-books.png";
-import WEB from "./images/slideImage/bitcoin.png";
-import OPEN from "./images/slideImage/s.png";
+import Fintech from "../assests/images/slideImage/bank.png";
+import Healthcare from "../assests/images/slideImage/crrr.png";
+import Edtech from "../assests/images/slideImage/e-books.png";
+import WEB from "../assests/images/slideImage/bitcoin.png";
+import OPEN from "../assests/images/slideImage/s.png";
 
 SwiperCore.use([Autoplay]);
 
@@ -34,7 +34,7 @@ export default function Themes() {
   // }
   const theme = {
     Healthcare: {
-      img: Healthcare,
+      img: OPEN,
       content:
         "The Healthcare theme of this hackathon provides a platform for individuals to develop innovative solutions that tackle challenges in the healthcare industry. Participants will have the opportunity to use technology to improve patient outcomes, streamline medical processes, and enhance overall healthcare delivery.",
     },
@@ -54,7 +54,7 @@ export default function Themes() {
         "The Web3 theme of this hackathon is dedicated to exploring the potential of decentralized technology and its impact on the future of the internet. Participants will have the opportunity to build and showcase their solutions that harness the power of decentralized systems to improve privacy, security, and ownership of data.",
     },
     OpenInnovation: {
-      img: OPEN,
+      img: Healthcare,
       content:
         "The Open Innovation theme of this hackathon invites participants to explore new ways of problem-solving and collaboration. This theme encourages individuals to work together, share ideas, and bring innovative solutions to life. Participants will have the opportunity to develop their solutions with the support of a diverse community, utilizing a range of technologies and approaches.",
     },
