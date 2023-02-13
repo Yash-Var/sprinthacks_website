@@ -29,32 +29,37 @@ const Sponsors = () => {
         />
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10 ">
-        <button
-          type="button"
-          className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5"
-        >
-          <div className="flex space-x-2">
-            <div>
-              <img src={Devfolio} />
+        <a href="https://devfolio.co/">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5"
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={Devfolio} />
+              </div>
+              <h1 className="text-4xl font-bold Sponsors pt-1 text-white">
+                Devfolio
+              </h1>
             </div>
-            <h1 className="text-4xl font-bold Sponsors pt-1 text-white">
-              Devfolio
-            </h1>
-          </div>
-        </button>
-        <button
-          type="button"
-          className="bg-[#273339] rounded-lg  py-5 px-24 mr-2 my-5"
-        >
-          <div className="flex space-x-2">
-            <div>
-              <img src={Polygon} />
+          </button>
+        </a>
+
+        <a href="https://polygon.technology/">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-5 px-24 mr-2 my-5"
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={Polygon} />
+              </div>
+              <h1 className="text-3xl font-bold  Sponsors navbar pt-1 text-white">
+                polygon
+              </h1>
             </div>
-            <h1 className="text-3xl font-bold  Sponsors navbar pt-1 text-white">
-              polygon
-            </h1>
-          </div>
-        </button>
+          </button>
+        </a>
       </div>
       <div className="flex pt-10 pb-10 justify-evenly max-[415px]:pt-2">
         <img
@@ -70,42 +75,49 @@ const Sponsors = () => {
         />
       </div>
       <div className="flex  flex-wrap justify-center pt-10 pb-10 ">
-        <button
-          type="button"
-          className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5"
-        >
-          <div className="flex space-x-1">
-            <img src={Solana} />
-          </div>
-        </button>
-        <button
-          type="button"
-          className="bg-[#273339] rounded-lg  px-28 py-6 ml-3 mr-6 my-5"
-        >
-          <div className="flex space-x-1">
-            <div>
-              <img src={Replit1} />
+        <a href="https://solana.com/">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5"
+          >
+            <div className="flex space-x-1">
+              <img src={Solana} />
             </div>
-            <h1 className="text-2xl Sponsors pt-1 text-white">replit</h1>
-            <div>
-              <img src={Replit2} />
-            </div>
-          </div>
-        </button>
+          </button>
+        </a>
 
-        <button
-          type="button"
-          className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-1"
-        >
-          <div className="flex space-x-2">
-            <div>
-              <img src={filecoin} />
+        <a href="https://replit.com/">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-28 py-6 ml-3 mr-6 my-5"
+          >
+            <div className="flex space-x-1">
+              <div>
+                <img src={Replit1} />
+              </div>
+              <h1 className="text-2xl Sponsors pt-1 text-white">replit</h1>
+              <div>
+                <img src={Replit2} />
+              </div>
             </div>
-            <h1 className="text-2xl font-bold Sponsors pt-2 text-white">
-              Filecoin
-            </h1>
-          </div>
-        </button>
+          </button>
+        </a>
+
+        <a href="https://filecoin.io/">
+          <button
+            type="button"
+            className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-1"
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={filecoin} />
+              </div>
+              <h1 className="text-2xl font-bold Sponsors pt-2 text-white">
+                Filecoin
+              </h1>
+            </div>
+          </button>
+        </a>
       </div>
 
       {/* <div className="flex pt-10 pb-20 max-[500px]:pb-10 max-[500px]:pt-5 justify-evenly">

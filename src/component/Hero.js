@@ -4,6 +4,16 @@ import path26 from "../assests/images/Big_star.png";
 import vector3 from "../assests/images/DEVFOLIO.png";
 import group from "../assests/images/Sallyyy.png";
 const Hero = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <div className="">
       <div className="px-40 py-5 flex hero_main">
@@ -21,15 +31,20 @@ const Hero = () => {
             <h1 className="navbar text-white hero_text_2 text-6xl">
               Revealing Soon....
             </h1>
-            <button className="bg-white rounded dev px-4 py-4">
-              <div className="flex space-x-4">
+            <button className="rounded dev">
+              <div
+                class="apply-button"
+                data-hackathon-slug="sprinthacks.devfolio.co"
+                // data-button-theme="dark"
+              ></div>
+              {/* <div className="flex space-x-4">
                 <div>
                   <img src={vector3} className="dev_logo" />
                 </div>
                 <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
                   Apply with Devfolio
                 </h1>
-              </div>
+              </div> */}
             </button>
           </div>
           <img src={path26} className="pt-44 pl-72 star_right_2" />
