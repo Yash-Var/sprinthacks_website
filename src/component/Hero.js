@@ -33,10 +33,12 @@ const Hero = () => {
             </h1>
             <button className="rounded dev">
               <div
-                class="apply-button"
+                className="apply-button"
                 data-hackathon-slug="sprinthacks.devfolio.co"
-                // data-button-theme="dark"
-              ></div>
+                data-button-theme="dark-inverted"
+                style={{ height: 44, width: 312 }}
+              />
+
               {/* <div className="flex space-x-4">
                 <div>
                   <img src={vector3} className="dev_logo" />

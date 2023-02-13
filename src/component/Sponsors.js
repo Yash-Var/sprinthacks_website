@@ -29,7 +29,7 @@ const Sponsors = () => {
         />
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10 ">
-        <a href="https://devfolio.co/">
+        <a href="https://devfolio.co/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5"
@@ -45,7 +45,7 @@ const Sponsors = () => {
           </button>
         </a>
 
-        <a href="https://polygon.technology/">
+        <a href="https://polygon.technology/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  py-5 px-24 mr-2 my-5"
@@ -75,7 +75,7 @@ const Sponsors = () => {
         />
       </div>
       <div className="flex  flex-wrap justify-center pt-10 pb-10 ">
-        <a href="https://solana.com/">
+        <a href="https://solana.com/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5"
@@ -86,7 +86,7 @@ const Sponsors = () => {
           </button>
         </a>
 
-        <a href="https://replit.com/">
+        <a href="https://replit.com/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  px-28 py-6 ml-3 mr-6 my-5"
@@ -103,7 +103,7 @@ const Sponsors = () => {
           </button>
         </a>
 
-        <a href="https://filecoin.io/">
+        <a href="https://filecoin.io/" target="_blank">
           <button
             type="button"
             className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-1"
