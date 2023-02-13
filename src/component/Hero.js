@@ -35,8 +35,8 @@ const Hero = () => {
               <div
                 className="apply-button"
                 data-hackathon-slug="sprinthacks.devfolio.co"
-                data-button-theme="dark-inverted"
-                style={{ height: 44, width: 312 }}
+                data-button-theme="dark"
+                
               />
 
               {/* <div className="flex space-x-4">
