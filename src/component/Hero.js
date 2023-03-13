@@ -33,7 +33,7 @@ const Hero = () => {
             <h1 className="navbar text-white hero_text_2 text-6xl">
               Revealing Soon....
             </h1>
-            <div className="hero_button">
+            
               <button className="rounded dev">
                 <div
                   className="apply-button "
@@ -41,7 +41,7 @@ const Hero = () => {
                   data-button-theme="dark"
                 />
               </button>
-            </div>
+            
 
             {/* <div className="flex space-x-4">
                 <div>
