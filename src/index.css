@@ -42,10 +42,12 @@ code {
     monospace;
 }
 
+.abouttext1 {
+  font-family: "Space Grotesk", sans-serif;
+}
 .abouttext {
   font-family: "Space Grotesk", sans-serif;
 }
-
 .list li:before {
   content: "• ";
 }
@@ -131,7 +133,7 @@ code {
   .image_about{
     margin-top: 3rem;
   }
-  .abouttext {
+  .abouttext1 {
     /* margin-top: -1rem !important; */
     /* background-color: aliceblue; */
 }
@@ -142,10 +144,15 @@ code {
     visibility: visible;
     padding-left: 80px;
   }
+  .list{
+    margin-bottom: 2rem;
+    
+  }
   .faq {
     /* margin-left: auto; */
     width: 650px;
   }
+  
   .hero_main {
     display: flex;
     flex-direction: column;
@@ -190,7 +197,7 @@ code {
     width: 500px;
     text-align: center;
   }
-  .abouttext {
+  .abouttext1 {
     margin-top: -1rem !important;
 }
 }
@@ -451,7 +458,7 @@ margin-right: 200px;
   .hero_text_2 {
     font-size: 50px;
   }
-  .abouttext{
+  .abouttext1{
     font-size: 1.40rem;
   }
 }
@@ -459,7 +466,7 @@ margin-right: 200px;
   .image_about {
     left: 200px ;
   }
-  .abouttext{
+  .abouttext1{
     font-size: 1.40rem;
   }
 }
