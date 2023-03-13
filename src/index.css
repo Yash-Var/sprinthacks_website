@@ -106,11 +106,11 @@ code {
     font-size: large;
   }
 }
-@media screen {
-  .abouttext{
-    margin-top: -15rem !important;
-  }
-}
+
+  /* .abouttext{
+    margin-top: -15rem ;
+  } */
+
 @media only screen and (max-width: 1700px) {
   .faq{
     width: 650px;
