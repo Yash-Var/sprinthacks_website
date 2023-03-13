@@ -41,16 +41,6 @@ const Hero = () => {
                   data-button-theme="dark"
                 />
               </button>
-            
-
-            {/* <div className="flex space-x-4">
-                <div>
-                  <img src={vector3} className="dev_logo" />
-                </div>
-                <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
-                  Apply with Devfolio
-                </h1>
-              </div> */}
           </div>
 
           <img src={path26} className="pt-44 pl-72 star_right_2" />
