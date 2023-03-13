@@ -16,8 +16,8 @@ const App = () => {
         <Home />
         <About />
         <Themes />
-        <Prize />
         <Tracks />
+        <Prize />
         <Faq />
         <Sponsors />
         <div>
