@@ -34,13 +34,16 @@ const Hero = () => {
               Revealing Soon....
             </h1>
 
-            <button className="rounded dev">
-              <div
-                className="apply-button "
-                data-hackathon-slug="sprinthacks"
-                data-button-theme="dark"
-              />
-            </button>
+            <div className="hero_button">
+              <button className="rounded dev">
+                <div
+                  className="apply-button "
+                  data-hackathon-slug="sprinthacks"
+                  data-button-theme="dark"
+                />
+              </button>
+            </div>
+
 
             {/* <div className="flex space-x-4">
                 <div>
