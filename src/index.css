@@ -723,6 +723,9 @@ width: 300px;
 #tracks{
   margin-right: 3rem;
 }
+.themeContent{
+  text-justify: inter-character !important;
+}
 .image__{
   margin-right: 2rem;
 }
