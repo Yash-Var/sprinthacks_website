@@ -37,7 +37,7 @@ const Hero = () => {
             <button className="rounded dev">
               <div
                 className="apply-button "
-                data-hackathon-slug="sprinthack"
+                data-hackathon-slug="sprinthacks"
                 data-button-theme="dark"
               />
             </button>
