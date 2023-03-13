@@ -33,14 +33,26 @@ const Hero = () => {
             <h1 className="navbar text-white hero_text_2 text-6xl">
               Revealing Soon....
             </h1>
+
+            <button className="rounded dev">
+              <div
+                className="apply-button "
+                data-hackathon-slug="sprinthack"
+                data-button-theme="dark"
+              />
+            </button>
+
+            {/* <div className="flex space-x-4">
+                <div>
+                  <img src={vector3} className="dev_logo" />
+                </div>
+                <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
+                  Apply with Devfolio
+                </h1>
+              </div> */}
+
             
-              <button className="rounded dev">
-                <div
-                  className="apply-button "
-                  data-hackathon-slug="sprinthack"
-                  data-button-theme="dark"
-                />
-              </button>
+            
           </div>
 
           <img src={path26} className="pt-44 pl-72 star_right_2" />

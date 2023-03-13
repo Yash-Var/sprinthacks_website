@@ -5,6 +5,14 @@
 .navbar {
   font-family: "Staatliches", cursive;
 }
+.faq_title{
+  /* font-family: 'Shantell Sans', cursive; */
+font-family: 'Space Grotesk', sans-serif;
+}
+.faq_question{
+  /* font-family: 'Shantell Sans', cursive; */
+font-family: 'Space Grotesk', sans-serif;
+}
 .prize{
   gap: 5em;
 }
@@ -402,6 +410,11 @@ code {
     padding-top: 2.5rem;
   }
 }
+@media only screen and (max-width: 480px) {
+.main_track{
+  font-size: 2.3rem;
+}
+}
 @media only screen and (max-width: 1200px) {
  .navbar_text{
   font-size: large !important;
@@ -707,7 +720,9 @@ width: 300px;
  }
 }
 @media only screen and (max-width: 414px) {
-
+#tracks{
+  margin-right: 3rem;
+}
 .image__{
   margin-right: 2rem;
 }
@@ -722,11 +737,18 @@ width: 300px;
  }
 }
 @media only screen and (max-width: 365px) {
+  .text_contact{
+    margin-right: 0rem !important;
+  }
 .main{
  
   max-width: 212%;
 padding-top: 37px;
 margin-right: 86px;
+}
+.main_track{
+  /* font-size: 3.3rem !important; */
+ 
 }
 .hero_text_3{
   white-space: nowrap;
@@ -824,7 +846,12 @@ white-space: nowrap;
 .content_about{
   font-size: 5rem;
 }
-
+.main_heading{
+  margin-left: -3rem;
+}
+.track{
+  margin-left: 53px !important;
+}
 }
 @media only screen and (max-width: 406px) {
 .track{
@@ -832,28 +859,37 @@ white-space: nowrap;
   font-size: 2rem;
 margin-left: 93px;
 }
-.track-card{
+/* .track-card{
   padding-left: 5rem;
+} */
+.image_one{
+  margin-right: 23rem !important;
+  width: 21rem;
 }
-
 }
 @media only screen and (max-width: 454px) {
 .track{
   /* margin-left: 0px; */
   font-size: 2rem;
-margin-left: 93px;
+  margin-left: 16px;
 }
 .icon{
   margin-top: 1rem;
 }
 
 }
+@media only screen and (max-width:390px){
+.heading-track{
+  font-size: 1.8rem;
+}
+  
+}
 @media only screen and (max-width: 366px) {
 .cont{
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   align-items: center;
-  margin-left: 0;
+  margin-left: 34px;
 }
 .iconss{
   justify-content: space-around;

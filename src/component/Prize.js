@@ -4,7 +4,7 @@ function Prize() {
   return (
     <div className="overflow-hidden" id="prizes">
       <div>
-        <h1 className="main text-center text-7xl text-white uppercase p-8">
+        <h1 className="main main_heading text-center text-7xl text-white uppercase p-8">
           PRIZES
         </h1>
       </div>
@@ -25,7 +25,7 @@ function Prize() {
             src="https://i.ibb.co/N7xD1pX/prize1.png"
             alt="prize1"
             border="0"
-            className="m-8"
+            className="m-8 image_one"
           />
           <h1 className="navbar text-6xl tracking-widest winner"> WINNER</h1>
           <h1 className="navbar text-5xl mt-4">₹30,000</h1>
