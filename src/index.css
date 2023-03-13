@@ -719,12 +719,23 @@ width: 300px;
   margin-right: 269px;
  }
 }
+@media only screen and (max-width: 500px) {
+  .themeContent{
+    /* text-justify: inter-character !important; */
+    /* letter-spacing: 1px; */
+  }
+  .swip-slide{
+    padding: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 414px) {
 #tracks{
   margin-right: 3rem;
 }
 .themeContent{
   text-justify: inter-character !important;
+  /* letter-spacing: 8rem; */
 }
 .image__{
   margin-right: 2rem;

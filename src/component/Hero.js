@@ -31,7 +31,7 @@ const Hero = () => {
               SprintHacks 2023
             </h1>
             <h1 className="navbar text-white hero_text_2 text-6xl">
-              Revealing Soon....
+              8th Apr - 9th Apr’23
             </h1>
             <div className="hero_button">
               <button className="rounded dev">
