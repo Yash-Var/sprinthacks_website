@@ -22,7 +22,7 @@ const About = () => {
             />
           </div>
         </div>
-        <div className="abouttext font-semibold text-white w-[600px] text-4xl mt-[-4rem] mr-48 content-center content_about">
+        <div className="abouttext1 font-semibold text-white w-[600px] text-4xl mt-[-4rem] mr-48 content-center content_about">
           SprintHacks is an 18 hour hackathon organized by the Developer Student
           Circuit with endless creativity. The focus is on innovation and
           creativity as participants work together to develop unique solutions
