@@ -13,7 +13,7 @@ const Faq = () => {
     setOpen(index);
   };
   return (
-    <div className="overflow-hidden top_faq " id="faqs">
+    <div className="overflow-hidden top_faq  " id="faqs">
       <div className="flex justify-center ">
         <h1 className="text-white main text-7xl p-10 ">FAQ's</h1>
       </div>
@@ -31,7 +31,8 @@ const Faq = () => {
             );
           })}
         </div>
-        <div className="pl-72 image_faq">
+
+        <div className="pl-72 pt-28 image_faq">
           <img src={faq} />
         </div>
       </div>

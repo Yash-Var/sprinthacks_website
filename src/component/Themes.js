@@ -62,7 +62,9 @@ export default function Themes() {
   return (
     <section className="test-head">
       <div>
-        <h1 className="theme-heading text-white text-7xl main ">Themes</h1>
+        <h1 className="theme-heading text-white uppercase text-7xl main ">
+          Themes
+        </h1>
       </div>
 
       <Swiper

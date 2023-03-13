@@ -5,6 +5,9 @@
 .navbar {
   font-family: "Staatliches", cursive;
 }
+.prize{
+  gap: 5em;
+}
 .track_content{
   white-space: nowrap;
 }
@@ -37,6 +40,14 @@ code {
 
 .list li:before {
   content: "• ";
+}
+@media only screen and (max-width: 450px) {
+  .hero_button{
+    margin-right: 4rem;
+  }
+  .hero{
+    margin-left: -4rem !important;
+  }
 }
 @media only screen and (max-width: 1050px) {
   .logo_dsc{
@@ -257,6 +268,9 @@ code {
     /* background-color: antiquewhite; */
     text-align: right;
     padding-right: 400px;
+  }
+  .hero_button{
+    margin-right: 40rem;
   }
   .dev {
     margin-right: 400px;
@@ -693,8 +707,9 @@ width: 300px;
  }
 }
 @media only screen and (max-width: 414px) {
-.main{
-  margin-left: -47px;
+
+.image__{
+  margin-right: 2rem;
 }
 .hero_text_2{
   font-size: 34px;

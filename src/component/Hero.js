@@ -19,7 +19,9 @@ const Hero = () => {
       <div className="px-40 py-5 flex hero_main">
         <div className="">
           <img src={path268} className="pl-64 pt-8 " />
-          <img src={group} className="main" />
+          <div className="image__">
+            <img src={group} className="main image" />
+          </div>
           <img src={path268} className="pl-4 w-12  pt-8" />
         </div>
         <div>
@@ -31,15 +33,17 @@ const Hero = () => {
             <h1 className="navbar text-white hero_text_2 text-6xl">
               Revealing Soon....
             </h1>
-            <button className="rounded dev">
-              <div
-                className="apply-button"
-                data-hackathon-slug="sprinthacks.devfolio.co"
-                data-button-theme="dark"
-                
-              />
+            <div className="hero_button">
+              <button className="rounded dev">
+                <div
+                  className="apply-button "
+                  data-hackathon-slug="sprinthack"
+                  data-button-theme="dark"
+                />
+              </button>
+            </div>
 
-              {/* <div className="flex space-x-4">
+            {/* <div className="flex space-x-4">
                 <div>
                   <img src={vector3} className="dev_logo" />
                 </div>
@@ -47,8 +51,8 @@ const Hero = () => {
                   Apply with Devfolio
                 </h1>
               </div> */}
-            </button>
           </div>
+
           <img src={path26} className="pt-44 pl-72 star_right_2" />
         </div>
       </div>
