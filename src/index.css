@@ -58,6 +58,9 @@ code {
   .hero{
     margin-left: -4rem !important;
   }
+  /* .abouttext1{
+    
+  } */
 }
 @media only screen and (max-width: 1050px) {
   .logo_dsc{
@@ -109,9 +112,12 @@ code {
   }
 }
 
-  /* .abouttext{
+@media only screen and (min-width: 1000px) {
+  .abouttext1{
     margin-top: -15rem ;
-  } */
+  }
+}
+ 
 
 @media only screen and (max-width: 1700px) {
   .faq{
@@ -808,8 +814,8 @@ margin-right: 86px;
   margin-right: 356px;
  }
  .content_about {
-  font-size: 1rem !important;
- 
+  font-size:small !important;
+ /* padding: 1rem; */
   text-align: none !important;
   text-justify: none !important;
 
@@ -875,7 +881,9 @@ padding-left: 8rem;
 white-space: nowrap;
 }
 .content_about{
-  font-size: 0.7rem;
+  font-size: 1rem;
+  padding: 2rem;
+  padding-left: 4.5rem;
  
 }
 .contact-icon{
