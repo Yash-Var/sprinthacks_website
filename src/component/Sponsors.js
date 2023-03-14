@@ -32,13 +32,13 @@ const Sponsors = () => {
         <a href="https://devfolio.co/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5"
+            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5 "
           >
             <div className="flex space-x-2">
               <div className="max-[390px]:w-10">
                 <img src={Devfolio} />
               </div>
-              <h1 className="text-4xl font-bold Sponsors pt-1 text-white max-[415px]:text-3xl max-[390px]:text-2xl">
+              <h1 className="text-4xl font-bold Sponsors pt-1 text-white max-[415px]:text-3xl max-[390px]:text-2xl ">
                 Devfolio
               </h1>
             </div>
@@ -78,7 +78,7 @@ const Sponsors = () => {
         <a href="https://solana.com/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5"
+            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5 max-[391px]:px-2"
           >
             <div className="flex space-x-1">
               <img src={Solana} />
@@ -89,13 +89,13 @@ const Sponsors = () => {
         <a href="https://replit.com/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-28 py-6 ml-3 mr-6 my-5"
+            className="bg-[#273339] rounded-lg  px-28 py-6 ml-3 mr-6 my-5 max-[390px]:px-24"
           >
             <div className="flex space-x-1">
               <div >
                 <img src={Replit1} />
               </div>
-              <h1 className="text-2xl Sponsors pt-1 text-white max-[390px]:text-xl">replit</h1>
+              <h1 className="text-2xl Sponsors pt-1 text-white ">replit</h1>
               <div >
                 <img src={Replit2} />
               </div>
@@ -106,7 +106,7 @@ const Sponsors = () => {
         <a href="https://filecoin.io/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-4"
+            className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-5 max-[390px]:px-20"
           >
             <div className="flex space-x-2">
               <div className="max-[390px]:w-10">
