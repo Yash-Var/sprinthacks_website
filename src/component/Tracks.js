@@ -1,5 +1,5 @@
 import React from "react";
-
+import Track2 from "./Track2";
 function Tracks() {
   return (
     <div id="tracks">
@@ -9,7 +9,12 @@ function Tracks() {
             TRACK PRIZES
           </h1>
         </div>
-        <div className="row flex-wrap  lg:w-full pr-4 pl-4 flex justify-center track-card">
+
+        <div>
+          <Track2 />
+        </div>
+
+        {/* <div className="row flex-wrap  lg:w-full pr-4 pl-4 flex justify-center track-card">
           <div className=" tracks w-96  p-4 text-white text-left  mx-4 mb-4 mt-6 bg-purple-500 rounded-xl">
             <div className="tracks-header inline-flex justify-center mb-2">
               <img
@@ -145,7 +150,7 @@ function Tracks() {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

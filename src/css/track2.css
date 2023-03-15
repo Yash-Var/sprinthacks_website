@@ -1,0 +1,34 @@
+.track-heading{
+    font-size: 2rem;
+}
+.track-card{
+
+    background-color: #181818;
+    width: 40rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    border: 1px solid white;
+}
+.know{
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+.track1{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    margin-left: 16rem;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+.poly{
+    width: 15rem;
+}
+.image-track{
+    padding: 2rem;
+}
+.track-content{
+    align-items:left;
+}
