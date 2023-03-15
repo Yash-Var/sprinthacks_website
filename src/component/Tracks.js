@@ -3,7 +3,7 @@ import Track2 from "./Track2";
 function Tracks() {
   return (
     <div id="tracks">
-      <div className="mx-auto sm:px-4 my-3 main text-center text-white w-screen">
+      <div className="mx-auto sm:px-4 my-3 main  text-white w-screen">
         <div>
           <h1 className="main main_track text-center text-7xl text-white track_content uppercase p-8 track">
             TRACK PRIZES

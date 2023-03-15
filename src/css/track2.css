@@ -4,15 +4,24 @@
 .track-card{
 
     background-color: #181818;
-    width: 40rem;
-    border-radius: 2rem;
+    width: 44rem;
+    border-radius: 8px;
     padding: 2rem;
-    border: 1px solid white;
+    border: 0.5px solid #FCF2F1;
 }
 .know{
     padding: 2rem;
     font-size: 2rem;
+    padding-top: 0;
+    padding-bottom: 2px;
     text-decoration: underline;
+    font-family: "Space Grotesk";
+}
+.know1{
+    padding-top: 6.5rem; 
+}
+.know2{
+    padding-top: 11.2rem; 
 }
 .track1{
 
@@ -24,11 +33,26 @@
     margin-bottom: 5rem;
 }
 .poly{
-    width: 15rem;
+    width: 12rem;
 }
 .image-track{
     padding: 2rem;
+    padding-bottom: 14px;
 }
 .track-content{
     align-items:left;
+}
+ul{
+    list-style: disc;
+    display: list-item;
+margin: 2rem;
+margin-bottom: 0;
+margin-top: 0;
+/* ist-style-type:none; */
+/* padding: 0 !important; */
+}
+li{
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    font-family: "Space Grotesk";
 }
