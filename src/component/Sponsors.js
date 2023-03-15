@@ -16,17 +16,17 @@ const Sponsors = () => {
         </h1>
       </div>
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
-        />
+        /> */}
         <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_  ">
           GOLD
         </h1>
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
-        />
+        /> */}
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5">
         <a href="https://devfolio.co/" target="_blank">
@@ -62,23 +62,23 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-evenly max-[415px]:py-3">
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        />
+        /> */}
         <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_">
           SILVER
         </h1>
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        />
+        /> */}
       </div>
       <div className="flex  flex-wrap justify-center pt-10 pb-10 max-[415px]:pt-5 max-[415px]:pb-10">
         <a href="https://solana.com/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5 max-[391px]:px-2"
+            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5 max-[391px]:px-1"
           >
             <div className="flex space-x-1">
               <img src={Solana} />
