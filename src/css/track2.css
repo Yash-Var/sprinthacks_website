@@ -1,0 +1,86 @@
+.track-heading{
+    font-size: 2rem;
+}
+.track-card{
+
+    background-color: #181818;
+    width: 44rem;
+    border-radius: 8px;
+    padding: 2rem;
+    border: 0.5px solid #FCF2F1;
+}
+.know{
+    padding: 2rem;
+    font-size: 1.8rem;
+    padding-top: 0;
+    padding-bottom: 2px;
+    text-decoration: underline;
+    font-family: "Space Grotesk";
+}
+.know1{
+    padding-top: 6.5rem; 
+}
+.know2{
+    padding-top: 3.8rem; 
+}
+.track1{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3em;
+    /* margin-left: 14rem;s */
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+.poly{
+    width: 12rem;
+}
+.sol{
+    width: 15rem;
+}
+.image-track{
+    padding: 2rem;
+    padding-bottom: 14px;
+}
+.track-content{
+    align-items:left;
+}
+ul{
+    list-style: disc;
+    display: list-item;
+margin: 2rem;
+margin-bottom: 0;
+margin-top: 0;
+/* ist-style-type:none; */
+/* padding: 0 !important; */
+}
+li{
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    font-family: "Space Grotesk";
+    text-align: left;
+}
+
+@media only screen and (max-width:1615px){
+    .track1{
+        margin-right: 4rem;
+    }
+}
+@media only screen and (max-width:1487px){
+    .track1{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:752px){
+    .track-card{
+        /* padding: ; */
+        margin: 2rem;
+    } 
+}
+@media only screen and (max-width:550px){
+    .track-card{
+        padding: 0;
+        /* margin: 2rem; */
+    } 
+}
