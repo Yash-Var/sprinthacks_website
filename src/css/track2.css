@@ -28,9 +28,10 @@
     display: flex;
     flex-wrap: wrap;
     gap: 3em;
-    margin-left: 16rem;
+    /* margin-left: 14rem;s */
     margin-top: 4rem;
     margin-bottom: 5rem;
+    justify-content: center;
 }
 .poly{
     width: 12rem;
@@ -58,4 +59,28 @@ li{
     padding: 0.2rem;
     font-size: 1.5rem;
     font-family: "Space Grotesk";
+    text-align: left;
+}
+
+@media only screen and (max-width:1615px){
+    .track1{
+        margin-right: 4rem;
+    }
+}
+@media only screen and (max-width:1487px){
+    .track1{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width:752px){
+    .track-card{
+        /* padding: ; */
+        margin: 2rem;
+    } 
+}
+@media only screen and (max-width:550px){
+    .track-card{
+        padding: 0;
+        /* margin: 2rem; */
+    } 
 }
