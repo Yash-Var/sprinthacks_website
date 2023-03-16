@@ -11,7 +11,7 @@
 }
 .know{
     padding: 2rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding-top: 0;
     padding-bottom: 2px;
     text-decoration: underline;
@@ -21,7 +21,7 @@
     padding-top: 6.5rem; 
 }
 .know2{
-    padding-top: 11.2rem; 
+    padding-top: 3.8rem; 
 }
 .track1{
 
@@ -34,6 +34,9 @@
 }
 .poly{
     width: 12rem;
+}
+.sol{
+    width: 15rem;
 }
 .image-track{
     padding: 2rem;

@@ -3,6 +3,7 @@ import "../css/track2.css";
 import poly from "../assests/images/polygon1.png";
 import Filecon from "../assests/images/Filecoin.png";
 import Replit from "../assests/images/replit.png";
+import sol from "../assests/images/SolanaD1.png";
 const Track2 = () => {
   return (
     <div>
@@ -54,9 +55,16 @@ const Track2 = () => {
             </center>
             <div className="track-content">
               <ul className="">
-                <li>₹20000 for best use of IPFS and/or Filecoin</li>
                 <li>
-                  Microgrants up to 5000 USD, open grants up to 50,000 USD
+                  $50 to winning project of the hackathon (must be deployed on
+                  Replit)
+                </li>
+                <li>
+                  Replit schwags to 5 eligible submissions deployed on Replit.
+                </li>
+                <li>
+                  Eligibility for internship / full time role interviews at
+                  Replit Know more about the bounty on this
                 </li>
               </ul>
             </div>
@@ -67,7 +75,7 @@ const Track2 = () => {
           <div className="track-card">
             <center>
               <div className="image-track">
-                <img src={poly} className="poly" />
+                <img src={sol} className="sol" />
               </div>
             </center>
             <div className="track-content">
@@ -77,11 +85,11 @@ const Track2 = () => {
                   Solana Blockchain at Devfolio-powered community Hackathons.
                 </li>
                 <li>
-                  young gun - $USDC 100 for the best project beginners just
+                  Young gun - $USDC 100 for the best project beginners just
                   starting out on Solana
                 </li>
                 <li>
-                  rising teknoking - $USDC 250 for the best project that goes
+                  Rising teknoking - $USDC 250 for the best project that goes
                   into depth, demonstrating higher-order code.
                 </li>
               </ul>
