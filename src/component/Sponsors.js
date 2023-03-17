@@ -6,6 +6,8 @@ import Solana from "../assests/images/Solana1.png";
 import Replit1 from "../assests/images/replit1.png";
 import Replit2 from "../assests/images/replit2.png";
 import filecoin from "../assests/images/filecoin.png";
+import Echo from "../assests/images/echo3D.png";
+import taskade from "../assests/images/taskade.png";
 
 const Sponsors = () => {
   return (
@@ -16,17 +18,17 @@ const Sponsors = () => {
         </h1>
       </div>
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
-        />
+        /> */}
         <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_  ">
           GOLD
         </h1>
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
-        />
+        /> */}
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5">
         <a href="https://devfolio.co/" target="_blank">
@@ -62,23 +64,23 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-evenly max-[415px]:py-3">
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        />
+        /> */}
         <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_">
           SILVER
         </h1>
-        <img
+        {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        />
+        /> */}
       </div>
       <div className="flex  flex-wrap justify-center pt-10 pb-10 max-[415px]:pt-5 max-[415px]:pb-10">
         <a href="https://solana.com/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5 max-[391px]:px-2"
+            className="bg-[#273339] rounded-lg  px-5 py-4 mr-3 my-5 max-[391px]:px-1"
           >
             <div className="flex space-x-1">
               <img src={Solana} />
@@ -120,17 +122,47 @@ const Sponsors = () => {
         </a>
       </div>
 
-      {/* <div className="flex pt-10 pb-20 max-[500px]:pb-10 max-[500px]:pt-5 justify-evenly">
-        <img
+      <div className="flex pt-5 pb-5 justify-evenly max-[415px]:py-3">
+        {/* <img
           src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9"
-        />
-        <h1 className="text-white text-6xl main max-[500px]:text-5xl">BRONZE</h1>
-        <img
+          className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
+        /> */}
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl prizes_">
+          BRONZE        </h1>
+        {/* <img
           src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9"
-        />
-      </div> */}
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
+        /> */}
+      </div>
+      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5">
+        <a href="https://www.echo3d.com/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-16 py-6 max-[390px]:px-12 mr-3 my-5 "
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={Echo} className="w-52 h-10 max-[627px]:h-10 " />
+              </div>
+
+            </div>
+          </button>
+        </a>
+
+        <a href="https://www.taskade.com/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-5 px-20 mr-2 my-5 max-[390px]:px-16"
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={taskade} className="w-44 h-12 " />
+              </div>
+
+            </div>
+          </button>
+        </a>
+      </div>
     </div>
   );
 };
