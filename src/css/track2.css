@@ -46,7 +46,7 @@
 .track-content{
     align-items:left;
 }
-ul{
+.ull{
     list-style: disc;
     display: list-item;
 margin: 2rem;
@@ -55,7 +55,7 @@ margin-top: 0;
 /* ist-style-type:none; */
 /* padding: 0 !important; */
 }
-li{
+.lit{
     padding: 0.2rem;
     font-size: 1.5rem;
     font-family: "Space Grotesk";
