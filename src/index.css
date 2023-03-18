@@ -789,6 +789,7 @@ width: 300px;
  }
  .text_contact{
   font-size: x-large;
+  padding-top: 2.2rem !important;
   white-space: nowrap;
  }
 }
@@ -1027,5 +1028,10 @@ margin-left: 93px;
 .dev_logo{
   visibility: hidden !important;
 }
+}
+@media only screen and (max-width: 1250px) {
+ .text_contact{
+  padding-top: 1.3rem;
+ }
 }
 
