@@ -17,8 +17,8 @@ const Faq = () => {
       <div className="flex justify-center ">
         <h1 className="text-white main text-7xl p-10 ">FAQ's</h1>
       </div>
-      <div className="flex ">
-        <div className=" text-white flex-col w-[800px] faq">
+      <div className="flex justify-between">
+        <div className=" text-white flex-col w-[800px] faq   ">
           {data.map((data, index) => {
             return (
               <Accordian
@@ -32,8 +32,8 @@ const Faq = () => {
           })}
         </div>
 
-        <div className="pl-48 pt-28 pr-10 image_faq ">
-          <img src={faq} className="image41" />
+        <div className="pl-48 pt-28 pr-10 max-[1350px]:pl-36 max-[1250px]:pl-28 image_faq">
+          <img src={faq} className="image41 h-{50rem} w-{45rem}" />
         </div>
       </div>
     </div>
