@@ -44,7 +44,6 @@ const Hero = () => {
               </button>
             </div>
 
-
             {/* <div className="flex space-x-4">
                 <div>
                   <img src={vector3} className="dev_logo" />
@@ -53,9 +52,6 @@ const Hero = () => {
                   Apply with Devfolio
                 </h1>
               </div> */}
-
-            
-            
           </div>
 
           <img src={path26} className="pt-44 pl-72 star_right_2" />

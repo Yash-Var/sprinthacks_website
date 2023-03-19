@@ -393,6 +393,12 @@ code {
     margin-left: 0px;
   }
 } */
+@media only screen and (max-width: 378px) {
+.image__{
+  width: 20rem;
+  margin-left: -4rem !important;
+}
+}
 @media only screen and (max-width: 455px) {
   /* .faq {
   
@@ -407,7 +413,10 @@ code {
   .top_faq {
     padding: 0px;
   } */
-
+.image__{
+  width: 20rem;
+  margin-left: -2rem;
+}
   .hero {
     padding: 0;
     margin-right: 0;
