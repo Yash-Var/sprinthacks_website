@@ -11,7 +11,9 @@ import taskade from "../assests/images/taskade.png";
 import Foss from "../assests/images/Foss.jpg";
 import GMC from "../assests/images/GMC.png";
 import Threeway from "../assests/images/Threeway.png";
+
 import Greedygame from "../assests/images/Greedygame.svg";
+
 
 const Sponsors = () => {
   return (
@@ -27,7 +29,9 @@ const Sponsors = () => {
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
         /> */}
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
+
           GOLD
+
         </h1>
         {/* <img
           src={Line}
@@ -50,6 +54,8 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
+        
+        
 
         <a href="https://polygon.technology/" target="_blank">
           <button
@@ -57,6 +63,7 @@ const Sponsors = () => {
             className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 my-5  max-[520px]:px-16 max-[415px]:px-12   "
           >
             <div className="flex space-x-2">
+
               <div>
                 <img src={Polygon} className="w-56" />
               </div>
@@ -73,6 +80,7 @@ const Sponsors = () => {
               <div>
                 <img src={Greedygame} className="w-56 h-14" />
               </div>
+
             </div>
           </button>
         </a>
@@ -142,8 +150,10 @@ const Sponsors = () => {
           className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
         /> */}
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
+
           BRONZE{" "}
         </h1>
+
         {/* <img
           src={Line}
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
@@ -247,6 +257,86 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
+      </div>
+      <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
+        {/* <img
+          src={Line}
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
+        /> */}
+        <center>
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
+          COMMUNITY PARTNER
+        </h1>
+        </center>
+        {/* <img
+          src={Line}
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
+        /> */}
+      </div>
+      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
+        {/* <a href="https://devfolio.co/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5 max-[520px]:px-16 "
+          >
+            <div className="flex space-x-2">
+              <div className="max-[390px]:w-10">
+                <img src={Foss} className="w-56"/>
+              </div>
+             
+            </div>
+          </button>
+        </a> */}
+        
+        
+
+        <a href="https://www.threeway.studio/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 my-5  max-[520px]:px-16 max-[415px]:px-12   "
+          >
+            <div className="flex space-x-2">
+              <div >
+                <img src={Threeway}  className="w-56"/>
+              </div>
+            
+            </div>
+          </button>
+        </a>
+      </div>
+      <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
+        {/* <img
+          src={Line}
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
+        /> */}
+        <center>
+        <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
+          CERTIFICATE SPONSOR
+        </h1>
+        </center>
+        {/* <img
+          src={Line}
+          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
+        /> */}
+      </div>
+      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
+        <a href="https://givemycertificate.com/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5 max-[520px]:px-16 "
+          >
+            <div className="flex space-x-2">
+              <div className="max-[390px]:w-10">
+                <img src={GMC} className="h-36"/>
+              </div>
+            
+            </div>
+          </button>
+        </a>
+        
+        
+
+        
       </div>
     </div>
   );
