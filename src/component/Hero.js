@@ -1,7 +1,7 @@
 import React from "react";
 import path268 from "../assests/images/Small_star.png";
 import path26 from "../assests/images/Big_star.png";
-import vector3 from "../assests/images/DEVFOLIO.png";
+import vector3 from "../assests/images/Devfolio.png";
 import group from "../assests/images/Sallyyy.png";
 const Hero = () => {
   React.useEffect(() => {
