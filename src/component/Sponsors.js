@@ -8,7 +8,7 @@ import Replit2 from "../assests/images/replit2.png";
 import filecoin from "../assests/images/filecoin.png";
 import Echo from "../assests/images/echo3D.png";
 import taskade from "../assests/images/taskade.png";
-import Foss from "../assests/images/Foss.jpg";
+import Foss from "../assests/images/Foss.svg";
 import GMC from "../assests/images/GMC.png";
 import Threeway from "../assests/images/Threeway.png";
 import Greedygame from "../assests/images/Greedygame.svg";
@@ -192,19 +192,18 @@ const Sponsors = () => {
         /> */}
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
-        {/* <a href="https://devfolio.co/" target="_blank">
+      <a href="https://fosscu.org/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5 max-[520px]:px-16 "
+            className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 my-5  max-[520px]:px-16 max-[415px]:px-12   "
           >
             <div className="flex space-x-2">
-              <div className="max-[390px]:w-10">
-                <img src={Foss} className="w-56"/>
+              <div>
+                <img src={Foss} className="w-56 h-20" />
               </div>
-             
             </div>
           </button>
-        </a> */}
+        </a>
 
         <a href="https://www.threeway.studio/" target="_blank">
           <button
