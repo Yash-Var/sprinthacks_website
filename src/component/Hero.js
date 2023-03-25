@@ -1,7 +1,7 @@
 import React from "react";
 import path268 from "../assests/images/Small_star.png";
 import path26 from "../assests/images/Big_star.png";
-import vector3 from "../assests/images/DEVFOLIO.png";
+import vector3 from "../assests/images/Devfolio.png";
 import group from "../assests/images/Sallyyy.png";
 import idea from "../assests/images/idea.png";
 const Hero = () => {
@@ -34,7 +34,7 @@ const Hero = () => {
             <h1 className="navbar text-white hero_text_2 text-6xl ">
               8th Apr - 9th Apr’23
             </h1>
-            <div className="flex space-x-4 ml-14 both ">
+            <div className="flex flex-col space-x-4 both button_submitIdea">
               <div className="hero_button">
                 <button className="rounded dev">
                   <div
@@ -44,16 +44,22 @@ const Hero = () => {
                   />
                 </button>
               </div>
-              <button className="bg-[#27333f] rounded px-8 py-1 flex space-x-3 justify-center bulb ">
-                <div>
-                  <img src={idea} className="w-10 " />
-                </div>
-                <div className="flex space-x-4">
-                  <h1 className="text-xl hero_text_3 font-mono pt-1 text-[#fff] whitespace-nowrap">
-                    Submit your idea
-                  </h1>
-                </div>
-              </button>
+              <div className="flex submit_button">
+                <button className="bg-[#27333f] rounded px-8 py-1 flex space-x-3 justify-center bulb ">
+                  <div>
+                    <img src={idea} className="w-10 " />
+                  </div>
+                  <div className="flex space-x-4">
+                    <a
+                      href="https://forms.gle/7bbuG41hDbDrb4u4A"
+                      target="_blank"
+                      className="text-xl hero_text_3 font-mono pt-1 text-[#fff] whitespace-nowrap"
+                    >
+                      Submit your idea
+                    </a>
+                  </div>
+                </button>
+              </div>
             </div>
           </div>
 

@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/track2.css";
 import poly from "../assests/images/polygon1.png";
-import Filecon from "../assests/images/Filecoin.png";
+import Filecon from "../assests/images/filecoin.png";
 import Replit from "../assests/images/replit.png";
 import sol from "../assests/images/SolanaD1.png";
 const Track2 = () => {

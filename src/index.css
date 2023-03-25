@@ -2,6 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+.button_submitIdea{
+  min-width: -webkit-fill-available;
+    justify-content: end;
+    
+}
+.submit_button{
+  margin-top: 1rem;
+  justify-content: end;
+}
+
+@media only screen and (max-width:1174px){
+  .submit_button{
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:850px){
+  .submit_button{
+    margin-left: 0;
+    justify-content: start;
+  }
+}
+
 .bulb{
  
   flex-shrink:0 !important ;
@@ -15,8 +39,8 @@
    }
 } */
 .both{
-  align-items: center !important;
-  width: fit-content !important;
+  /* align-items: center !important; */
+  /* width: fit-content !important; */
 }
 .navbar {
   font-family: "Staatliches", cursive;
@@ -526,7 +550,7 @@ margin-right: 200px;
   flex-direction: column;
  }
  .bulb{
-  width: 25rem;
+  width: 19.5rem;
   margin-right: 0 !important;
  }
 }
