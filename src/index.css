@@ -9,6 +9,7 @@
 }
 .submit_button{
   margin-top: 1rem;
+  margin-left: 0 !important; 
   justify-content: end;
 }
 
