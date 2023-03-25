@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+.button_submitIdea{
+  min-width: -webkit-fill-available;
+    justify-content: end;
+    
+}
+.submit_button{
+  margin-top: 1rem;
+  justify-content: end;
+}
+
+@media only screen and (max-width:1174px){
+  .submit_button{
+    margin-left: 0;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width:850px){
+  .submit_button{
+    margin-left: 0;
+    justify-content: start;
+  }
+}
+
+.bulb{
+ 
+  flex-shrink:0 !important ;
+  /* background-color: aliceblue !important; */
+  /* height: auto; */
+}
+/* @media only screen and (min-width: 1200px) {
+  .bulb{
+    width: 19rem;
+    margin-left: 16rem !important;
+   }
+} */
+.both{
+  /* align-items: center !important; */
+  /* width: fit-content !important; */
+}
 .navbar {
   font-family: "Staatliches", cursive;
 }
@@ -505,6 +545,13 @@ code {
  }
  .ul_navbar{
 margin-right: 200px;
+ }
+ .both{
+  flex-direction: column;
+ }
+ .bulb{
+  width: 19.5rem;
+  margin-right: 0 !important;
  }
 }
 
