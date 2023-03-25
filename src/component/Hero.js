@@ -3,6 +3,7 @@ import path268 from "../assests/images/Small_star.png";
 import path26 from "../assests/images/Big_star.png";
 import vector3 from "../assests/images/DEVFOLIO.png";
 import group from "../assests/images/Sallyyy.png";
+import idea from "../assests/images/idea.png";
 const Hero = () => {
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -30,28 +31,30 @@ const Hero = () => {
             <h1 className="main text-white text-7xl hero_text whitespace-nowrap ab">
               SprintHacks 2023
             </h1>
-            <h1 className="navbar text-white hero_text_2 text-6xl">
+            <h1 className="navbar text-white hero_text_2 text-6xl ">
               8th Apr - 9th Apr’23
             </h1>
-
-            <div className="hero_button">
-              <button className="rounded dev">
-                <div
-                  className="apply-button "
-                  data-hackathon-slug="sprinthacks"
-                  data-button-theme="dark"
-                />
+            <div className="flex space-x-4 ml-14 both ">
+              <div className="hero_button">
+                <button className="rounded dev">
+                  <div
+                    className="apply-button "
+                    data-hackathon-slug="sprinthacks"
+                    data-button-theme="dark"
+                  />
+                </button>
+              </div>
+              <button className="bg-[#27333f] rounded px-8 py-1 flex space-x-3 justify-center bulb ">
+                <div>
+                  <img src={idea} className="w-10 " />
+                </div>
+                <div className="flex space-x-4">
+                  <h1 className="text-xl hero_text_3 font-mono pt-1 text-[#fff] whitespace-nowrap">
+                    Submit your idea
+                  </h1>
+                </div>
               </button>
             </div>
-
-            {/* <div className="flex space-x-4">
-                <div>
-                  <img src={vector3} className="dev_logo" />
-                </div>
-                <h1 className="text-xl hero_text_3 font-mono pt-1 text-gray-800 ">
-                  Apply with Devfolio
-                </h1>
-              </div> */}
           </div>
 
           <img src={path26} className="pt-44 pl-72 star_right_2" />
