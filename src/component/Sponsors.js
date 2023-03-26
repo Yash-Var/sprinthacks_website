@@ -5,13 +5,15 @@ import Polygon from "../assests/images/polygon1.png";
 import Solana from "../assests/images/Solana1.png";
 import Replit1 from "../assests/images/replit1.png";
 import Replit2 from "../assests/images/replit2.png";
-import filecoin from "../assests/images/filecoin.png";
+import filecoin from "../assests/images/Filecoin.png";
 import Echo from "../assests/images/echo3D.png";
 import taskade from "../assests/images/taskade.png";
 import Foss from "../assests/images/Foss.svg";
 import GMC from "../assests/images/GMC.png";
 import Threeway from "../assests/images/Threeway.png";
 import Greedygame from "../assests/images/Greedygame.svg";
+//import shastra from "../assests/images/shastra.png";
+import xyz from "../assests/images/xyz.svg";
 
 const Sponsors = () => {
   return (
@@ -128,9 +130,7 @@ const Sponsors = () => {
               <div className="max-[390px]:w-10">
                 <img src={filecoin} />
               </div>
-              <h1 className="text-2xl font-bold Sponsors pt-2 text-white">
-                Filecoin
-              </h1>
+              
             </div>
           </button>
         </a>
@@ -175,21 +175,26 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
+        <a href="https://gen.xyz/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-1 px-20 mr-2 my-5 max-[390px]:px-16"
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={xyz} className="w-44 h-20" />
+              </div>
+            </div>
+          </button>
+        </a>
       </div>
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        {/* <img
-          src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
-        /> */}
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             COMMUNITY PARTNER
           </h1>
         </center>
-        {/* <img
-          src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
-        /> */}
+        
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
       <a href="https://fosscu.org/" target="_blank">
@@ -219,19 +224,12 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        {/* <img
-          src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden "
-        /> */}
+        
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             CERTIFICATE SPONSOR
           </h1>
         </center>
-        {/* <img
-          src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
-        /> */}
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
         <a href="https://givemycertificate.com/" target="_blank">
@@ -242,6 +240,31 @@ const Sponsors = () => {
             <div className="flex space-x-2">
               <div className="max-[390px]:w-10">
                 <img src={GMC} className="h-36" />
+              </div>
+            </div>
+          </button>
+        </a>
+      </div>
+
+
+      <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
+        
+        <center>
+          <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
+            SUPPORTED BY
+          </h1>
+        </center>
+        
+      </div>
+      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
+        <a href="https://www.jetbrains.com/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 my-5 max-[520px]:px-16 "
+          >
+            <div className="flex space-x-2">
+              <div className="max-[390px]:w-10">
+                <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*nu4nvt*_ga*MTY1NzQ4MzY4LjE2Nzk3NzcxMTA.*_ga_9J976DJZ68*MTY3OTc3NzExMC4xLjEuMTY3OTc3NzE1Ny41Ny4wLjA.&_ga=2.255325071.629200012.1679777110-165748368.1679777110" className="h-36" />
               </div>
             </div>
           </button>
