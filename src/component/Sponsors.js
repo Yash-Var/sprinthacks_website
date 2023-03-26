@@ -12,7 +12,7 @@ import Foss from "../assests/images/Foss.svg";
 import GMC from "../assests/images/GMC.png";
 import Threeway from "../assests/images/Threeway.png";
 import Greedygame from "../assests/images/Greedygame.svg";
-//import shastra from "../assests/images/shastra.png";
+import shastra from "../assests/images/shastra.png";
 import xyz from "../assests/images/xyz.svg";
 
 const Sponsors = () => {
@@ -183,6 +183,18 @@ const Sponsors = () => {
             <div className="flex space-x-2">
               <div>
                 <img src={xyz} className="w-44 h-20" />
+              </div>
+            </div>
+          </button>
+        </a>
+        <a href="https://gen.xyz/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-1 px-20 mr-2 my-5 max-[390px]:px-16"
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={shastra} className="w-44 h-20" />
               </div>
             </div>
           </button>
