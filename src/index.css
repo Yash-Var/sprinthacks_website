@@ -649,6 +649,13 @@ margin-right: 200px;
   .image_about {
     top: -2rem;
   }
+  .prize_mobile_screen{
+    margin-top: 0 !important;
+    margin-bottom: 2rem !important;
+  }
+  .prize :nth-child(1){order: 2}
+  .prize :nth-child(2){order: 1}
+  .prize :nth-child(3){order: 3}
 }
 @media only screen and (max-width: 900px) {
 
@@ -1018,10 +1025,10 @@ margin-left: 93px;
 /* .track-card{
   padding-left: 5rem;
 } */
-.image_one{
+/* .image_one{
   margin-right: 23rem !important;
   width: 21rem;
-}
+} */
 }
 @media only screen and (max-width: 454px) {
 .track{
