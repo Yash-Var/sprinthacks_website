@@ -14,6 +14,7 @@ import Threeway from "../assests/images/Threeway.png";
 import Greedygame from "../assests/images/Greedygame.svg";
 import shastra from "../assests/images/shastra.png";
 import xyz from "../assests/images/xyz.svg";
+import ST from "../assests/images/ST.png";
 
 const Sponsors = () => {
   return (
@@ -80,19 +81,13 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-evenly max-[415px]:py-3">
-        {/* <img
-          src={Line}
-          className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        /> */}
+       
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           SILVER
         </h1>
-        {/* <img
-          src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        /> */}
+      
       </div>
-      <div className="flex  flex-wrap justify-center pt-10 pb-10 max-[415px]:pt-5 max-[415px]:pb-10">
+      <div className="flex  flex-wrap justify-center pt-10 max-[415px]:pt-5 max-[415px]:pb-10">
         <a href="https://solana.com/" target="_blank">
           <button
             type="button"
@@ -134,20 +129,28 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
-      </div>
 
+      </div>
+      <div className="flex justify-center">
+      <a href="https://www.sudanstech.com/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-5 max-[390px]:px-20"
+          >
+            <div className="flex space-x-2">
+              <div className="max-[390px]:w-10">
+                <img src={ST} className="w-44 h-[6rem]"/>
+              </div>
+              
+            </div>
+          </button>
+        </a>
+      </div>
       <div className="flex pt-11 pb-10 justify-evenly max-[415px]:py-3">
-        {/* <img
-          src={Line}
-          className="h-2 mt-12 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        /> */}
+       
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           BRONZE{" "}
         </h1>
-        {/* <img
-          src={Line}
-          className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-10 max-[454px]:mt-14 max-[415px]:hidden"
-        /> */}
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5">
         <a href="https://www.echo3d.com/" target="_blank">
