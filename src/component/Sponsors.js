@@ -190,7 +190,7 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
-        <a href="https://gen.xyz/" target="_blank">
+        <a href="https://shastraos.co/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  py-1 px-20 mr-2 my-5 max-[390px]:px-16"
