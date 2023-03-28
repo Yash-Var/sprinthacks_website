@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/track2.css";
+import verbwire from "../assests/images/VerbwireBlack_largest.png"
 import poly from "../assests/images/polygon1.png";
 import Filecon from "../assests/images/Filecoin.png";
 import Replit from "../assests/images/replit.png";
@@ -107,6 +108,26 @@ const Track2 = () => {
               </center>
             </div>
           </div>
+          <div className="track-card">
+              <center>
+                <div className="image-track">
+                  <img src={verbwire} className="sol" />
+                </div>
+              </center>
+              <div className="track-content">
+                <ul className="ull">
+                  <li className="lit">
+                    Most Innovative Use of Verbwire API - $USDC 125 to 5 teams.
+                  </li>
+                  <li className="lit">
+                    Creative Use of Verbwire API - $USDC 1375 for 20 teams
+                  </li>
+                </ul>
+              </div>
+              <center>
+                <div className="know">Know More..</div>
+              </center>
+            </div>
         </center>
       </div>
     </div>
