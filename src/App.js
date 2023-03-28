@@ -9,6 +9,7 @@ import Prize from "./component/Prize";
 import Themes from "./component/Themes";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar2";
+import Speaker from "./component/Speaker"
 const App = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const App = () => {
         <Themes />
         <Prize />
         <Tracks />
+        {/* <Speaker/> */}
         <Faq />
         <Sponsors />
         <div>

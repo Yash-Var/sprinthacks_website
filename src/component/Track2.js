@@ -107,8 +107,7 @@ const Track2 = () => {
                 <div className="know">Know More...</div>
               </center>
             </div>
-          </div>
-          <div className="track-card">
+            <div className="track-card">
               <center>
                 <div className="image-track">
                   <img src={verbwire} className="sol" />
@@ -128,6 +127,8 @@ const Track2 = () => {
                 <div className="know">Know More..</div>
               </center>
             </div>
+          </div>
+          
         </center>
       </div>
     </div>
