@@ -15,7 +15,7 @@ import Greedygame from "../assests/images/Greedygame.svg";
 import shastra from "../assests/images/shastra.png";
 import xyz from "../assests/images/xyz.svg";
 import ST from "../assests/images/ST.png";
-
+import verbwire from "../assests/images/VerbwireBlack_largest.png"
 const Sponsors = () => {
   return (
     <div className="bg-newcolor" id="sponsor">
@@ -75,6 +75,19 @@ const Sponsors = () => {
             <div className="flex space-x-2">
               <div>
                 <img src={Greedygame} className="w-56 h-14" />
+              </div>
+            </div>
+          </button>
+        </a>
+
+        <a href="https://greedygame.com/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 my-5  max-[520px]:px-16 max-[415px]:px-12   "
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={verbwire} className="w-56 h-14" />
               </div>
             </div>
           </button>

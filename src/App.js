@@ -19,7 +19,7 @@ const App = () => {
         <Themes />
         <Prize />
         <Tracks />
-        {/* <Speaker/> */}
+        <Speaker/>
         <Faq />
         <Sponsors />
         <div>
