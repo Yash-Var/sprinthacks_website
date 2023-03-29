@@ -32,7 +32,7 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-                <div className="know">Know More...</div>
+                <a href="https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md"><div className="know">Know More...</div></a>
               </center>
             </div>
             <div className="track-card">
@@ -52,7 +52,7 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-                <div className="know know1">Know More...</div>
+              <a href="https://replit.com/@devfolio/IPFSFilecoin-Template?v=1#README.md"><div className="know">Know More...</div></a>
               </center>
             </div>
             <div className="track-card">
@@ -77,7 +77,7 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-                <div className="know know2">Know More...</div>
+              <a href="https://replit.com/@devfolio/Replit-Devfolio-Hackathons?v=1"><div className="know">Know More...</div></a>
               </center>
             </div>
             <div className="track-card">
@@ -104,7 +104,7 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-                <div className="know">Know More...</div>
+              <a href="https://replit.com/@devfolio/Solana-Starter?v=1#README.md"><div className="know">Know More...</div></a>
               </center>
             </div>
             <div className="track-card">
@@ -124,7 +124,7 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-                <div className="know">Know More..</div>
+              <a href="https://www.verbwire.com/"><div className="know">Know More...</div></a>
               </center>
             </div>
           </div>

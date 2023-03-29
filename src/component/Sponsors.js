@@ -80,7 +80,7 @@ const Sponsors = () => {
           </button>
         </a>
 
-        <a href="https://greedygame.com/" target="_blank">
+        <a href="https://www.verbwire.com/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 my-5  max-[520px]:px-16 max-[415px]:px-12   "
@@ -203,7 +203,7 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
-        <a href="https://shastraos.co/" target="_blank">
+        <a href="https://shastraos.org/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  py-1 px-20 mr-2 my-5 max-[390px]:px-16"
