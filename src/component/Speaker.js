@@ -57,7 +57,7 @@ const Sponsors = () => {
            <div className="speaker_description font-bold text-xl text-white justify-around flex">{data.name}</div>
            <div className="speaker_description font-bold text-lg text-white justify-around flex">{data.Work}</div>
            {/* <div className="speaker_description font-bold text-lg text-white justify-around flex">jdfhs udsjfhs sjsdfhsjfh djhfsjfsdudwhernfuf fbudfbsj usdhdjsdioewindhfs sddisdhfs</div> */}
-           <div className="speaker_socials flex justify-center">{data.socials.linkedln?<a><img className="mx-2" src={linkedin} /></a>:null},{data.socials.twitter?<a><img src={twitter} /></a>:null},{data.socials.instagram?<a><img src={instagram} /></a>:null}</div>
+           <div className="speaker_socials flex justify-center">{data.socials.linkedln?<a target="_blank" href={data.socials.linkedln}><img className="mx-2" src={linkedin} /></a>:null},{data.socials.twitter?<a target="_blank" href={data.socials.twitter}><img src={twitter} /></a>:null},{data.socials.instagram?<a target="_blank" href={data.socials.instagram}><img src={instagram} /></a>:null}</div>
        </div>)
         })}
       </div>
