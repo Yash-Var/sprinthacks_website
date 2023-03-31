@@ -10,6 +10,7 @@ import Themes from "./component/Themes";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar2";
 import Speaker from "./component/Speaker"
+import Timeline from "./component/Timeline";
 const App = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const App = () => {
         <Prize />
         <Tracks />
         <Speaker/>
+        <Timeline/>
         <Faq />
         <Sponsors />
         <div>

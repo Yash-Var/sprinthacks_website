@@ -16,6 +16,7 @@
     "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
+    "react-vertical-timeline-component": "^3.6.0",
     "swiper": "^8.4.7",
     "tw-elements": "^1.0.0-alpha13",
     "typeface-staatliches": "^1.1.13",

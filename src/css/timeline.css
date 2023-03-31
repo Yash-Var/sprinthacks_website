@@ -1,0 +1,51 @@
+.date{
+  color: white !important; 
+}
+.vertical-timeline-element-title{
+    color: white !important;
+}
+.vertical-timeline-element-icon{
+    
+    /* display: none !important; */
+    width: 2rem;
+    height: 0;
+    
+}
+.vertical-timeline-element{
+    margin-bottom: 0rem !important;
+    padding: 0 !important;
+    border: 0;
+}
+.timeline_motto{
+    color: white !important;
+}
+@media only screen and (min-width: 1170px) {
+   .date{
+    color: white !important;
+ }
+
+}
+@media only screen and (max-width: 1170px) {
+    .vertical-timeline-element-icon{
+        width: 2rem;
+        height: 0;
+        top: 1.5rem   
+    }
+ 
+ }
+
+ @media only screen and (max-width: 450px) {
+    .motto_box{
+        flex-direction: column;  
+    }
+ 
+ }
+
+ .vertical-timeline-element-content{
+    box-shadow: 0px 2px 8px #f6f6f6;
+    transition-duration: 2s;
+ }
+
+ .vertical-timeline-element-content:hover{
+    transform: scale(1.05);
+ }

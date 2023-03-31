@@ -9,6 +9,8 @@ module.exports = {
         fotter:"#181818"
         },
         screens: {
+          'xs': '450px',
+
           'sm': '640px',
           // => @media (min-width: 640px) { ... }
     
