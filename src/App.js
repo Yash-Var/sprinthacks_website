@@ -9,8 +9,9 @@ import Prize from "./component/Prize";
 import Themes from "./component/Themes";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar2";
-import Speaker from "./component/Speaker"
+import Speaker from "./component/Speaker";
 import Timeline from "./component/Timeline";
+import Organizer from "./component/Organizer";
 const App = () => {
   return (
     <div>
@@ -20,10 +21,11 @@ const App = () => {
         <Themes />
         <Prize />
         <Tracks />
-        <Speaker/>
-        <Timeline/>
+        <Speaker />
+        <Timeline />
         <Faq />
         <Sponsors />
+        <Organizer />
         <div>
           <center>
             <iframe

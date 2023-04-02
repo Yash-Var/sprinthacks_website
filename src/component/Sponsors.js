@@ -5,7 +5,7 @@ import Polygon from "../assests/images/polygon1.png";
 import Solana from "../assests/images/Solana1.png";
 import Replit1 from "../assests/images/replit1.png";
 import Replit2 from "../assests/images/replit2.png";
-import filecoin from "../assests/images/Filecoin.png";
+import filecoin from "../assests/images/filecoin.png";
 import Echo from "../assests/images/echo3D.png";
 import taskade from "../assests/images/taskade.png";
 import Foss from "../assests/images/Fosscu.png";
@@ -17,7 +17,7 @@ import xyz from "../assests/images/xyz.svg";
 import ProgammingP from "../assests/images/PPLogo.png";
 import TPH from "../assests/images/TPH.png";
 import ST from "../assests/images/ST.png";
-import verbwire from "../assests/images/VerbwireBlack_largest.png"
+import verbwire from "../assests/images/VerbwireBlack_largest.png";
 const Sponsors = () => {
   return (
     <div className="bg-newcolor" id="sponsor">
@@ -101,19 +101,19 @@ const Sponsors = () => {
           >
             <div className="flex space-x-2">
               <div>
-                <img src={ProgammingP} className="w-52 h-10 max-[627px]:h-10 " />
+                <img
+                  src={ProgammingP}
+                  className="w-52 h-10 max-[627px]:h-10 "
+                />
               </div>
             </div>
           </button>
-
         </a>
       </div>
       <div className="flex pt-10 pb- justify-evenly max-[415px]:py-3">
-       
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           SILVER
         </h1>
-      
       </div>
       <div className="flex  flex-wrap justify-center pt-10 max-[415px]:pt-5 ">
         <a href="https://solana.com/" target="_blank">
@@ -153,30 +153,25 @@ const Sponsors = () => {
               <div className="">
                 <img src={filecoin} />
               </div>
-              
             </div>
           </button>
         </a>
-       
-
       </div>
       <div className="flex justify-center max-[415px]:mb-10">
-      <a href="https://www.sudanstech.com/" target="_blank">
+        <a href="https://www.sudanstech.com/" target="_blank">
           <button
             type="button"
             className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 mt-5 max-[415px]:pb-5 max-[390px]:px-12 max-[390px]:my-5"
           >
             <div className="flex space-x-2">
               <div className="">
-                <img src={ST} className="w-40 h-[6rem] max-[390px]:w-52"/>
+                <img src={ST} className="w-40 h-[6rem] max-[390px]:w-52" />
               </div>
-              
             </div>
           </button>
         </a>
       </div>
       <div className="flex pt-11 pb-10 justify-evenly max-[415px]:py-3">
-       
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           BRONZE{" "}
         </h1>
@@ -231,6 +226,7 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
+
         <a href="https://audits.quillhash.com/smart-contract-audit" target="_blank">
           <button
             type="button"
@@ -244,6 +240,7 @@ const Sponsors = () => {
           </button>
         </a>
         
+
 
         
       </div>
@@ -267,11 +264,10 @@ const Sponsors = () => {
             COMMUNITY PARTNER
           </h1>
         </center>
-        
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
-      <a href="https://fosscu.org/" target="_blank">
-      <button
+        <a href="https://fosscu.org/" target="_blank">
+          <button
             type="button"
             className="bg-[#273339]  rounded-lg py-7 px-24 mr-2 mt-5 max-[520px]:px-20 max-[415px]:px-16"
           >
@@ -279,11 +275,9 @@ const Sponsors = () => {
               <div className="">
                 <img src={Foss} className="" />
               </div>
-              
             </div>
-          </button> 
+          </button>
         </a>
-      
 
         <a href="https://www.threeway.studio/" target="_blank">
           <button
@@ -299,7 +293,6 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             CERTIFICATE SPONSOR
@@ -321,15 +314,12 @@ const Sponsors = () => {
         </a>
       </div>
 
-
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             SUPPORTED BY
           </h1>
         </center>
-        
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
         <a href="https://www.jetbrains.com/" target="_blank">
@@ -339,7 +329,10 @@ const Sponsors = () => {
           >
             <div className="flex space-x-2">
               <div className="max-[390px]:w-28">
-                <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*nu4nvt*_ga*MTY1NzQ4MzY4LjE2Nzk3NzcxMTA.*_ga_9J976DJZ68*MTY3OTc3NzExMC4xLjEuMTY3OTc3NzE1Ny41Ny4wLjA.&_ga=2.255325071.629200012.1679777110-165748368.1679777110" className="h-36" />
+                <img
+                  src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*nu4nvt*_ga*MTY1NzQ4MzY4LjE2Nzk3NzcxMTA.*_ga_9J976DJZ68*MTY3OTc3NzExMC4xLjEuMTY3OTc3NzE1Ny41Ny4wLjA.&_ga=2.255325071.629200012.1679777110-165748368.1679777110"
+                  className="h-36"
+                />
               </div>
             </div>
           </button>
