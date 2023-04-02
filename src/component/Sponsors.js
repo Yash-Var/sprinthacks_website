@@ -5,7 +5,7 @@ import Polygon from "../assests/images/polygon1.png";
 import Solana from "../assests/images/Solana1.png";
 import Replit1 from "../assests/images/replit1.png";
 import Replit2 from "../assests/images/replit2.png";
-import filecoin from "../assests/images/Filecoin.png";
+import filecoin from "../assests/images/filecoin.png";
 import Echo from "../assests/images/echo3D.png";
 import taskade from "../assests/images/taskade.png";
 import Foss from "../assests/images/Foss.svg";
@@ -15,7 +15,7 @@ import Greedygame from "../assests/images/Greedygame.svg";
 import shastra from "../assests/images/shastra.png";
 import xyz from "../assests/images/xyz.svg";
 import ST from "../assests/images/ST.png";
-import verbwire from "../assests/images/VerbwireBlack_largest.png"
+import verbwire from "../assests/images/VerbwireBlack_largest.png";
 const Sponsors = () => {
   return (
     <div className="bg-newcolor" id="sponsor">
@@ -94,11 +94,9 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-evenly max-[415px]:py-3">
-       
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           SILVER
         </h1>
-      
       </div>
       <div className="flex  flex-wrap justify-center pt-10 max-[415px]:pt-5 max-[415px]:pb-10">
         <a href="https://solana.com/" target="_blank">
@@ -138,29 +136,25 @@ const Sponsors = () => {
               <div className="max-[390px]:w-10">
                 <img src={filecoin} />
               </div>
-              
             </div>
           </button>
         </a>
-
       </div>
       <div className="flex justify-center">
-      <a href="https://www.sudanstech.com/" target="_blank">
+        <a href="https://www.sudanstech.com/" target="_blank">
           <button
             type="button"
             className="bg-[#273339]  rounded-lg  px-24 py-5 mr-2 my-5 max-[415px]:pb-5 max-[390px]:px-20"
           >
             <div className="flex space-x-2">
               <div className="max-[390px]:w-10">
-                <img src={ST} className="w-44 h-[6rem]"/>
+                <img src={ST} className="w-44 h-[6rem]" />
               </div>
-              
             </div>
           </button>
         </a>
       </div>
       <div className="flex pt-11 pb-10 justify-evenly max-[415px]:py-3">
-       
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           BRONZE{" "}
         </h1>
@@ -222,10 +216,9 @@ const Sponsors = () => {
             COMMUNITY PARTNER
           </h1>
         </center>
-        
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
-      <a href="https://fosscu.org/" target="_blank">
+        <a href="https://fosscu.org/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 my-5  max-[520px]:px-16 max-[415px]:px-12   "
@@ -252,7 +245,6 @@ const Sponsors = () => {
         </a>
       </div>
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             CERTIFICATE SPONSOR
@@ -274,15 +266,12 @@ const Sponsors = () => {
         </a>
       </div>
 
-
       <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
-        
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             SUPPORTED BY
           </h1>
         </center>
-        
       </div>
       <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
         <a href="https://www.jetbrains.com/" target="_blank">
@@ -292,7 +281,10 @@ const Sponsors = () => {
           >
             <div className="flex space-x-2">
               <div className="max-[390px]:w-10">
-                <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*nu4nvt*_ga*MTY1NzQ4MzY4LjE2Nzk3NzcxMTA.*_ga_9J976DJZ68*MTY3OTc3NzExMC4xLjEuMTY3OTc3NzE1Ny41Ny4wLjA.&_ga=2.255325071.629200012.1679777110-165748368.1679777110" className="h-36" />
+                <img
+                  src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg?_gl=1*nu4nvt*_ga*MTY1NzQ4MzY4LjE2Nzk3NzcxMTA.*_ga_9J976DJZ68*MTY3OTc3NzExMC4xLjEuMTY3OTc3NzE1Ny41Ny4wLjA.&_ga=2.255325071.629200012.1679777110-165748368.1679777110"
+                  className="h-36"
+                />
               </div>
             </div>
           </button>

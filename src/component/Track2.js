@@ -1,8 +1,8 @@
 import React from "react";
 import "../css/track2.css";
-import verbwire from "../assests/images/VerbwireBlack_largest.png"
+import verbwire from "../assests/images/VerbwireBlack_largest.png";
 import poly from "../assests/images/polygon1.png";
-import Filecon from "../assests/images/Filecoin.png";
+import Filecon from "../assests/images/filecoin.png";
 import Replit from "../assests/images/replit.png";
 import sol from "../assests/images/SolanaD1.png";
 const Track2 = () => {
@@ -32,7 +32,9 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-                <a href="https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md"><div className="know">Know More...</div></a>
+                <a href="https://replit.com/@devfolio/Polygon-Smart-Contract-Template?v=1#README.md">
+                  <div className="know">Know More...</div>
+                </a>
               </center>
             </div>
             <div className="track-card">
@@ -52,7 +54,9 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-              <a href="https://replit.com/@devfolio/IPFSFilecoin-Template?v=1#README.md"><div className="know">Know More...</div></a>
+                <a href="https://replit.com/@devfolio/IPFSFilecoin-Template?v=1#README.md">
+                  <div className="know">Know More...</div>
+                </a>
               </center>
             </div>
             <div className="track-card">
@@ -77,7 +81,9 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-              <a href="https://replit.com/@devfolio/Replit-Devfolio-Hackathons?v=1"><div className="know">Know More...</div></a>
+                <a href="https://replit.com/@devfolio/Replit-Devfolio-Hackathons?v=1">
+                  <div className="know">Know More...</div>
+                </a>
               </center>
             </div>
             <div className="track-card">
@@ -104,7 +110,9 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-              <a href="https://replit.com/@devfolio/Solana-Starter?v=1#README.md"><div className="know">Know More...</div></a>
+                <a href="https://replit.com/@devfolio/Solana-Starter?v=1#README.md">
+                  <div className="know">Know More...</div>
+                </a>
               </center>
             </div>
             <div className="track-card">
@@ -124,11 +132,12 @@ const Track2 = () => {
                 </ul>
               </div>
               <center>
-              <a href="https://www.verbwire.com/"><div className="know">Know More...</div></a>
+                <a href="https://www.verbwire.com/">
+                  <div className="know">Know More...</div>
+                </a>
               </center>
             </div>
           </div>
-          
         </center>
       </div>
     </div>
