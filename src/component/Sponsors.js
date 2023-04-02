@@ -181,7 +181,7 @@ const Sponsors = () => {
           BRONZE{" "}
         </h1>
       </div>
-      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5">
+      <div className=" flex  flex-wrap justify-center pt-10 pb-5  max-[415px]:py-5">
         <a href="https://www.echo3d.com/" target="_blank">
           <button
             type="button"
@@ -231,16 +231,31 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
-        
-
-        <a href="https://www.theproduct.house/" target="_blank">
+        <a href="https://audits.quillhash.com/smart-contract-audit" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-24 py-1  max-[390px]:px-20 mr-3 mt-5 "
+            className="bg-[#273339] rounded-lg px-20 py-1 mr-2 mt-5  max-[1708px]:px-24 max-[390px]:px-20 "
+          >
+            <div className="flex space-x-2 ">
+              <div className="">
+                <img src="https://file.notion.so/f/s/c1dfcfea-1fe8-4afe-87d2-c6d3a8cce8de/QuillAudits_Blue.svg?id=c0165282-8d27-419b-815b-8a48fad52bc1&table=block&spaceId=4bee80eb-b16d-460c-a7c5-50f65f0c8b04&expirationTimestamp=1680539047481&signature=AlyvUU0TPNALTNavWOuP8zQxO3_Y6uIT5ywmHoD2BtY&downloadName=QuillAudits+Horizontal+Blue.svg" className="h-20 w-40" />
+              </div>
+            </div>
+          </button>
+        </a>
+        
+
+        
+      </div>
+      <div className="flex justify-center max-[415px]:mb-10">
+      <a href="https://www.theproduct.house/" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-20 py-1   mr-3   max-[390px]:px-16"
           >
             <div className="flex space-x-2">
               <div>
-                <img src={TPH} className="h-20" />
+                <img src={TPH} className="" />
               </div>
             </div>
           </button>
