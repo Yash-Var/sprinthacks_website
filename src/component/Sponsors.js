@@ -5,7 +5,7 @@ import Polygon from "../assests/images/polygon1.png";
 import Solana from "../assests/images/Solana1.png";
 import Replit1 from "../assests/images/replit1.png";
 import Replit2 from "../assests/images/replit2.png";
-import filecoin from "../assests/images/filecoin.png";
+import filecoin from "../assests/images/Filecoin.png";
 import Echo from "../assests/images/echo3D.png";
 import taskade from "../assests/images/taskade.png";
 import Foss from "../assests/images/Fosscu.png";
