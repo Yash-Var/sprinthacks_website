@@ -44,7 +44,7 @@ const Hero = () => {
                   />
                 </button>
               </div>
-              <div className="flex submit_button">
+              {/* <div className="flex submit_button">
                 <button className="bg-[#27333f] rounded px-8 py-1 flex space-x-3 justify-center bulb ">
                   <div>
                     <img src={idea} className="w-10 " />
@@ -59,7 +59,7 @@ const Hero = () => {
                     </a>
                   </div>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 
