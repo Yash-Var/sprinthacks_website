@@ -68,6 +68,28 @@ const Navbar = () => {
               Tracks
             </Link>
           </li>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="judges"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              JUDGES
+            </Link>
+          </li>
+          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+            <Link
+              to="team"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={800}
+            >
+              Team
+            </Link>
+          </li>
           {/* <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link
               to="faqs"
@@ -162,6 +184,41 @@ const Navbar = () => {
                 Tracks
               </Link>
             </li>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="judges"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                judges
+              </Link>
+            </li>
+            <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+                onClick={() => setNav(false)}
+              >
+                Team
+              </Link>
+            </li>
+            {/* <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
+              <Link
+                to="judges"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={800}
+              >
+                JUDGES
+              </Link>
+            </li> */}
             {/* <li className="p-4 border-b border-gray-600 cursor-pointer hover:text-blue-400">
               <Link
                 to="faqs"
