@@ -18,7 +18,7 @@ const Track2 = () => {
                 </div>
               </center>
               <div className="track-content">
-                <ul className="ull">
+                <ul className="list-disc mx-8">
                   <li className="lit">
                     ₹10,000 for the best hack built on Ethereum
                   </li>
@@ -44,7 +44,7 @@ const Track2 = () => {
                 </div>
               </center>
               <div className="track-content">
-                <ul className="ull">
+                <ul className="list-disc mx-8">
                   <li className="lit">
                     ₹20000 for best use of IPFS and/or Filecoin
                   </li>
@@ -66,7 +66,7 @@ const Track2 = () => {
                 </div>
               </center>
               <div className="track-content">
-                <ul className="ull">
+                <ul className="list-disc mx-8">
                   <li className="lit">
                     $50 to winning project of the hackathon (must be deployed on
                     Replit)
@@ -93,7 +93,7 @@ const Track2 = () => {
                 </div>
               </center>
               <div className="track-content">
-                <ul className="ull">
+                <ul className="list-disc mx-8">
                   <li className="lit">
                     Upto $USDC 850 up for grabs, for the best hack built on top
                     of Solana Blockchain at Devfolio-powered community
@@ -122,7 +122,7 @@ const Track2 = () => {
                 </div>
               </center>
               <div className="track-content">
-                <ul className="ull">
+                <ul className="list-disc mx-8">
                   <li className="lit">
                     Most Innovative Use of Verbwire API - $USDC 125 to 5 teams.
                   </li>
