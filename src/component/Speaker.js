@@ -45,7 +45,7 @@ const Sponsors = () => {
     },
   ];
   return (
-    <div className="bg-newcolor" id="sponsor">
+    <div className="bg-newcolor" id="judges">
       <div className="flex justify-center pt-16 pb-10  max-[415px]:ml-5 ">
         <center>
           <h1 className="text-white text-7xl main max-[500px]:text-6xl max-[415px]:text-5xl max-[466px]:mr-5">
