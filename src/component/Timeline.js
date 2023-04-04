@@ -14,22 +14,13 @@ const Timeline = () => {
         motto:"Hacking Period Start",
         date:"8 April"
     },
-    {
-        time:"2:00 PM",
-        motto:"LUNCH",
-        date:"8 April"
-    },
+
     {
         time:"6:00 PM - 7:00 PM",
         motto:"Mentoring Period",
         date:"8 April"
     },
 
-    {
-        time:"9:00 PM",
-        motto:"DINNER",
-        date:"8 April"
-    },
     {
         time:"11:00 PM",
         motto:"First Judging Evaluation",
@@ -48,11 +39,6 @@ const Timeline = () => {
     {
         time:"6:00 AM - 8:00 AM",
         motto:"Submission Period",
-        date:"9 April"
-    },
-    {
-        time:"8:00 AM",
-        motto:"BREAKFAST",
         date:"9 April"
     },
     {
