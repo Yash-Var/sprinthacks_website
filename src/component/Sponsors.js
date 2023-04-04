@@ -39,7 +39,7 @@ const Sponsors = () => {
           className="h-2 mt-11 mx-10 overflow-hidden max-md:mx-3 max-[500px]:mt-9 max-[454px]:mt-14 max-[415px]:hidden"
         /> */}
       </div>
-      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
+      <div className=" flex  flex-wrap justify-center pt-10   max-[415px]:py-5 ">
         <a href="https://devfolio.co/" target="_blank">
           <button
             type="button"
@@ -82,7 +82,10 @@ const Sponsors = () => {
           </button>
         </a>
 
-        <a href="https://www.verbwire.com/" target="_blank">
+      </div>
+      <div className=" flex  flex-wrap justify-center  pb-10  max-[415px]:py-5 ">
+
+      <a href="https://www.verbwire.com/" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  py-4 px-20 mr-2 mt-5 max-[520px]:px-16 max-[415px]:px-12   "
@@ -109,8 +112,8 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
-      </div>
-      <div className="flex pt-10 pb- justify-evenly max-[415px]:py-3">
+        </div>
+      <div className="flex pt-10 pb-10 justify-evenly max-[415px]:py-3">
         <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5">
           SILVER
         </h1>
@@ -157,7 +160,7 @@ const Sponsors = () => {
           </button>
         </a>
       </div>
-      <div className="flex justify-center max-[415px]:mb-10">
+      <div className="flex justify-center max-[415px]:mb-10 pb-10">
         <a href="https://www.sudanstech.com/" target="_blank">
           <button
             type="button"
@@ -244,7 +247,7 @@ const Sponsors = () => {
 
         
       </div>
-      <div className="flex justify-center max-[415px]:mb-10">
+      <div className="flex justify-center max-[415px]:mb-10 pb-10">
       <a href="https://www.theproduct.house/" target="_blank">
           <button
             type="button"
