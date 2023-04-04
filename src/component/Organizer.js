@@ -11,13 +11,15 @@ import shiva from "../assests/images/shiva.jpg";
 import shivendu from "../assests/images/shivendu.jpeg";
 import sharma from "../assests/images/sharma.jpeg";
 import yashveer from "../assests/images/yashveer.jpg";
+import yash from "../assests/images/yash.jpg";
 import avish from "../assests/images/avish.png";
 import "../css/speaker.css";
 const Organizer = () => {
   const speaker = [
     {
       name: "Ananya Punia",
-      image: punia,
+      image:
+        "https://media.licdn.com/dms/image/C4D03AQFhnjD3MEC09w/profile-displayphoto-shrink_200_200/0/1658680010394?e=1686182400&v=beta&t=kWwZ3I6DCJGZRZ2s4ukhLtZzF261y71QpCR2AeaopJY",
       Work: "Organizer",
       Description: "",
       socials: {
@@ -28,7 +30,8 @@ const Organizer = () => {
     },
     {
       name: "Avaneesh Singh",
-      image: avaneesh,
+      image:
+        "https://media.licdn.com/dms/image/D5603AQFjFtWp81m95g/profile-displayphoto-shrink_200_200/0/1668377699760?e=1686182400&v=beta&t=-49XDi9XhAIxIwaMFxosAAmqZ-gl26QnXrZYEJb6LEc",
       Work: "Organizer",
       Description: "",
       socials: {
@@ -39,7 +42,8 @@ const Organizer = () => {
     },
     {
       name: "Akhil Raj Srivastava",
-      image: akhil,
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQHLcIyH0uIdJA/profile-displayphoto-shrink_200_200/0/1675201967431?e=1686182400&v=beta&t=4-0OK1EHhtJODP3f3xVMqWx7T4w5C2AuS4BDWeUAMOQ",
       Work: "Organizer",
       Description: "",
       socials: {
@@ -49,8 +53,21 @@ const Organizer = () => {
       },
     },
     {
+      name: "Kushagra Srivastava",
+      image:
+        "https://media.licdn.com/dms/image/C4D03AQGmNr7DaEpGRQ/profile-displayphoto-shrink_200_200/0/1658563362271?e=1686182400&v=beta&t=d3V9LDyJJY7ZryOiMwSs6Yx-tRcmH1gyfDnfiv7EJVs",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/kushagrathisside/",
+        instagram: "https://www.instagram.com/kushagrathisside/",
+        twitter: "https://twitter.com/kushagrathissid",
+      },
+    },
+    {
       name: "Shiva Agrahari",
-      image: shiva,
+      image:
+        "https://media.licdn.com/dms/image/C5603AQHog5Kn9vo66A/profile-displayphoto-shrink_200_200/0/1621100775775?e=1686182400&v=beta&t=_d4K5Db4tmHHnV_0p4hgKS36ZvRSdA9ONhDbtI_s7yU",
       Work: "Organizer",
       Description: "",
       socials: {
@@ -61,7 +78,8 @@ const Organizer = () => {
     },
     {
       name: "Ananya Sharma",
-      image: sharma,
+      image:
+        "https://media.licdn.com/dms/image/C4E03AQHm88LKALen_w/profile-displayphoto-shrink_200_200/0/1632906935936?e=1686182400&v=beta&t=N2RYZr57bQxtcmsM90AHKvsWxOYUc9hhyyTqjsn1jDs",
       Work: "Organizer",
       Description: "",
       socials: {
@@ -83,7 +101,8 @@ const Organizer = () => {
     },
     {
       name: "Yashveer Singh",
-      image: yashveer,
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQEw5tMkIhj8iw/profile-displayphoto-shrink_200_200/0/1680612131494?e=1686182400&v=beta&t=7roLu_KaoPdjraUoR3JEJQ-cOAsCdbhZKzVcyNIaY0o",
       Work: "Organizer",
       Description: "",
       socials: {
@@ -94,13 +113,89 @@ const Organizer = () => {
     },
     {
       name: "Shivendu Mishra",
-      image: shivendu,
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQEeUonXs71RFw/profile-displayphoto-shrink_200_200/0/1672676416971?e=1686182400&v=beta&t=zfDltD7A37hKKqNQEz3I3DyohfEu0RRtBH4xuVoEAKI",
       Work: "Organizer",
       Description: "",
       socials: {
         linkedln: "https://www.linkedin.com/in/shivendu-mishra-94ba36200/",
         instagram: "https://instagram.com/shiv.endu",
         twitter: "https://twitter.com/bitwisor",
+      },
+    },
+    {
+      name: "Prashant Rai",
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQHm52j2XIceTQ/profile-displayphoto-shrink_200_200/0/1680610952009?e=1686182400&v=beta&t=fR2ABH7pwhhnnaO9hSp00w0BgoFOcl2xm_mslCiTBy4",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/prashant-rai-5a726822a",
+        instagram:
+          "https://instagram.com/p.r.a.s.h.a.n.t_rai?igshid=ZDdkNTZiNTM=",
+        twitter:
+          "https://twitter.com/Prashan62776953?t=fqA1qb6uruaI044TlHo2Hg&s=09",
+      },
+    },
+    {
+      name: "Ujjwal Soni",
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQE2lNTTgg9Agg/profile-displayphoto-shrink_200_200/0/1680614531213?e=1686182400&v=beta&t=7yLxUjtNwEmSD3tTILfZePpmGAy1GJfQuU_dWSm-1so",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/ujjwal-soni/",
+        instagram: "https://www.instagram.com/ujjwal_muziconn/",
+        twitter: "https://twitter.com/Ujjwal__Soni",
+      },
+    },
+    {
+      name: "Yash Varshney",
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQHmbXT9LLSsxw/profile-displayphoto-shrink_200_200/0/1663778221196?e=1686182400&v=beta&t=Rf-mPRiPjEGLex6SGwcGOLrpLakVldYGInLXay1vR-s",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/yash-varshney-7b81ab1b1/",
+        instagram: "https://www.instagram.com/varshney.yash7055/",
+        twitter: "https://twitter.com/Yashvar7055",
+      },
+    },
+    {
+      name: "Sambhrant Tiwari",
+      image:
+        "https://media.licdn.com/dms/image/C4E03AQHH9heNyAMObg/profile-displayphoto-shrink_200_200/0/1656341435505?e=1686182400&v=beta&t=CxJHIIAvgaCG6IvT1AqVXk2C0Fah8iM2x5AOhrOzLJM",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/sambhrant-tiwari-3998b5218/",
+        instagram: "https://www.instagram.com/cyclotron04/",
+        twitter: "https://twitter.com/SamT22248196",
+      },
+    },
+    {
+      name: "Harshit Rai",
+      image:
+        "https://media.licdn.com/dms/image/C4D03AQH9f37XIjK2VA/profile-displayphoto-shrink_200_200/0/1642681607731?e=1686182400&v=beta&t=LudXJULNm5ebWIybdCfJG4vZ83ket5AzydEzCFENMh0",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/harshitr10/",
+        instagram: "https://www.instagram.com/Harshitr_10/",
+        twitter: "https://twitter.com/Raiharshit2002",
+      },
+    },
+    {
+      name: "Akshat Srivastava",
+      image:
+        "https://media.licdn.com/dms/image/D4D35AQHWkT2t2SZYNQ/profile-framedphoto-shrink_800_800/0/1679309561186?e=1681221600&v=beta&t=npNCnlxJ-HRv56QxKTBKROatqOtQiJ8XiDMoI_aeG9M",
+      Work: "Organizer",
+      Description: "",
+      socials: {
+        linkedln:
+          "https://www.linkedin.com/mwlite/in/akshat-srivastava-098826229",
+        instagram: "https://www.instagram.com/akshat.sri11/",
+        twitter: "https://mobile.twitter.com/akshatsri11",
       },
     },
   ];
@@ -113,7 +208,7 @@ const Organizer = () => {
           </h1>
         </center>
       </div>
-      <div className="Speaker_big_box w-[80%] m-auto flex flex-wrap justify-center">
+      <div className="Speaker_big_box w-[100%] m-auto flex flex-wrap justify-center">
         {speaker.map((data) => {
           return (
             <div className="speaker_profile justify-center w-60 my-10">

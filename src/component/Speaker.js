@@ -27,7 +27,7 @@ const Sponsors = () => {
       Description: "",
       socials: {
         linkedln: "https://www.linkedin.com/in/aanshulsadaria/",
-        instagram: "https://www.instagram.com/saumya1singh/",
+        instagram: "https://www.instagram.com/aanshul.sadaria/",
         twitter: "https://twitter.com/AanshulSadaria",
       },
     },
