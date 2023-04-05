@@ -188,7 +188,7 @@ const Organizer = () => {
     {
       name: "Akshat Srivastava",
       image:
-        "https://media.licdn.com/dms/image/D4D03AQFyIp2LiLoQ7w/profile-displayphoto-shrink_200_200/0/1673961809013?e=1686182400&v=beta&t=oL9Nftl_Uaf5gjhdVjG9Lb2bmA17pSitAsDIdyVjuHg",
+        "https://media.licdn.com/dms/image/D4D03AQG7aGO-9jtb9g/profile-displayphoto-shrink_200_200/0/1680689094545?e=1686182400&v=beta&t=1i0Nrj2-mZbHPLy3wavJqmTfq9a1I7xQ5Dt5JIQMmYg",
       Work: "Organizer",
       Description: "",
       socials: {
