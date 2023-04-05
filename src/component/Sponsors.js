@@ -116,7 +116,7 @@ const Sponsors = () => {
             </div>
           </button>
         </a>
-        <a href="https://renaissance.programmingpathshala.com/" target="_blank">
+        <a href="" target="_blank">
           <button
             type="button"
             className="bg-[#273339] rounded-lg  px-24 py-1 max-[520px]:px-20 max-[390px]:px-16 mr-3 mt-5 "
