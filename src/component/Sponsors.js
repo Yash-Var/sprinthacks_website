@@ -292,7 +292,7 @@ const Sponsors = () => {
           </button>
         </a>
       </div>
-      <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
+      <div className="flex pt-10 pb-10 justify-around mt-5 max-[415px]:py-3">
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             CERTIFICATE SPONSOR
@@ -314,14 +314,14 @@ const Sponsors = () => {
         </a>
       </div>
 
-      <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
+      <div className="flex pt-10 pb-10 justify-around mt-5 max-[415px]:py-3">
         <center>
           <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
             SUPPORTED BY
           </h1>
         </center>
       </div>
-      <div className=" flex  flex-wrap justify-center pt-10 pb-10  max-[415px]:py-5 ">
+      <div className=" flex  flex-wrap justify-center pt-10 pb-10 mb-5 max-[415px]:py-5 ">
         <a href="https://www.jetbrains.com/" target="_blank">
           <button
             type="button"
@@ -338,25 +338,25 @@ const Sponsors = () => {
           </button>
         </a>
       </div>
-      <div className="flex pt-10 pb-10 justify-around max-[415px]:py-3">
+      <div className="flex pt-10 pb-10 justify-around mt-5 max-[415px]:py-3">
         <center>
-          <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:mr-5 ">
+          <h1 className="text-white text-6xl main max-[500px]:text-5xl max-[466px]:ml-1 ">
             MEDIA PARTNER
           </h1>
         </center>
       </div>
-      <div className=" flex  flex-wrap justify-center py-10   max-[415px]:py-5 ">
+      <div className=" flex  flex-wrap justify-center py-10 mb-1  max-[415px]:py-5 ">
 
       <a href="https://www.youtube.com/@youthoobershiva" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-10 py-3 mr-3  max-[520px]:px-16 "
+            className="bg-[#273339] rounded-lg  px-10 py-3 mr-3  max-[415px]:px-6  max-[415px]:ml-3"
           >
             <div className="flex space-x-2">
-              <div className="w-14 ">
+              <div className="w-14  max-[416px]:w-12">
                 <img src={Shiva} className="rounded-full" />
               </div>
-              <h1 className="text-2xl font-bold Sponsors pt-5 text-white max-[415px]:text-3xl bg-center ">
+              <h1 className="text-2xl font-bold Sponsors pt-5 text-white max-[415px]:text-2xl bg-center ">
                 Shiva Agrahari
               </h1>
             </div>
