@@ -20,6 +20,8 @@ import ST from "../assests/images/ST.png";
 import verbwire from "../assests/images/VerbwireBlack_largest.png";
 import Shiva from "../assests/images/shiva.jpg";
 import QA from "../assests/images/Quillaudits.png";
+import RollSing from "../assests/images/rollSingh.png";
+
 const Sponsors = () => {
   return (
     <div className="bg-newcolor" id="sponsor">
@@ -45,7 +47,7 @@ const Sponsors = () => {
         <a href="https://devfolio.co/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-20 py-5 mr-3 mt-5 max-[520px]:px-16 "
+            className="bg-[#273339] rounded-lg  px-20 py-5 mr-2 mt-5 max-[520px]:px-16 "
           >
             <div className="flex space-x-2">
               <div className="max-[390px]:w-10">
@@ -102,13 +104,28 @@ const Sponsors = () => {
         <a href="https://renaissance.programmingpathshala.com/" target="_blank">
           <button
             type="button"
-            className="bg-[#273339] rounded-lg  px-16 py-6 max-[390px]:px-12 mr-3 mt-5 "
+            className="bg-[#273339] rounded-lg  px-24 py-6 max-[390px]:px-12 max-[780px]:px-20 max-[520px]:px-16 mr-2 mt-5 "
           >
             <div className="flex space-x-2">
               <div>
                 <img
                   src={ProgammingP}
-                  className="w-52 h-10 max-[627px]:h-10 "
+                  className="w-52 h-10 max-[627px]:w-56 "
+                />
+              </div>
+            </div>
+          </button>
+        </a>
+        <a href="" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  px-24 py-1 max-[520px]:px-20 max-[390px]:px-16 mr-3 mt-5 "
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img
+                  src={RollSing}
+                  className="w-44 h-20  "
                 />
               </div>
             </div>
