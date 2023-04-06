@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+.speaker_description{
+  white-space: nowrap;
+}
 .button_submitIdea{
   min-width: -webkit-fill-available;
     justify-content: end;
