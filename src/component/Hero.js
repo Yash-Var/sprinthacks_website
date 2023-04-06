@@ -44,22 +44,22 @@ const Hero = () => {
                   />
                 </button>
               </div>
-              {/* <div className="flex submit_button">
+              <div className="flex submit_button">
                 <button className="bg-[#27333f] rounded px-8 py-1 flex space-x-3 justify-center bulb ">
-                  <div>
+                  {/* <div>
                     <img src={idea} className="w-10 " />
-                  </div>
+                  </div> */}
                   <div className="flex space-x-4">
                     <a
-                      href="https://forms.gle/7bbuG41hDbDrb4u4A"
+                      href="https://forms.gle/3Ca7wfEwjSL5tqNx6"
                       target="_blank"
                       className="text-xl hero_text_3 font-mono pt-1 text-[#fff] whitespace-nowrap"
                     >
-                      Submit your idea
+                      Register for Speaker Session
                     </a>
                   </div>
                 </button>
-              </div> */}
+              </div>
             </div>
           </div>
 

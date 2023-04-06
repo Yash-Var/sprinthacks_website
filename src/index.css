@@ -12,6 +12,7 @@
 .submit_button{
   margin-top: 1rem;
   margin-left: 0 !important; 
+  height: 2.5rem !important;
   justify-content: end;
 }
 
@@ -32,6 +33,7 @@
 .bulb{
  
   flex-shrink:0 !important ;
+  
   /* background-color: aliceblue !important; */
   /* height: auto; */
 }
