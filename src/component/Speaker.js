@@ -31,6 +31,7 @@ const Sponsors = () => {
         twitter: "https://twitter.com/AanshulSadaria",
       },
     },
+
     {
       name: "Rohit Negi",
       image:
@@ -41,6 +42,18 @@ const Sponsors = () => {
         linkedln: "https://www.linkedin.com/in/rohit-negi9/",
         instagram: "https://www.instagram.com/rohit_negi9/",
         twitter: "",
+      },
+    },
+    {
+      name: "Anmol Reshi",
+      image:
+        "https://media.licdn.com/dms/image/D4D03AQF3orLE2-8uww/profile-displayphoto-shrink_800_800/0/1675065989325?e=1686182400&v=beta&t=rxzL1xM_DSV2MqtgtLsKvSeXn0ADKeXLUfQ6pPnMi1c",
+      Work: "Founding Member @Sudans Tech",
+      Description: "",
+      socials: {
+        linkedln: "https://www.linkedin.com/in/anmolreshi/",
+        instagram: "https://www.instagram.com/anmol.reshi/",
+        twitter: "https://twitter.com/Anmolreshi_21",
       },
     },
   ];
