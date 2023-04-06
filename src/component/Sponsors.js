@@ -391,7 +391,7 @@ const Sponsors = () => {
                 Shiva Agrahari
               </h1>
             </div>
-          </button>8
+          </button>
         </a>
         </div>
     </div>
