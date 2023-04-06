@@ -21,6 +21,8 @@ import verbwire from "../assests/images/VerbwireBlack_largest.png";
 import Shiva from "../assests/images/shiva.jpg";
 import QA from "../assests/images/Quillaudits.png";
 import RollSing from "../assests/images/rollSingh.png";
+import Tyagi from "../assests/images/Tyagi.png";
+
 
 const Sponsors = () => {
   return (
@@ -81,6 +83,18 @@ const Sponsors = () => {
             <div className="flex space-x-2">
               <div>
                 <img src={Greedygame} className="w-56 h-14" />
+              </div>
+            </div>
+          </button>
+        </a>
+          <a href="" target="_blank">
+          <button
+            type="button"
+            className="bg-[#273339] rounded-lg  py-1 px-28 mr-2 mt-5 max-[520px]:px-24   max-[415px]:px-20 "
+          >
+            <div className="flex space-x-2">
+              <div>
+                <img src={Tyagi} className="h-20 w-40" />
               </div>
             </div>
           </button>
