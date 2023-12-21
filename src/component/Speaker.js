@@ -3,14 +3,14 @@ import instagram from "../assests/images/instagram.png";
 import linkedin from "../assests/images/linkedin.png";
 import twitter from "../assests/images/twitter.png";
 import mail from "../assests/images/mail.png";
-import Rohit from "../assests/images/Rohit.jpg";
+// import Rohit from "../assests/images/Rohit.jpg";
 import "../css/speaker.css";
 const Sponsors = () => {
   const speaker = [
     {
       name: "Saumya Singh",
       image:
-        "https://media.licdn.com/dms/image/D4D03AQH4bZDQNQJC9Q/profile-displayphoto-shrink_800_800/0/1671964649007?e=1685577600&v=beta&t=mSkDtZjpHiLVfERSi27O2h6AmVgp0cYXecOJpNom4ec",
+        "https://media.licdn.com/dms/image/D4D03AQH4bZDQNQJC9Q/profile-displayphoto-shrink_800_800/0/1671964653920?e=1708560000&v=beta&t=UqE7RH7ENsi41f9FMTUp0Ert1ECH-q7C-EhV4Lq5oAo",
       Work: "SDE @RedHat",
       Description: "",
       socials: {
@@ -22,7 +22,7 @@ const Sponsors = () => {
     {
       name: "Aanshul Sadaria",
       image:
-        "https://media.licdn.com/dms/image/C4D03AQHYTCI3PC-YnQ/profile-displayphoto-shrink_800_800/0/1650352735413?e=1685577600&v=beta&t=NNJlE6FMxGSTnFN23WLgv7EQw4USZZDCkb3WHbK3LQg",
+        "https://media.licdn.com/dms/image/C4D03AQHYTCI3PC-YnQ/profile-displayphoto-shrink_800_800/0/1650352736058?e=1708560000&v=beta&t=HSyG5DXn4vAUusl2As0t1e5Let-RZSUSi7YKrSZMdbE",
       Work: "SWE III @Google ",
       Description: "",
       socials: {
@@ -35,7 +35,7 @@ const Sponsors = () => {
     {
       name: "Rohit Negi",
       image:
-        "https://media.licdn.com/dms/image/C5603AQER4rVidEPXUg/profile-displayphoto-shrink_800_800/0/1647701218350?e=1685577600&v=beta&t=95GHLqHErA5mNJxMZ2syxXUQvWHLWUkUU7mcHx8mqrs",
+        "https://media.licdn.com/dms/image/D5603AQFMpMlOLkt1VQ/profile-displayphoto-shrink_800_800/0/1685581707145?e=1708560000&v=beta&t=B6EPK2mw80vt9VzNe2QwQIwKamFdC00jRgiGpzCnrqg",
       Work: "SDE @UBER ",
       Description: "",
       socials: {
@@ -47,7 +47,7 @@ const Sponsors = () => {
     {
       name: "Anmol Reshi",
       image:
-        "https://media.licdn.com/dms/image/D4D03AQF3orLE2-8uww/profile-displayphoto-shrink_800_800/0/1675065989325?e=1686182400&v=beta&t=rxzL1xM_DSV2MqtgtLsKvSeXn0ADKeXLUfQ6pPnMi1c",
+        "https://media.licdn.com/dms/image/D4D03AQF3orLE2-8uww/profile-displayphoto-shrink_800_800/0/1675065990181?e=1708560000&v=beta&t=PCoJ84q0kskNd9xeY3FL_FNOGjhW2nI32Wic8Po31iM",
       Work: "Founding Member @Sudans Tech",
       Description: "",
       socials: {

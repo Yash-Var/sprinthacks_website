@@ -29,10 +29,10 @@ const Hero = () => {
           <img src={path26} className="pl-[650px] star_right" />
           <div className="flex-col text-right pt-52 hero pl-0 space-y-4">
             <h1 className="main text-white text-7xl hero_text whitespace-nowrap ab">
-              SprintHacks 2023
+              SprintHacks 2024
             </h1>
             <h1 className="navbar text-white hero_text_2 text-6xl ">
-              8th Apr - 9th Apr’23
+              9th Apr - 10th Apr’24
             </h1>
             <div className="flex flex-col space-x-4 both button_submitIdea">
               <div className="hero_button">
@@ -44,11 +44,11 @@ const Hero = () => {
                   />
                 </button>
               </div>
-              <div className="flex submit_button">
+              {/* <div className="flex submit_button">
                 <button className="bg-[#27333f] rounded px-8 py-1 flex space-x-3 justify-center bulb ">
-                  {/* <div>
+                  <div>
                     <img src={idea} className="w-10 " />
-                  </div> */}
+                  </div>
                   <div className="flex space-x-4">
                     <a
                       href="https://forms.gle/3Ca7wfEwjSL5tqNx6"
@@ -59,7 +59,7 @@ const Hero = () => {
                     </a>
                   </div>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
 

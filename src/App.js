@@ -10,8 +10,8 @@ import Themes from "./component/Themes";
 import Hero from "./component/Hero";
 import Navbar from "./component/Navbar2";
 import Speaker from "./component/Speaker";
-import Timeline from "./component/Timeline";
-import Organizer from "./component/Organizer";
+// import Timeline from "./component/Timeline";
+// import Organizer from "./component/Organizer";
 const App = () => {
   return (
     <div>
@@ -22,10 +22,10 @@ const App = () => {
         <Prize />
         <Tracks />
         <Speaker />
-        <Timeline />
+        {/* <Timeline /> */}
         <Faq />
         <Sponsors />
-        <Organizer />
+        {/* <Organizer /> */}
         <div>
           <center>
             <iframe
