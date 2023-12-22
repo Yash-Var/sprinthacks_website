@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { RiOpenSourceFill } from "react-icons/ri";
 import { Link } from "react-scroll";
-import Dsc_logo from "../assests/images/newlogoGDSC.png";
+import Dsc_logo from "../assests/images/new.png";
 import Vector from "../assests/images/Vector.png";
 // import { Link } from "react-router-dom";
 const Navbar = () => {
@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <>
       <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-3 text-white ">
-        <img src={Dsc_logo} alt="logo " className="logo_dsc" />
+        <img src={Dsc_logo} alt="logo " className="logo_dsc h-24 max-w-lg" />
         <ul className="hidden md:flex ul_navbar">
           <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link to="" spy={true} smooth={true} offset={-100} duration={800}>
@@ -79,7 +79,7 @@ const Navbar = () => {
               JUDGES
             </Link>
           </li>
-          <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
+          {/* <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link
               to="team"
               spy={true}
@@ -89,7 +89,7 @@ const Navbar = () => {
             >
               Team
             </Link>
-          </li>
+          </li> */}
           {/* <li className="p-4 text-2xl navbar hover:text-blue-300 hover:underline navbar_text cursor-pointer">
             <Link
               to="faqs"
