@@ -20,7 +20,7 @@ function Prize() {
             "
           />
           <h1 className="navbar text-6xl">1ST RUNNER UP</h1>
-          <h1 className="navbar text-5xl mt-4">₹20,000</h1>
+          <h1 className="navbar text-5xl mt-4">₹50,000</h1>
         </div>
         <div className="prize1 text-white uppercase abouttext text-center ">
           <img
@@ -30,7 +30,7 @@ function Prize() {
             className=" my-4 m-auto h-60 image_one"
           />
           <h1 className="navbar text-6xl tracking-widest winner"> WINNER</h1>
-          <h1 className="navbar text-5xl mt-4">₹30,000</h1>
+          <h1 className="navbar text-5xl mt-4">₹75,000</h1>
         </div>
         <div className="prize3  text-white uppercase abouttext text-center ">
           <img
@@ -41,7 +41,7 @@ function Prize() {
             "
           />
           <h1 className="navbar text-6xl">2ND RUNNER UP</h1>
-          <h1 className="navbar text-5xl mt-4">₹10,000</h1>
+          <h1 className="navbar text-5xl mt-4">₹25,000</h1>
         </div>
       </div>
     </div>
