@@ -23,8 +23,8 @@ const About = () => {
           </div>
         </div>
         <div className="abouttext1 font-semibold text-white w-[600px] text-4xl mt-[-4rem] mr-48 content_about">
-          SprintHacks is an 18 hour hackathon organized by the Developer Student
-          Circuit with endless creativity. The focus is on innovation and
+          SprintHacks is an 18 hour hackathon organized by the 
+          Google Developer Student Clubs with endless creativity. The focus is on innovation and
           creativity as participants work together to develop unique solutions
           using the latest technology. With opportunities for networking and
           exciting prizes, this hackathon challenges participants to push their

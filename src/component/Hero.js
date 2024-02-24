@@ -32,7 +32,7 @@ const Hero = () => {
               SprintHacks 2024
             </h1>
             <h1 className="navbar text-white hero_text_2 text-6xl ">
-              9th Apr - 10th Apr’24
+              10th MAY - 11th MAY’24
             </h1>
             <div className="flex flex-col space-x-4 both button_submitIdea">
               <div className="hero_button">
